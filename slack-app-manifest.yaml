@@ -23,6 +23,8 @@ oauth_config:
       - chat:write        # 速報・受付・レポートの投稿
       - channels:history  # Phase 2: 公開チャンネルのスレッド返信読取
       - groups:history    # Phase 2: プライベートチャンネル利用時の読取
+      - im:history        # Phase 2: DM運用時のスレッド返信読取
+      - im:write          # DM運用時にBotからDMを開くため
 settings:
   org_deploy_enabled: false
   socket_mode_enabled: false
