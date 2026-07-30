@@ -31,6 +31,7 @@ def make_item(
         classification=ClassificationResult(
             tier=tier,
             primary_category="業績予想修正",
+            score=75,
             matched_rule_ids=["t1_guidance_revision"],
             matched_keywords=["上方修正"],
             confidence="high",
@@ -44,7 +45,7 @@ def make_item(
 
 def test_alert_text_tier1() -> None:
     text = build_alert_text(make_item(Tier.TIER1))
-    assert "🔴 TIER 1|TDnet適時開示" in text
+    assert "🔴 75点|TIER 1|TDnet適時開示" in text
     assert "[1234] ABC株式会社" in text
     assert "開示時刻:15:30 JST" in text
     assert "カテゴリー:業績予想修正" in text
@@ -54,7 +55,7 @@ def test_alert_text_tier1() -> None:
 
 
 def test_alert_text_tier2_emoji() -> None:
-    assert "🟠 TIER 2|TDnet適時開示" in build_alert_text(make_item(Tier.TIER2))
+    assert "🟠 75点|TIER 2|TDnet適時開示" in build_alert_text(make_item(Tier.TIER2))
 
 
 def test_labels_in_text_and_blocks() -> None:
@@ -63,7 +64,7 @@ def test_labels_in_text_and_blocks() -> None:
     assert "💼 PORTFOLIO" in text
     assert "👀 WATCHLIST(半導体)" in text
     blocks = build_alert_blocks(item)
-    assert blocks[0]["text"]["text"].startswith("🔴 TIER 1")
+    assert blocks[0]["text"]["text"].startswith("🔴 100点|TIER 1")  # 75+25+15は100でキャップ
     body = blocks[1]["text"]["text"]
     assert "💼 PORTFOLIO" in body
 

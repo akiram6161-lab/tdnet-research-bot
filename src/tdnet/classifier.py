@@ -23,6 +23,7 @@ class Rule:
     negative_keywords: list[str]
     priority: int
     explanation: str
+    score: int = 0
 
 
 def _tier_from_value(value: object) -> Tier:
@@ -47,6 +48,7 @@ def load_rules(path: Path) -> list[Rule]:
                 negative_keywords=[normalize_title(k) for k in item.get("negative_keywords", [])],
                 priority=int(item.get("priority", 0)),
                 explanation=str(item.get("explanation", "")),
+                score=int(item.get("score", 0)),
             )
         )
     if not rules:
@@ -97,6 +99,7 @@ class Classifier:
 
         matched_rule_ids = [m.rule.rule_id for m in pool]
         matched_keywords = sorted({kw for m in pool for kw in m.keywords})
+        score = 0 if best.rule.tier == Tier.EXCLUDED else max(m.rule.score for m in pool)
         if best.rule.tier == Tier.EXCLUDED or len(matched_keywords) >= 2 or len(pool) >= 2:
             confidence = "high"
         else:
@@ -109,4 +112,5 @@ class Classifier:
             matched_keywords=matched_keywords,
             confidence=confidence,
             classification_reason=best.rule.explanation or f"rule:{best.rule.rule_id}",
+            score=score,
         )

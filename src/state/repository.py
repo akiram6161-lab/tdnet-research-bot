@@ -22,6 +22,9 @@ _EMPTY_STATE: dict[str, Any] = {
     "processed_research_reply_ts": [],
     "last_slack_poll_at": None,
     "failed_items": [],
+    "pending_digest": [],
+    "digest_last_posted_date": None,
+    "research_daily": {"date": None, "count": 0},
 }
 
 
@@ -123,6 +126,40 @@ class StateRepository:
 
     def add_thread_mapping(self, mapping: dict[str, Any]) -> None:
         self._state["disclosure_thread_mappings"].append(mapping)
+
+    def thread_mappings(self, research_status: str | None = None) -> list[dict[str, Any]]:
+        mappings: list[dict[str, Any]] = self._state["disclosure_thread_mappings"]
+        if research_status is None:
+            return mappings
+        return [m for m in mappings if m.get("research_status") == research_status]
+
+    # ---- ダイジェスト(閾値未満のTier 1/2) --------------------------------
+
+    def add_to_digest(self, entry: dict[str, Any]) -> None:
+        self._state["pending_digest"].append(entry)
+
+    @property
+    def pending_digest(self) -> list[dict[str, Any]]:
+        return list(self._state["pending_digest"])
+
+    def digest_posted_today(self, today: str) -> bool:
+        return bool(self._state.get("digest_last_posted_date") == today)
+
+    def mark_digest_posted(self, today: str) -> None:
+        self._state["digest_last_posted_date"] = today
+        self._state["pending_digest"] = []
+
+    # ---- 自動リサーチの日次カウンタ ---------------------------------------
+
+    def research_count_today(self, today: str) -> int:
+        daily = self._state.get("research_daily") or {}
+        if daily.get("date") != today:
+            return 0
+        return int(daily.get("count", 0))
+
+    def increment_research_count(self, today: str) -> None:
+        count = self.research_count_today(today)
+        self._state["research_daily"] = {"date": today, "count": count + 1}
 
     # ---- retention -----------------------------------------------------------
 

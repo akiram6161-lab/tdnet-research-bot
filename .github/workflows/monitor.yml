@@ -18,7 +18,7 @@ permissions:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30  # 自動リサーチ(最大2件/回、各10分タイムアウト)を考慮
     steps:
       - uses: actions/checkout@v4
 
@@ -27,8 +27,14 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
       - name: Install dependencies
-        run: pip install -e .
+        run: |
+          pip install -e .
+          npm install -g @anthropic-ai/claude-code
 
       - name: Run monitor
         env:
@@ -36,10 +42,12 @@ jobs:
           SLACK_USER_TOKEN: ${{ secrets.SLACK_USER_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
           SLACK_ALLOWED_USER_IDS: ${{ secrets.SLACK_ALLOWED_USER_IDS }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || '' }}
+          # 自動リサーチ: Claude Code(サブスクリプション認証)
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           EDINET_DB_API_KEY: ${{ secrets.EDINET_DB_API_KEY }}
           JQUANTS_API_KEY: ${{ secrets.JQUANTS_API_KEY }}
+          RESEARCH_SCORE_THRESHOLD: ${{ vars.RESEARCH_SCORE_THRESHOLD || '80' }}
+          MAX_AUTO_RESEARCH_PER_DAY: ${{ vars.MAX_AUTO_RESEARCH_PER_DAY || '15' }}
           TZ: Asia/Tokyo
         run: python -m src.main
 

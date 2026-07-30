@@ -30,14 +30,16 @@ class SlackClient:
         text: str,
         blocks: list[dict[str, Any]] | None = None,
         max_attempts: int = 3,
+        thread_ts: str | None = None,
     ) -> str:
-        """チャンネルへ親メッセージを投稿し ts を返す。レート制限は Retry-After に従う。"""
+        """メッセージを投稿し ts を返す。thread_ts 指定でスレッド返信になる。"""
         for _attempt in range(max_attempts):
             try:
                 response = self._client.chat_postMessage(
                     channel=channel_id,
                     text=text,
                     blocks=blocks,
+                    thread_ts=thread_ts,
                     unfurl_links=False,
                     unfurl_media=False,
                 )

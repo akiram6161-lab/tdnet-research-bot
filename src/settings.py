@@ -42,6 +42,11 @@ class Settings:
     thread_polling_days: int = 14
     max_research_jobs_per_run: int = 2
     state_retention_days: int = 90
+    research_score_threshold: int = 80
+    max_auto_research_per_day: int = 15
+    digest_after: dt.time = dt.time(19, 45)
+    claude_cli: str = "claude"
+    claude_code_oauth_token: str = ""
     log_level: str = "INFO"
     state_path: Path = REPO_ROOT / "state" / "state.json"
     rules_path: Path = REPO_ROOT / "config" / "disclosure_rules.yaml"
@@ -74,6 +79,11 @@ class Settings:
             thread_polling_days=int(env.get("THREAD_POLLING_DAYS", "14")),
             max_research_jobs_per_run=int(env.get("MAX_RESEARCH_JOBS_PER_RUN", "2")),
             state_retention_days=int(env.get("STATE_RETENTION_DAYS", "90")),
+            research_score_threshold=int(env.get("RESEARCH_SCORE_THRESHOLD", "80")),
+            max_auto_research_per_day=int(env.get("MAX_AUTO_RESEARCH_PER_DAY", "15")),
+            digest_after=_parse_hhmm(env.get("DIGEST_AFTER", "19:45"), "19:45"),
+            claude_cli=env.get("CLAUDE_CLI", "claude"),
+            claude_code_oauth_token=env.get("CLAUDE_CODE_OAUTH_TOKEN", ""),
             log_level=env.get("LOG_LEVEL", "INFO"),
         )
 

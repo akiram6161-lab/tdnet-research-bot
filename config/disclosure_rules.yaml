@@ -132,6 +132,7 @@ rules:
     tier: 1
     category: M&A・所有構造
     priority: 70
+    score: 95
     positive_keywords:
       - 公開買付
       - tob
@@ -143,6 +144,7 @@ rules:
     tier: 1
     category: M&A・所有構造
     priority: 65
+    score: 88
     positive_keywords:
       - 経営統合
       - 合併
@@ -155,6 +157,7 @@ rules:
     tier: 1
     category: M&A・所有構造
     priority: 60
+    score: 78
     positive_keywords:
       - 事業譲渡
       - 事業の譲渡
@@ -166,6 +169,7 @@ rules:
     tier: 1
     category: M&A・所有構造
     priority: 60
+    score: 78
     positive_keywords:
       - 子会社の異動
       - 子会社株式の譲渡
@@ -181,6 +185,7 @@ rules:
     tier: 1
     category: M&A・所有構造
     priority: 65
+    score: 85
     positive_keywords:
       - 親会社の異動
       - 支配株主の異動
@@ -193,6 +198,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 65
+    score: 80
     positive_keywords:
       - 第三者割当
     explanation: 第三者割当増資
@@ -201,6 +207,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 60
+    score: 72
     positive_keywords:
       - 転換社債
       - 新株予約権
@@ -215,6 +222,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 60
+    score: 75
     positive_keywords:
       - 公募増資
       - 新株式発行
@@ -229,6 +237,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 60
+    score: 70
     positive_keywords:
       - 自己株式の取得
       - 自己株式取得
@@ -244,6 +253,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 60
+    score: 70
     positive_keywords:
       - 減資
       - 資本金の額の減少
@@ -253,6 +263,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 65
+    score: 80
     positive_keywords:
       - 資本業務提携
       - 資本提携
@@ -262,6 +273,7 @@ rules:
     tier: 1
     category: 業績予想修正
     priority: 65
+    score: 75
     positive_keywords:
       - 業績予想の修正
       - 業績予想の上方修正
@@ -276,6 +288,7 @@ rules:
     tier: 1
     category: 業績・財務
     priority: 60
+    score: 68
     positive_keywords:
       - 配当予想の修正
       - 無配
@@ -290,6 +303,7 @@ rules:
     tier: 1
     category: 業績・財務
     priority: 60
+    score: 65
     positive_keywords:
       - 減損損失
       - 特別利益
@@ -302,6 +316,7 @@ rules:
     tier: 1
     category: 業績・財務
     priority: 70
+    score: 90
     positive_keywords:
       - 債務超過
       - 継続企業の前提
@@ -317,6 +332,7 @@ rules:
     tier: 1
     category: 業績・財務
     priority: 65
+    score: 85
     positive_keywords:
       - 決算発表の延期
       - 決算発表延期
@@ -330,6 +346,7 @@ rules:
     tier: 1
     category: アクティビズム・ガバナンス
     priority: 65
+    score: 85
     positive_keywords:
       - 株主提案
       - 臨時株主総会
@@ -342,6 +359,7 @@ rules:
     tier: 1
     category: アクティビズム・ガバナンス
     priority: 65
+    score: 82
     positive_keywords:
       - 代表取締役の辞任
       - 代表取締役の解任
@@ -352,6 +370,7 @@ rules:
     tier: 1
     category: 重大インシデント
     priority: 65
+    score: 85
     positive_keywords:
       - 不適切な会計
       - 不正会計
@@ -378,6 +397,7 @@ rules:
     tier: 1
     category: 重大インシデント
     priority: 70
+    score: 95
     positive_keywords:
       - 上場廃止
       - 監理銘柄
@@ -393,6 +413,7 @@ rules:
     tier: 2
     category: 業務提携
     priority: 40
+    score: 50
     positive_keywords:
       - 業務提携
       - 協業
@@ -403,6 +424,7 @@ rules:
     tier: 2
     category: 大型契約・受注
     priority: 35
+    score: 50
     positive_keywords:
       - 大型受注
       - 受注に関する
@@ -418,6 +440,7 @@ rules:
     tier: 2
     category: 新規事業・新商品
     priority: 35
+    score: 45
     positive_keywords:
       - 新規事業
       - 新商品
@@ -431,6 +454,7 @@ rules:
     tier: 2
     category: 中期経営計画
     priority: 40
+    score: 55
     positive_keywords:
       - 中期経営計画
       - 中期計画
@@ -441,6 +465,7 @@ rules:
     tier: 2
     category: 固定資産・有価証券
     priority: 35
+    score: 45
     positive_keywords:
       - 固定資産の取得
       - 固定資産の譲渡
@@ -455,6 +480,7 @@ rules:
     tier: 2
     category: 補助金・助成金
     priority: 30
+    score: 35
     positive_keywords:
       - 補助金
       - 助成金
@@ -465,6 +491,7 @@ rules:
     tier: 2
     category: 株主優待
     priority: 30
+    score: 40
     positive_keywords:
       - 株主優待
     explanation: 株主優待の新設・変更
@@ -473,6 +500,7 @@ rules:
     tier: 2
     category: 月次業績
     priority: 30
+    score: 30
     positive_keywords:
       - 月次
     explanation: 月次業績・月次KPI
@@ -481,6 +509,7 @@ rules:
     tier: 2
     category: 海外進出
     priority: 30
+    score: 40
     positive_keywords:
       - 海外進出
       - 海外展開
@@ -491,6 +520,7 @@ rules:
     tier: 2
     category: 特許・承認
     priority: 35
+    score: 50
     positive_keywords:
       - 特許
       - 製造販売承認
@@ -503,6 +533,7 @@ rules:
     tier: 2
     category: 経営体制
     priority: 35
+    score: 45
     positive_keywords:
       - 代表取締役の異動
       - 社長交代
@@ -516,6 +547,7 @@ rules:
     tier: 2
     category: 組織再編
     priority: 30
+    score: 45
     positive_keywords:
       - 組織再編
       - 持株会社体制

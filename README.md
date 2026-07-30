@@ -1,17 +1,21 @@
 # tdnet-research-bot
 
-TDnet適時開示通知・オンデマンドリサーチBot。
-TDnetを15分ごとに監視し、Tier 1・Tier 2の開示のみSlackへ速報する。
-Slackスレッドで「リサーチ」と返信すると、TDnet・EDINET DB・J-QuantsのデータをClaude APIで分析したレポートを同スレッドに投稿する(Phase 2/3で実装)。
+TDnet適時開示の監視・スコアリング・自動リサーチBot。
+
+1. TDnetを15分ごとに監視し、全開示をルールベースでスコアリング(0〜100点)
+2. **スコア80点以上**(TOB・経営統合・債務超過・アクティビズム等)のみ個別速報を投稿し、
+   **Claude Code(サブスクリプション認証・追加費用なし)が自動で分析サマリー**をスレッドに投稿
+3. 閾値未満のTier 1/2は**夕方に1通のダイジェスト**へまとめる
+4. 自動リサーチは日次上限15件(`MAX_AUTO_RESEARCH_PER_DAY`)・スコアの高い順
 
 ## 実装状況
 
-| Phase | 内容 | 状態 |
-|---|---|---|
-| Phase 1 | 速報MVP(TDnet取得・Tier判定・Slack速報・重複防止・GitHub Actions・dry-run) | ✅ 実装済み |
-| Phase 2 | Slackリサーチコマンド(スレッドポーリング・コマンド検知) | 未着手 |
-| Phase 3 | リサーチ処理(EDINET DB・J-Quants・Claude API分析) | 未着手 |
-| Phase 4 | Claude Code保守(claude-code.yml・Issue/PR運用) | 未着手 |
+| 機能 | 状態 |
+|---|---|
+| TDnet取得・Tier判定・スコアリング・重複防止・GitHub Actions・dry-run | ✅ 実装済み |
+| 個別速報+Claude Code自動リサーチ(短サマリー)+夕方ダイジェスト | ✅ 実装済み |
+| Slackスレッド「リサーチ」コマンド(フル10セクション分析) | 未着手 |
+| Claude Code保守連携(claude-code.yml・Issue/PR運用) | 未着手 |
 
 ## データソース
 
@@ -66,10 +70,11 @@ Slackトークン未設定の間は、定期実行されても何もせず正常
 
 1. リポジトリをGitHubへpush
 2. **Settings → Secrets and variables → Actions** に以下を登録:
-   - `SLACK_BOT_TOKEN`(xoxb-)… chat:write 権限。Botを対象チャンネルに招待すること
-   - `SLACK_CHANNEL_ID`(例: `C0123456789`)
-   - `SLACK_USER_TOKEN` / `SLACK_ALLOWED_USER_IDS`(Phase 2で使用)
-   - `ANTHROPIC_API_KEY` / `EDINET_DB_API_KEY` / `JQUANTS_API_KEY`(Phase 3で使用)
+   - `SLACK_BOT_TOKEN`(xoxb-)… chat:write 権限。Botを対象チャンネル/DMで利用可能にすること
+   - `SLACK_CHANNEL_ID`(チャンネルC… または DM運用ならメンバーU…)
+   - `CLAUDE_CODE_OAUTH_TOKEN` … `claude setup-token` で発行(Maxサブスク認証。自動リサーチ用)
+   - `EDINET_DB_API_KEY` / `JQUANTS_API_KEY`(任意。設定するとリサーチに財務・株価データが加わる)
+   - `SLACK_USER_TOKEN` / `SLACK_ALLOWED_USER_IDS`(スレッドコマンド実装時に使用)
 3. `.github/workflows/monitor.yml` が15分ごとに起動する。JSTの監視時間
    (平日07:45〜20:00)外はアプリが即終了する。
 4. stateに変更があった場合のみ `state/state.json` をcommitする。

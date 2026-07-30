@@ -15,14 +15,17 @@ Phase 2/3 で実装予定(現状は案内を表示して終了):
 from __future__ import annotations
 
 import argparse
+import contextlib
 import datetime as dt
 import logging
 import sys
 import uuid
+from typing import Any
 
 from src.logging_config import log_event, setup_logging
 from src.models import ClassifiedDisclosure, Disclosure, Tier
 from src.settings import (
+    JST,
     Settings,
     load_portfolio,
     load_watchlist,
@@ -131,19 +134,23 @@ def run_monitor(
     disclosures = [row_to_disclosure(row, retrieved_at=started) for row in result.rows]
     new_items = select_new_disclosures(disclosures, state)
     classified = classify_and_label(new_items, Classifier.from_yaml(settings.rules_path), settings)
-    to_notify = [c for c in classified if c.classification.tier in (Tier.TIER1, Tier.TIER2)]
+    threshold = settings.research_score_threshold
+    tier12 = [c for c in classified if c.classification.tier in (Tier.TIER1, Tier.TIER2)]
+    # スコア閾値以上のみ個別速報+自動リサーチ対象。未満は夕方ダイジェストへ。
+    to_notify = [c for c in tier12 if c.total_score >= threshold]
+    to_digest = [c for c in tier12 if c.total_score < threshold]
 
     if dry_run:
-        _print_dry_run(since, started, result.errors, disclosures, classified, to_notify)
+        _print_dry_run(since, started, result.errors, disclosures, classified, to_notify, threshold)
         return 0
 
     posted = 0
     slack = None
-    if to_notify:
+    if to_notify or to_digest:
         from src.slack.client import SlackClient
 
         slack = SlackClient(settings.slack_bot_token)
-    for item in to_notify:
+    for item in sorted(to_notify, key=lambda c: -c.total_score):
         d = item.disclosure
         assert slack is not None
         ts = slack.post_parent_message(
@@ -159,7 +166,15 @@ def run_monitor(
                 "parent_ts": ts,
                 "posted_at": now_jst().isoformat(),
                 "tier": item.classification.tier.value,
-                "research_status": "not_requested",
+                "score": item.total_score,
+                "security_code": d.security_code,
+                "company_name": d.company_name,
+                "title": d.title,
+                "category": item.classification.primary_category,
+                "document_url": d.document_url,
+                "disclosed_at": d.disclosed_at.strftime("%Y-%m-%d %H:%M"),
+                "research_status": "queued",
+                "research_attempts": 0,
                 "request_reply_ts": None,
                 "requesting_user_id": None,
                 "acknowledgement_ts": None,
@@ -175,7 +190,20 @@ def run_monitor(
             posted=True,
         )
 
-    # 通知対象外(Tier3・除外)も処理済みとして記録し、再判定を防ぐ
+    for item in to_digest:
+        d = item.disclosure
+        state.add_to_digest(
+            {
+                "security_code": d.security_code,
+                "company_name": d.company_name,
+                "title": d.title,
+                "tier": item.classification.tier.value,
+                "score": item.total_score,
+                "document_url": d.document_url,
+            }
+        )
+
+    # 通知対象外(Tier3・除外)とダイジェスト行きも処理済みとして記録し、再判定を防ぐ
     for item in classified:
         if item not in to_notify:
             d = item.disclosure
@@ -187,6 +215,12 @@ def run_monitor(
                 language=d.language,
                 posted=False,
             )
+
+    research_stats = {"started": 0, "completed": 0, "failed": 0}
+    if not tdnet_only:
+        research_stats = process_research_queue(state, settings, slack, started)
+
+    digest_posted = post_digest_if_due(state, settings, slack, started)
 
     state.prune(started)
     if result.complete:
@@ -210,13 +244,99 @@ def run_monitor(
         tier_1_count=sum(1 for c in to_notify if c.classification.tier == Tier.TIER1),
         tier_2_count=sum(1 for c in to_notify if c.classification.tier == Tier.TIER2),
         slack_alerts_posted=posted,
+        digest_queued=len(to_digest),
+        digest_posted=digest_posted,
+        research_jobs_started=research_stats["started"],
+        research_jobs_completed=research_stats["completed"],
+        failed_research_jobs=research_stats["failed"],
         state_changed=changed,
         errors=result.errors,
     )
-    if tdnet_only:
-        return 0
-    # Slackスレッド監視は Phase 2 で実装
     return 0
+
+
+def process_research_queue(
+    state: StateRepository,
+    settings: Settings,
+    slack: Any,
+    now: dt.datetime,
+) -> dict[str, int]:
+    """queued 状態のスレッドを、実行回数上限の範囲で Claude Code リサーチする。"""
+    from src.research.runner import ResearchError, run_research
+    from src.slack.formatter import RESEARCH_FAILED_MESSAGE
+
+    stats = {"started": 0, "completed": 0, "failed": 0}
+    queued = state.thread_mappings(research_status="queued")
+    if not queued:
+        return stats
+    if slack is None:
+        from src.slack.client import SlackClient
+
+        slack = SlackClient(settings.slack_bot_token)
+
+    today = now.astimezone(JST).strftime("%Y-%m-%d")
+    # スコアの高い順に処理する
+    queued.sort(key=lambda m: -int(m.get("score", 0)))
+    for job in queued:
+        if stats["started"] >= settings.max_research_jobs_per_run:
+            break
+        if state.research_count_today(today) >= settings.max_auto_research_per_day:
+            log_event(logger, "daily research cap reached; remaining jobs stay queued")
+            break
+        job["research_status"] = "running"
+        stats["started"] += 1
+        state.increment_research_count(today)
+        try:
+            summary = run_research(job, settings)
+            slack.post_parent_message(
+                str(job.get("channel_id") or settings.slack_channel_id),
+                text=summary,
+                thread_ts=str(job["parent_ts"]),
+            )
+            job["research_status"] = "completed"
+            job["research_completed_at"] = now_jst().isoformat()
+            stats["completed"] += 1
+        except ResearchError as exc:
+            attempts = int(job.get("research_attempts", 0)) + 1
+            job["research_attempts"] = attempts
+            job["research_status"] = "queued" if attempts < 2 else "failed_permanent"
+            stats["failed"] += 1
+            log_event(logger, "research failed", error=str(exc), attempts=attempts)
+            if attempts >= 2:
+                with contextlib.suppress(Exception):
+                    slack.post_parent_message(
+                        str(job.get("channel_id") or settings.slack_channel_id),
+                        text=RESEARCH_FAILED_MESSAGE,
+                        thread_ts=str(job["parent_ts"]),
+                    )
+    return stats
+
+
+def post_digest_if_due(
+    state: StateRepository,
+    settings: Settings,
+    slack: Any,
+    now: dt.datetime,
+) -> bool:
+    """夕方(digest_after 以降)に1日1回、閾値未満のTier 1/2をまとめて投稿する。"""
+    from src.slack.formatter import build_digest_text
+
+    local = now.astimezone(JST)
+    today = local.strftime("%Y-%m-%d")
+    if local.time() < settings.digest_after:
+        return False
+    if state.digest_posted_today(today) or not state.pending_digest:
+        return False
+    if slack is None:
+        from src.slack.client import SlackClient
+
+        slack = SlackClient(settings.slack_bot_token)
+    slack.post_parent_message(
+        settings.slack_channel_id,
+        text=build_digest_text(state.pending_digest, today),
+    )
+    state.mark_digest_posted(today)
+    return True
 
 
 def _print_dry_run(
@@ -226,6 +346,7 @@ def _print_dry_run(
     all_disclosures: list[Disclosure],
     classified: list[ClassifiedDisclosure],
     to_notify: list[ClassifiedDisclosure],
+    threshold: int,
 ) -> None:
     print("=" * 72)
     print("DRY-RUN(Slack投稿・state変更・Git commitは行いません)")
@@ -245,23 +366,32 @@ def _print_dry_run(
         f"除外={tier_counts.get(Tier.EXCLUDED, 0)}"
     )
     print()
-    print(f"--- Slack投稿予定: {len(to_notify)}件 ---")
-    for item in to_notify:
+    print(f"--- 個別速報+自動リサーチ対象(スコア{threshold}点以上): {len(to_notify)}件 ---")
+    for item in sorted(to_notify, key=lambda c: -c.total_score):
         print()
         print(build_alert_text(item))
         print("-" * 60)
     print()
+    print(f"--- 夕方ダイジェスト行き(Tier 1/2でスコア{threshold}点未満)---")
+    for item in classified:
+        c = item.classification
+        if item in to_notify or c.tier not in (Tier.TIER1, Tier.TIER2):
+            continue
+        d = item.disclosure
+        print(
+            f"  T{c.tier.value}/{item.total_score}点 "
+            f"[{d.security_code}] {d.company_name}: {d.title}"
+        )
+    print()
     print("--- 通知対象外(Tier 3・除外)---")
     for item in classified:
-        if item in to_notify:
-            continue
         c = item.classification
+        if item in to_notify or c.tier in (Tier.TIER1, Tier.TIER2):
+            continue
         d = item.disclosure
         tier_label = "除外" if c.tier == Tier.EXCLUDED else f"TIER{c.tier.value}"
         reason = f" [{c.classification_reason}]" if c.tier == Tier.EXCLUDED else ""
         print(f"  {tier_label} [{d.security_code}] {d.company_name}: {d.title}{reason}")
-    print()
-    print("リサーチコマンド検知: Phase 2 で実装予定(検知対象スレッドなし)")
 
 
 def cmd_check_connections(settings: Settings) -> int:
@@ -298,12 +428,25 @@ def cmd_check_connections(settings: Settings) -> int:
     else:
         print("  [--] Slack(Bot): SLACK_BOT_TOKEN 未設定")
 
+    import shutil
+
+    cli_path = shutil.which(settings.claude_cli)
+    if cli_path:
+        token_note = (
+            "トークン設定済み" if settings.claude_code_oauth_token else "サブスク認証(ローカル)"
+        )
+        print(f"  [OK] Claude Code CLI: {cli_path}({token_note})")
+    else:
+        print(
+            f"  [--] Claude Code CLI: `{settings.claude_cli}` が見つかりません"
+            "(自動リサーチはGitHub Actions上で実行)"
+        )
+
     for name, configured in [
         ("EDINET DB", bool(settings.edinet_db_api_key)),
         ("J-Quants", bool(settings.jquants_api_key)),
-        ("Claude API", bool(settings.anthropic_api_key)),
     ]:
-        status = "設定済み(Phase 3で接続実装)" if configured else "未設定(Phase 3で使用)"
+        status = "設定済み(リサーチ時にClaude Codeが使用)" if configured else "未設定(任意)"
         print(f"  [--] {name}: {status}")
     return exit_code
 

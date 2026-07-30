@@ -48,6 +48,10 @@ class ClassificationResult:
     matched_keywords: list[str] = field(default_factory=list)
     confidence: str = "low"
     classification_reason: str = ""
+    score: int = 0  # ルール由来の重要度スコア(0〜100)
+
+PORTFOLIO_BONUS = 25
+WATCHLIST_BONUS = 15
 
 
 @dataclass(frozen=True)
@@ -59,6 +63,16 @@ class ClassifiedDisclosure:
     in_portfolio: bool = False
     in_watchlist: bool = False
     watchlist_label: str | None = None
+
+    @property
+    def total_score(self) -> int:
+        """ルールスコア+保有/監視銘柄ボーナス(上限100)。"""
+        score = self.classification.score
+        if self.in_portfolio:
+            score += PORTFOLIO_BONUS
+        if self.in_watchlist:
+            score += WATCHLIST_BONUS
+        return min(score, 100)
 
 
 def normalize_security_code(code: str) -> str:

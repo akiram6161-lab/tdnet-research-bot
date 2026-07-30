@@ -17,7 +17,7 @@ def build_alert_text(item: ClassifiedDisclosure) -> str:
     d = item.disclosure
     c = item.classification
     emoji = TIER_EMOJI.get(c.tier, "⚪")
-    lines = [f"{emoji} TIER {c.tier.value}|TDnet適時開示", ""]
+    lines = [f"{emoji} {item.total_score}点|TIER {c.tier.value}|TDnet適時開示", ""]
     labels = []
     if item.in_portfolio:
         labels.append("💼 PORTFOLIO")
@@ -47,7 +47,7 @@ def build_alert_blocks(item: ClassifiedDisclosure) -> list[dict[str, Any]]:
     c = item.classification
     emoji = TIER_EMOJI.get(c.tier, "⚪")
 
-    header = f"{emoji} TIER {c.tier.value}|TDnet適時開示"
+    header = f"{emoji} {item.total_score}点|TIER {c.tier.value}|TDnet適時開示"
     labels = []
     if item.in_portfolio:
         labels.append("💼 PORTFOLIO")
@@ -76,3 +76,23 @@ def build_alert_blocks(item: ClassifiedDisclosure) -> list[dict[str, Any]]:
         {"type": "context", "elements": [{"type": "mrkdwn", "text": RESEARCH_HINT}]},
     ]
     return blocks
+
+
+def build_digest_text(items: list[dict[str, Any]], date_label: str) -> str:
+    """夕方ダイジェスト(閾値未満のTier 1/2一覧)を組み立てる。"""
+    lines = [f"🗒️ 本日のその他開示ダイジェスト({date_label})", ""]
+    for entry in items:
+        tier = entry.get("tier", "?")
+        lines.append(
+            f"・T{tier}/{entry.get('score', '?')}点 [{entry.get('security_code', '')}] "
+            f"{entry.get('company_name', '')}: {entry.get('title', '')}"
+        )
+        if entry.get("document_url"):
+            lines.append(f"   {entry['document_url']}")
+    lines += ["", f"計{len(items)}件(スコア閾値未満のため個別通知を省略した開示)"]
+    return "\n".join(lines)
+
+
+RESEARCH_FAILED_MESSAGE = (
+    "⚠️ 自動リサーチに失敗しました。再実行可能な状態で保存しました。"
+)
