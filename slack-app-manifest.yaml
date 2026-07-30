@@ -1,0 +1,29 @@
+# Slack App マニフェスト
+# https://api.slack.com/apps → Create New App → From an app manifest → このYAMLを貼り付け
+#
+# 作成後の手順:
+#   1. Install App → ワークスペースへインストール
+#   2. Bot User OAuth Token(xoxb-...)を控える → GitHub Secrets の SLACK_BOT_TOKEN へ
+#   3. Slackで #tdnet-alerts を作成し、チャンネルへ /invite @TDnet Research Bot
+#   4. チャンネルID(チャンネル詳細の最下部、C...)→ GitHub Secrets の SLACK_CHANNEL_ID へ
+#
+# channels:history はBotが参加しているチャンネルのスレッド返信読取に使う(Phase 2)。
+# Botトークンのみで読取が足りるため、SLACK_USER_TOKEN は不要な想定(仕様§16の単一トークン構成)。
+display_information:
+  name: TDnet Research Bot
+  description: TDnet適時開示のTier 1/2速報とオンデマンド投資リサーチ
+  background_color: "#1a2b4c"
+features:
+  bot_user:
+    display_name: tdnet-research-bot
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - chat:write        # 速報・受付・レポートの投稿
+      - channels:history  # Phase 2: 公開チャンネルのスレッド返信読取
+      - groups:history    # Phase 2: プライベートチャンネル利用時の読取
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

@@ -1,0 +1,522 @@
+# Tier判定ルール(仕様書 §10〜§13)
+#
+# - キーワードは正規化済みタイトル(NFKC・小文字化・空白/句読点除去)に部分一致で適用される
+# - tier: 1 / 2 / exclude
+# - 除外ルール(tier: exclude)は一般ルールより常に優先される
+# - 同時マッチ時は priority が大きいルールを採用、同点なら Tier の小さい方
+rules:
+  # ============================================================
+  # 除外ルール(仕様 §13)- priority 100
+  # ============================================================
+  - id: ex_treasury_buyback_monthly
+    tier: exclude
+    category: 除外
+    priority: 100
+    positive_keywords:
+      - 自己株式の取得状況
+      - 自己株式取得状況
+      - 自己株式の取得結果
+      - 自己株式立会外買付取引
+    explanation: 自己株式取得状況の定例月次報告
+
+  - id: ex_warrant_exercise_status
+    tier: exclude
+    category: 除外
+    priority: 100
+    positive_keywords:
+      - 行使状況
+    explanation: 新株予約権等の定例行使状況報告
+
+  - id: ex_stock_compensation_regular
+    tier: exclude
+    category: 除外
+    priority: 100
+    positive_keywords:
+      - 譲渡制限付株式報酬
+      - 譲渡制限付株式ユニット
+      - ストックオプション
+      - 株式給付信託
+      - 従業員持株
+    explanation: 定例的な株式報酬の割当
+
+  - id: ex_governance_report
+    tier: exclude
+    category: 除外
+    priority: 100
+    positive_keywords:
+      - コーポレートガバナンスに関する報告書
+      - コーポレートガバナンス報告書
+    explanation: コーポレート・ガバナンス報告書の定例更新
+
+  - id: ex_briefing_and_ir_materials
+    tier: exclude
+    category: 除外
+    priority: 100
+    positive_keywords:
+      - 決算説明会開催
+      - 説明会開催のお知らせ
+      - 説明会資料
+      - 説明資料の掲載
+      - ir資料
+      - 資料掲載のお知らせ
+      - 決算補足説明資料
+      - 決算説明資料
+    explanation: 説明会案内・IR資料掲載のみの開示
+
+  - id: ex_minor_correction
+    tier: exclude
+    category: 除外
+    priority: 95
+    positive_keywords:
+      - 一部訂正
+      - 数値データ訂正
+      - 訂正について
+      - 記載事項の訂正
+    negative_keywords:
+      - 過年度
+      - 有価証券報告書
+    explanation: 軽微な開示資料修正(過年度決算訂正はTier 1で扱う)
+
+  - id: ex_articles_formal_change
+    tier: exclude
+    category: 除外
+    priority: 100
+    positive_keywords:
+      - 定款の一部変更
+    negative_keywords:
+      - 買収
+      - 防衛
+    explanation: 定款の形式的変更
+
+  - id: ex_agm_notice
+    tier: exclude
+    category: 除外
+    priority: 100
+    positive_keywords:
+      - 招集ご通知
+      - 招集通知
+      - 株主総会資料の電子提供
+    negative_keywords:
+      - 臨時株主総会
+    explanation: 定時株主総会の招集通知掲載(臨時株主総会はTier 1)
+
+  - id: ex_etf_etn_regular
+    tier: exclude
+    category: 除外
+    priority: 100
+    positive_keywords:
+      - etf
+      - etn
+      - 上場投資信託
+      - 受益権の口数
+    explanation: ETF・ETN等の定例開示
+
+  - id: ex_personnel_list
+    tier: exclude
+    category: 除外
+    priority: 90
+    positive_keywords:
+      - 人事異動
+      - 役員人事
+      - 機構改革
+    negative_keywords:
+      - 代表取締役
+      - 辞任
+      - 解任
+    explanation: 単純な人事一覧(代表取締役の異動は別ルール)
+
+  # ============================================================
+  # Tier 1(仕様 §11)- priority 60〜70
+  # ============================================================
+  - id: t1_tob_mbo
+    tier: 1
+    category: M&A・所有構造
+    priority: 70
+    positive_keywords:
+      - 公開買付
+      - tob
+      - mbo
+      - 非公開化
+    explanation: 公開買付け・MBO・非公開化
+
+  - id: t1_merger_reorg
+    tier: 1
+    category: M&A・所有構造
+    priority: 65
+    positive_keywords:
+      - 経営統合
+      - 合併
+      - 株式交換
+      - 株式移転
+      - 会社分割
+    explanation: 経営統合・合併・株式交換・株式移転・会社分割
+
+  - id: t1_business_transfer
+    tier: 1
+    category: M&A・所有構造
+    priority: 60
+    positive_keywords:
+      - 事業譲渡
+      - 事業の譲渡
+      - 事業譲受
+      - 事業の取得
+    explanation: 主要事業の譲渡・取得
+
+  - id: t1_subsidiary_change
+    tier: 1
+    category: M&A・所有構造
+    priority: 60
+    positive_keywords:
+      - 子会社の異動
+      - 子会社株式の譲渡
+      - 子会社株式の取得
+      - 孫会社の異動
+      - 子会社の売却
+      - 株式の譲渡契約
+      - 子会社化
+      - 孫会社化
+    explanation: 重要な子会社の取得・売却
+
+  - id: t1_ownership_change
+    tier: 1
+    category: M&A・所有構造
+    priority: 65
+    positive_keywords:
+      - 親会社の異動
+      - 支配株主の異動
+      - 主要株主の異動
+      - 筆頭株主の異動
+      - その他の関係会社の異動
+    explanation: 親会社・支配株主・主要株主の異動
+
+  - id: t1_third_party_allotment
+    tier: 1
+    category: 資本政策
+    priority: 65
+    positive_keywords:
+      - 第三者割当
+    explanation: 第三者割当増資
+
+  - id: t1_cb_warrant_issue
+    tier: 1
+    category: 資本政策
+    priority: 60
+    positive_keywords:
+      - 転換社債
+      - 新株予約権
+      - ワラント
+    negative_keywords:
+      - ストックオプション
+      - 譲渡制限付株式
+      - 行使状況
+    explanation: 転換社債・新株予約権・ワラントの発行
+
+  - id: t1_equity_offering
+    tier: 1
+    category: 資本政策
+    priority: 60
+    positive_keywords:
+      - 公募増資
+      - 新株式発行
+      - 株式売出
+      - 売出し
+      - 増資
+    negative_keywords:
+      - 譲渡制限付株式報酬
+    explanation: 大規模増資・売出し
+
+  - id: t1_share_buyback
+    tier: 1
+    category: 資本政策
+    priority: 60
+    positive_keywords:
+      - 自己株式の取得
+      - 自己株式取得
+      - 自己株式の消却
+      - 自己株式消却
+    negative_keywords:
+      - 取得状況
+      - 取得結果
+      - 取得終了
+    explanation: 自己株式取得の決定・自己株式消却
+
+  - id: t1_capital_reduction
+    tier: 1
+    category: 資本政策
+    priority: 60
+    positive_keywords:
+      - 減資
+      - 資本金の額の減少
+    explanation: 減資
+
+  - id: t1_capital_alliance
+    tier: 1
+    category: 資本政策
+    priority: 65
+    positive_keywords:
+      - 資本業務提携
+      - 資本提携
+    explanation: 重要な資本業務提携
+
+  - id: t1_guidance_revision
+    tier: 1
+    category: 業績予想修正
+    priority: 65
+    positive_keywords:
+      - 業績予想の修正
+      - 業績予想の上方修正
+      - 業績予想の下方修正
+      - 業績予想及び配当予想の修正
+      - 上方修正
+      - 下方修正
+      - 業績予想との差異
+    explanation: 業績予想の修正
+
+  - id: t1_dividend_revision
+    tier: 1
+    category: 業績・財務
+    priority: 60
+    positive_keywords:
+      - 配当予想の修正
+      - 無配
+      - 減配
+      - 増配
+      - 復配
+      - 記念配当
+      - 特別配当
+    explanation: 重要な配当予想修正
+
+  - id: t1_extraordinary_pnl
+    tier: 1
+    category: 業績・財務
+    priority: 60
+    positive_keywords:
+      - 減損損失
+      - 特別利益
+      - 特別損失
+      - 債権の取立不能
+      - 貸倒引当金
+    explanation: 重要な減損損失・特別利益・特別損失
+
+  - id: t1_financial_distress
+    tier: 1
+    category: 業績・財務
+    priority: 70
+    positive_keywords:
+      - 債務超過
+      - 継続企業の前提
+      - 財務制限条項
+      - 資金繰り
+      - 民事再生
+      - 会社更生
+      - 破産
+      - 特別清算
+    explanation: 債務超過・継続企業の前提・資金繰り問題
+
+  - id: t1_accounting_issues
+    tier: 1
+    category: 業績・財務
+    priority: 65
+    positive_keywords:
+      - 決算発表の延期
+      - 決算発表延期
+      - 過年度
+      - 会計監査人の異動
+      - 監査法人の異動
+      - 内部統制の開示すべき重要な不備
+    explanation: 決算発表延期・過年度決算訂正・監査上の重大問題
+
+  - id: t1_activism_governance
+    tier: 1
+    category: アクティビズム・ガバナンス
+    priority: 65
+    positive_keywords:
+      - 株主提案
+      - 臨時株主総会
+      - 買収防衛策
+      - 大規模買付
+      - 支配権
+    explanation: 株主提案・臨時株主総会・買収防衛策・経営支配権争い
+
+  - id: t1_ceo_sudden_resignation
+    tier: 1
+    category: アクティビズム・ガバナンス
+    priority: 65
+    positive_keywords:
+      - 代表取締役の辞任
+      - 代表取締役の解任
+      - 社長の辞任
+    explanation: 代表取締役の突然の辞任・解任
+
+  - id: t1_major_incident
+    tier: 1
+    category: 重大インシデント
+    priority: 65
+    positive_keywords:
+      - 不適切な会計
+      - 不正会計
+      - 不正行為
+      - 不祥事
+      - 第三者委員会
+      - 特別調査委員会
+      - 行政処分
+      - 業務改善命令
+      - 業務停止命令
+      - 課徴金
+      - 訴訟の提起
+      - 訴え提起
+      - 損害賠償請求
+      - サイバー攻撃
+      - 不正アクセス
+      - ランサムウェア
+      - リコール
+      - 操業停止
+      - 生産停止
+    explanation: 不正会計・不祥事・行政処分・重大訴訟・サイバー攻撃等
+
+  - id: t1_delisting_risk
+    tier: 1
+    category: 重大インシデント
+    priority: 70
+    positive_keywords:
+      - 上場廃止
+      - 監理銘柄
+      - 整理銘柄
+      - 特設注意市場銘柄
+      - 上場契約違約金
+    explanation: 上場廃止リスク・監理/整理銘柄
+
+  # ============================================================
+  # Tier 2(仕様 §12)- priority 30〜40
+  # ============================================================
+  - id: t2_business_alliance
+    tier: 2
+    category: 業務提携
+    priority: 40
+    positive_keywords:
+      - 業務提携
+      - 協業
+      - パートナーシップ
+    explanation: 業務提携(資本提携を伴う場合はTier 1)
+
+  - id: t2_large_order
+    tier: 2
+    category: 大型契約・受注
+    priority: 35
+    positive_keywords:
+      - 大型受注
+      - 受注に関する
+      - 受注のお知らせ
+      - 契約締結
+      - 基本合意
+      - 販売契約
+      - 代理店契約
+      - 主要顧客
+    explanation: 大型契約・大型受注・主要顧客との契約
+
+  - id: t2_new_business
+    tier: 2
+    category: 新規事業・新商品
+    priority: 35
+    positive_keywords:
+      - 新規事業
+      - 新商品
+      - 新製品
+      - 新サービス
+      - サービス開始
+      - 提供開始
+    explanation: 新規事業・新商品・新サービス
+
+  - id: t2_midterm_plan
+    tier: 2
+    category: 中期経営計画
+    priority: 40
+    positive_keywords:
+      - 中期経営計画
+      - 中期計画
+      - 長期ビジョン
+    explanation: 中期経営計画
+
+  - id: t2_fixed_asset
+    tier: 2
+    category: 固定資産・有価証券
+    priority: 35
+    positive_keywords:
+      - 固定資産の取得
+      - 固定資産の譲渡
+      - 固定資産の売却
+      - 投資有価証券の売却
+      - 投資有価証券売却
+      - 不動産の取得
+      - 不動産の譲渡
+    explanation: 固定資産の取得・売却、投資有価証券売却
+
+  - id: t2_subsidy
+    tier: 2
+    category: 補助金・助成金
+    priority: 30
+    positive_keywords:
+      - 補助金
+      - 助成金
+      - 採択
+    explanation: 補助金・助成金
+
+  - id: t2_shareholder_benefit
+    tier: 2
+    category: 株主優待
+    priority: 30
+    positive_keywords:
+      - 株主優待
+    explanation: 株主優待の新設・変更
+
+  - id: t2_monthly_kpi
+    tier: 2
+    category: 月次業績
+    priority: 30
+    positive_keywords:
+      - 月次
+    explanation: 月次業績・月次KPI
+
+  - id: t2_overseas
+    tier: 2
+    category: 海外進出
+    priority: 30
+    positive_keywords:
+      - 海外進出
+      - 海外展開
+      - 現地法人設立
+    explanation: 海外進出
+
+  - id: t2_patent_approval
+    tier: 2
+    category: 特許・承認
+    priority: 35
+    positive_keywords:
+      - 特許
+      - 製造販売承認
+      - 承認取得
+      - 認証取得
+      - 薬価収載
+    explanation: 重要な特許・承認取得
+
+  - id: t2_ceo_ordinary_change
+    tier: 2
+    category: 経営体制
+    priority: 35
+    positive_keywords:
+      - 代表取締役の異動
+      - 社長交代
+      - 役員の異動
+    negative_keywords:
+      - 辞任
+      - 解任
+    explanation: 代表取締役の通常異動
+
+  - id: t2_reorganization
+    tier: 2
+    category: 組織再編
+    priority: 30
+    positive_keywords:
+      - 組織再編
+      - 持株会社体制
+    explanation: 重要な組織再編

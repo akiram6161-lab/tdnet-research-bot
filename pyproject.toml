@@ -1,0 +1,39 @@
+[project]
+name = "tdnet-research-bot"
+version = "0.1.0"
+description = "TDnet適時開示通知・オンデマンドリサーチBot"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32",
+    "PyYAML>=6.0",
+    "slack-sdk>=3.31",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "types-requests",
+    "types-PyYAML",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src"]
+
+[[tool.mypy.overrides]]
+module = "slack_sdk.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
