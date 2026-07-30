@@ -27,6 +27,7 @@ from src.models import ClassifiedDisclosure, Disclosure, Tier
 from src.settings import (
     JST,
     Settings,
+    load_activists,
     load_portfolio,
     load_watchlist,
     now_jst,
@@ -80,6 +81,7 @@ def classify_and_label(
 ) -> list[ClassifiedDisclosure]:
     portfolio = load_portfolio(settings)
     watchlist = load_watchlist(settings)
+    activists = load_activists(settings)
     results: list[ClassifiedDisclosure] = []
     for d in disclosures:
         classification = classifier.classify(d.title)
@@ -91,9 +93,20 @@ def classify_and_label(
                 in_portfolio=d.security_code in portfolio,
                 in_watchlist=watch is not None,
                 watchlist_label=watch.label if watch else None,
+                in_activist=d.security_code in activists,
             )
         )
     return results
+
+
+def is_notify_target(item: ClassifiedDisclosure, threshold: int) -> bool:
+    """個別速報の対象か。アクティビスト銘柄はスコア・Tierに関係なく全開示を通知する。"""
+    if item.in_activist:
+        return True
+    return (
+        item.classification.tier in (Tier.TIER1, Tier.TIER2)
+        and item.total_score >= threshold
+    )
 
 
 def run_monitor(
@@ -135,9 +148,8 @@ def run_monitor(
     new_items = select_new_disclosures(disclosures, state)
     classified = classify_and_label(new_items, Classifier.from_yaml(settings.rules_path), settings)
     threshold = settings.research_score_threshold
-    tier12 = [c for c in classified if c.classification.tier in (Tier.TIER1, Tier.TIER2)]
-    # スコア閾値以上のみ個別速報+自動リサーチ対象。未満は夕方ダイジェストへ。
-    to_notify = [c for c in tier12 if c.total_score >= threshold]
+    # スコア閾値以上(+アクティビスト銘柄は全開示)を個別速報の対象とする
+    to_notify = [c for c in classified if is_notify_target(c, threshold)]
 
     if dry_run:
         _print_dry_run(since, started, result.errors, disclosures, classified, to_notify, threshold)
@@ -172,7 +184,10 @@ def run_monitor(
                 "category": item.classification.primary_category,
                 "document_url": d.document_url,
                 "disclosed_at": d.disclosed_at.strftime("%Y-%m-%d %H:%M"),
-                "research_status": "queued",
+                # アクティビスト銘柄の低スコア開示は速報のみ(リサーチ枠を消費しない)
+                "research_status": (
+                    "queued" if item.total_score >= threshold else "not_requested"
+                ),
                 "research_attempts": 0,
                 "request_reply_ts": None,
                 "requesting_user_id": None,

@@ -9,7 +9,7 @@ from typing import Any
 
 import pytest
 
-from src.main import process_research_queue
+from src.main import is_notify_target, process_research_queue
 from src.models import ClassificationResult, ClassifiedDisclosure, Disclosure, Tier
 from src.research import runner
 from src.settings import JST, REPO_ROOT, Settings
@@ -248,3 +248,14 @@ def test_stale_queued_jobs_expire(tmp_path: Path, monkeypatch: Any) -> None:
     statuses = {m["disclosure_id"]: m["research_status"] for m in state.thread_mappings()}
     assert statuses["old"] == "expired"
     assert statuses["fresh"] == "completed"
+
+
+def test_activist_stocks_notify_all_disclosures() -> None:
+    """アクティビスト銘柄はTier 3・低スコアでも通知対象、それ以外は閾値どおり。"""
+    assert is_notify_target(make_item(0, tier=Tier.TIER3, in_activist=True), 80)
+    assert is_notify_target(make_item(30, tier=Tier.TIER2, in_activist=True), 80)
+    assert not is_notify_target(make_item(0, tier=Tier.TIER3), 80)
+    assert not is_notify_target(make_item(75, tier=Tier.TIER1), 80)
+    assert is_notify_target(make_item(85, tier=Tier.TIER1), 80)
+    # アクティビストボーナス+15でリサーチ閾値にも届く(75+15=90)
+    assert make_item(75, in_activist=True).total_score == 90

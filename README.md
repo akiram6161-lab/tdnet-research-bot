@@ -91,8 +91,10 @@ Slackトークン未設定の間は、定期実行されても何もせず正常
 - `config/disclosure_rules.yaml` — Tier判定ルール(除外 > Tier 1 > Tier 2 の優先度)
 - `config/portfolio.csv` — 保有銘柄(`security_code,company_name,shares,average_cost,active`)
 - `config/watchlist.csv` — 監視銘柄(`security_code,company_name,label,active`)
+- `config/activists.csv` — アクティビスト関与銘柄(`security_code,company_name,active`)。
+  **この銘柄の開示はスコア・Tierに関係なくすべて個別速報**され、+15点ボーナスも付く
 
-証券コードは4桁に正規化される。該当銘柄の通知には 💼 PORTFOLIO / 👀 WATCHLIST ラベルが付く。
+証券コードは4桁に正規化される。該当銘柄の通知には ⚡ ACTIVIST / 💼 PORTFOLIO / 👀 WATCHLIST ラベルが付く。
 
 ## 状態管理
 

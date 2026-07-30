@@ -51,6 +51,7 @@ class Settings:
     rules_path: Path = REPO_ROOT / "config" / "disclosure_rules.yaml"
     portfolio_path: Path = REPO_ROOT / "config" / "portfolio.csv"
     watchlist_path: Path = REPO_ROOT / "config" / "watchlist.csv"
+    activists_path: Path = REPO_ROOT / "config" / "activists.csv"
 
     @classmethod
     def from_env(cls) -> Settings:
@@ -135,3 +136,8 @@ def load_portfolio(settings: Settings) -> dict[str, WatchEntry]:
 
 def load_watchlist(settings: Settings) -> dict[str, WatchEntry]:
     return _load_csv_entries(settings.watchlist_path, label_column="label")
+
+
+def load_activists(settings: Settings) -> dict[str, WatchEntry]:
+    """アクティビスト関与銘柄。この銘柄の開示はスコアに関係なくすべて通知する。"""
+    return _load_csv_entries(settings.activists_path, label_column=None)

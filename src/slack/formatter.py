@@ -19,6 +19,8 @@ def build_alert_text(item: ClassifiedDisclosure) -> str:
     emoji = TIER_EMOJI.get(c.tier, "⚪")
     lines = [f"{emoji} {item.total_score}点|TIER {c.tier.value}|TDnet適時開示", ""]
     labels = []
+    if item.in_activist:
+        labels.append("⚡ ACTIVIST")
     if item.in_portfolio:
         labels.append("💼 PORTFOLIO")
     if item.in_watchlist:
@@ -49,6 +51,8 @@ def build_alert_blocks(item: ClassifiedDisclosure) -> list[dict[str, Any]]:
 
     header = f"{emoji} {item.total_score}点|TIER {c.tier.value}|TDnet適時開示"
     labels = []
+    if item.in_activist:
+        labels.append("⚡ ACTIVIST")
     if item.in_portfolio:
         labels.append("💼 PORTFOLIO")
     if item.in_watchlist:

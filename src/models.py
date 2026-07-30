@@ -52,6 +52,7 @@ class ClassificationResult:
 
 PORTFOLIO_BONUS = 25
 WATCHLIST_BONUS = 15
+ACTIVIST_BONUS = 15
 
 
 @dataclass(frozen=True)
@@ -63,15 +64,18 @@ class ClassifiedDisclosure:
     in_portfolio: bool = False
     in_watchlist: bool = False
     watchlist_label: str | None = None
+    in_activist: bool = False  # アクティビスト銘柄: スコアに関係なく全開示を通知
 
     @property
     def total_score(self) -> int:
-        """ルールスコア+保有/監視銘柄ボーナス(上限100)。"""
+        """ルールスコア+保有/監視/アクティビスト銘柄ボーナス(上限100)。"""
         score = self.classification.score
         if self.in_portfolio:
             score += PORTFOLIO_BONUS
         if self.in_watchlist:
             score += WATCHLIST_BONUS
+        elif self.in_activist:
+            score += ACTIVIST_BONUS
         return min(score, 100)
 
 
