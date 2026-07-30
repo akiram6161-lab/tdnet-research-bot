@@ -1,5 +1,4 @@
 {
-  "digest_last_posted_date": "2026-07-30",
   "disclosure_thread_mappings": [
     {
       "acknowledgement_ts": null,
@@ -357,7 +356,6 @@
   "failed_items": [],
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-07-30T21:48:46.390343+09:00",
-  "pending_digest": [],
   "processed_disclosures": {
     "140120260617572880": {
       "disclosed_at": "2026-07-30T15:00:00+09:00",

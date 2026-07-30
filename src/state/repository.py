@@ -22,8 +22,6 @@ _EMPTY_STATE: dict[str, Any] = {
     "processed_research_reply_ts": [],
     "last_slack_poll_at": None,
     "failed_items": [],
-    "pending_digest": [],
-    "digest_last_posted_date": None,
     "research_daily": {"date": None, "count": 0},
 }
 
@@ -132,22 +130,6 @@ class StateRepository:
         if research_status is None:
             return mappings
         return [m for m in mappings if m.get("research_status") == research_status]
-
-    # ---- ダイジェスト(閾値未満のTier 1/2) --------------------------------
-
-    def add_to_digest(self, entry: dict[str, Any]) -> None:
-        self._state["pending_digest"].append(entry)
-
-    @property
-    def pending_digest(self) -> list[dict[str, Any]]:
-        return list(self._state["pending_digest"])
-
-    def digest_posted_today(self, today: str) -> bool:
-        return bool(self._state.get("digest_last_posted_date") == today)
-
-    def mark_digest_posted(self, today: str) -> None:
-        self._state["digest_last_posted_date"] = today
-        self._state["pending_digest"] = []
 
     # ---- 自動リサーチの日次カウンタ ---------------------------------------
 

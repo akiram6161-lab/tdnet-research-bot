@@ -138,7 +138,6 @@ def run_monitor(
     tier12 = [c for c in classified if c.classification.tier in (Tier.TIER1, Tier.TIER2)]
     # スコア閾値以上のみ個別速報+自動リサーチ対象。未満は夕方ダイジェストへ。
     to_notify = [c for c in tier12 if c.total_score >= threshold]
-    to_digest = [c for c in tier12 if c.total_score < threshold]
 
     if dry_run:
         _print_dry_run(since, started, result.errors, disclosures, classified, to_notify, threshold)
@@ -146,7 +145,7 @@ def run_monitor(
 
     posted = 0
     slack = None
-    if to_notify or to_digest:
+    if to_notify:
         from src.slack.client import SlackClient
 
         slack = SlackClient(settings.slack_bot_token)
@@ -190,20 +189,7 @@ def run_monitor(
             posted=True,
         )
 
-    for item in to_digest:
-        d = item.disclosure
-        state.add_to_digest(
-            {
-                "security_code": d.security_code,
-                "company_name": d.company_name,
-                "title": d.title,
-                "tier": item.classification.tier.value,
-                "score": item.total_score,
-                "document_url": d.document_url,
-            }
-        )
-
-    # 通知対象外(Tier3・除外)とダイジェスト行きも処理済みとして記録し、再判定を防ぐ
+    # 通知対象外(閾値未満のTier1/2・Tier3・除外)も処理済みとして記録し、再判定を防ぐ
     for item in classified:
         if item not in to_notify:
             d = item.disclosure
@@ -219,8 +205,6 @@ def run_monitor(
     research_stats = {"started": 0, "completed": 0, "failed": 0}
     if not tdnet_only:
         research_stats = process_research_queue(state, settings, slack, started)
-
-    digest_posted = post_digest_if_due(state, settings, slack, started)
 
     state.prune(started)
     if result.complete:
@@ -244,8 +228,6 @@ def run_monitor(
         tier_1_count=sum(1 for c in to_notify if c.classification.tier == Tier.TIER1),
         tier_2_count=sum(1 for c in to_notify if c.classification.tier == Tier.TIER2),
         slack_alerts_posted=posted,
-        digest_queued=len(to_digest),
-        digest_posted=digest_posted,
         research_jobs_started=research_stats["started"],
         research_jobs_completed=research_stats["completed"],
         failed_research_jobs=research_stats["failed"],
@@ -281,6 +263,14 @@ def process_research_queue(
         slack = SlackClient(settings.slack_bot_token)
 
     today = now.astimezone(JST).strftime("%Y-%m-%d")
+    # 24時間を超えて残ったジョブは失効させ、翌日の新規開示を優先する
+    cutoff = now - dt.timedelta(hours=24)
+    for job in queued:
+        posted_at = job.get("posted_at")
+        with contextlib.suppress(TypeError, ValueError):
+            if posted_at and dt.datetime.fromisoformat(posted_at) < cutoff:
+                job["research_status"] = "expired"
+    queued = [j for j in queued if j.get("research_status") == "queued"]
     # スコアの高い順に処理する
     queued.sort(key=lambda m: -int(m.get("score", 0)))
     for job in queued:
@@ -318,32 +308,6 @@ def process_research_queue(
     return stats
 
 
-def post_digest_if_due(
-    state: StateRepository,
-    settings: Settings,
-    slack: Any,
-    now: dt.datetime,
-) -> bool:
-    """夕方(digest_after 以降)に1日1回、閾値未満のTier 1/2をまとめて投稿する。"""
-    from src.slack.formatter import build_digest_text
-
-    local = now.astimezone(JST)
-    today = local.strftime("%Y-%m-%d")
-    if local.time() < settings.digest_after:
-        return False
-    if state.digest_posted_today(today) or not state.pending_digest:
-        return False
-    if slack is None:
-        from src.slack.client import SlackClient
-
-        slack = SlackClient(settings.slack_bot_token)
-    slack.post_parent_message(
-        settings.slack_channel_id,
-        text=build_digest_text(state.pending_digest, today),
-    )
-    state.mark_digest_posted(today)
-    return True
-
 
 def _print_dry_run(
     since: dt.datetime,
@@ -378,26 +342,19 @@ def _print_dry_run(
         print(build_alert_text(item))
         print("-" * 60)
     print()
-    print(f"--- 夕方ダイジェスト行き(Tier 1/2でスコア{threshold}点未満)---")
+    print(f"--- 通知対象外(スコア{threshold}点未満・Tier 3・除外)---")
     for item in classified:
         c = item.classification
-        if item in to_notify or c.tier not in (Tier.TIER1, Tier.TIER2):
+        if item in to_notify:
             continue
         d = item.disclosure
-        print(
-            f"  T{c.tier.value}/{item.total_score}点 "
-            f"[{d.security_code}] {d.company_name}: {d.title}"
-        )
-    print()
-    print("--- 通知対象外(Tier 3・除外)---")
-    for item in classified:
-        c = item.classification
-        if item in to_notify or c.tier in (Tier.TIER1, Tier.TIER2):
-            continue
-        d = item.disclosure
-        tier_label = "除外" if c.tier == Tier.EXCLUDED else f"TIER{c.tier.value}"
-        reason = f" [{c.classification_reason}]" if c.tier == Tier.EXCLUDED else ""
-        print(f"  {tier_label} [{d.security_code}] {d.company_name}: {d.title}{reason}")
+        if c.tier in (Tier.TIER1, Tier.TIER2):
+            label = f"T{c.tier.value}/{item.total_score}点"
+        elif c.tier == Tier.EXCLUDED:
+            label = "除外"
+        else:
+            label = "TIER3"
+        print(f"  {label} [{d.security_code}] {d.company_name}: {d.title}")
 
 
 def cmd_check_connections(settings: Settings) -> int:

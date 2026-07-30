@@ -44,7 +44,6 @@ class Settings:
     state_retention_days: int = 90
     research_score_threshold: int = 80
     max_auto_research_per_day: int = 15
-    digest_after: dt.time = dt.time(19, 45)
     claude_cli: str = "claude"
     claude_code_oauth_token: str = ""
     log_level: str = "INFO"
@@ -81,7 +80,6 @@ class Settings:
             state_retention_days=int(env.get("STATE_RETENTION_DAYS", "90")),
             research_score_threshold=int(env.get("RESEARCH_SCORE_THRESHOLD", "80")),
             max_auto_research_per_day=int(env.get("MAX_AUTO_RESEARCH_PER_DAY", "15")),
-            digest_after=_parse_hhmm(env.get("DIGEST_AFTER", "19:45"), "19:45"),
             claude_cli=env.get("CLAUDE_CLI", "claude"),
             claude_code_oauth_token=env.get("CLAUDE_CODE_OAUTH_TOKEN", ""),
             log_level=env.get("LOG_LEVEL", "INFO"),

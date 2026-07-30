@@ -4,6 +4,12 @@
 # - tier: 1 / 2 / exclude
 # - 除外ルール(tier: exclude)は一般ルールより常に優先される
 # - 同時マッチ時は priority が大きいルールを採用、同点なら Tier の小さい方
+# - score(0-100)は「株価インパクトの期待値」基準:
+#     95-90: 支配権移転・存続リスク(TOB/MBO・上場廃止・債務超過)
+#     88-80: 大型再編・アクティビズム・明示的な業績修正・希薄化イベント
+#     78-65: 方向性が不明瞭または織り込まれやすい資本・業績イベント
+#     55以下: 事業ニュース(業務提携・月次など、単独では値動き限定的)
+#   ポートフォリオ+25 / ウォッチリスト+15 のボーナスが加算される(上限100)
 rules:
   # ============================================================
   # 除外ルール(仕様 §13)- priority 100
@@ -157,7 +163,7 @@ rules:
     tier: 1
     category: M&A・所有構造
     priority: 60
-    score: 78
+    score: 75
     positive_keywords:
       - 事業譲渡
       - 事業の譲渡
@@ -169,7 +175,7 @@ rules:
     tier: 1
     category: M&A・所有構造
     priority: 60
-    score: 78
+    score: 75
     positive_keywords:
       - 子会社の異動
       - 子会社株式の譲渡
@@ -185,7 +191,7 @@ rules:
     tier: 1
     category: M&A・所有構造
     priority: 65
-    score: 85
+    score: 82
     positive_keywords:
       - 親会社の異動
       - 支配株主の異動
@@ -198,7 +204,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 65
-    score: 80
+    score: 82
     positive_keywords:
       - 第三者割当
     explanation: 第三者割当増資
@@ -207,7 +213,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 60
-    score: 72
+    score: 76
     positive_keywords:
       - 転換社債
       - 新株予約権
@@ -222,7 +228,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 60
-    score: 75
+    score: 80
     positive_keywords:
       - 公募増資
       - 新株式発行
@@ -237,7 +243,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 60
-    score: 70
+    score: 75
     positive_keywords:
       - 自己株式の取得
       - 自己株式取得
@@ -253,7 +259,7 @@ rules:
     tier: 1
     category: 資本政策
     priority: 60
-    score: 70
+    score: 68
     positive_keywords:
       - 減資
       - 資本金の額の減少
@@ -263,11 +269,22 @@ rules:
     tier: 1
     category: 資本政策
     priority: 65
-    score: 80
+    score: 78
     positive_keywords:
       - 資本業務提携
       - 資本提携
     explanation: 重要な資本業務提携
+
+  - id: t1_guidance_revision_major
+    tier: 1
+    category: 業績予想修正
+    priority: 66
+    score: 85
+    positive_keywords:
+      - 上方修正
+      - 下方修正
+      - 業績予想との差異
+    explanation: 方向が明示された業績予想修正(株価インパクト大)
 
   - id: t1_guidance_revision
     tier: 1
@@ -276,19 +293,14 @@ rules:
     score: 75
     positive_keywords:
       - 業績予想の修正
-      - 業績予想の上方修正
-      - 業績予想の下方修正
       - 業績予想及び配当予想の修正
-      - 上方修正
-      - 下方修正
-      - 業績予想との差異
-    explanation: 業績予想の修正
+    explanation: 業績予想の修正(幅・方向がタイトルから不明)
 
   - id: t1_dividend_revision
     tier: 1
     category: 業績・財務
     priority: 60
-    score: 68
+    score: 72
     positive_keywords:
       - 配当予想の修正
       - 無配
@@ -303,7 +315,7 @@ rules:
     tier: 1
     category: 業績・財務
     priority: 60
-    score: 65
+    score: 68
     positive_keywords:
       - 減損損失
       - 特別利益
@@ -316,7 +328,7 @@ rules:
     tier: 1
     category: 業績・財務
     priority: 70
-    score: 90
+    score: 92
     positive_keywords:
       - 債務超過
       - 継続企業の前提
@@ -359,7 +371,7 @@ rules:
     tier: 1
     category: アクティビズム・ガバナンス
     priority: 65
-    score: 82
+    score: 80
     positive_keywords:
       - 代表取締役の辞任
       - 代表取締役の解任
@@ -370,7 +382,7 @@ rules:
     tier: 1
     category: 重大インシデント
     priority: 65
-    score: 85
+    score: 82
     positive_keywords:
       - 不適切な会計
       - 不正会計
@@ -397,7 +409,7 @@ rules:
     tier: 1
     category: 重大インシデント
     priority: 70
-    score: 95
+    score: 92
     positive_keywords:
       - 上場廃止
       - 監理銘柄
@@ -424,7 +436,7 @@ rules:
     tier: 2
     category: 大型契約・受注
     priority: 35
-    score: 50
+    score: 52
     positive_keywords:
       - 大型受注
       - 受注に関する
@@ -491,7 +503,7 @@ rules:
     tier: 2
     category: 株主優待
     priority: 30
-    score: 40
+    score: 45
     positive_keywords:
       - 株主優待
     explanation: 株主優待の新設・変更
@@ -500,7 +512,7 @@ rules:
     tier: 2
     category: 月次業績
     priority: 30
-    score: 30
+    score: 35
     positive_keywords:
       - 月次
     explanation: 月次業績・月次KPI
@@ -509,7 +521,7 @@ rules:
     tier: 2
     category: 海外進出
     priority: 30
-    score: 40
+    score: 42
     positive_keywords:
       - 海外進出
       - 海外展開
@@ -533,7 +545,7 @@ rules:
     tier: 2
     category: 経営体制
     priority: 35
-    score: 45
+    score: 42
     positive_keywords:
       - 代表取締役の異動
       - 社長交代

@@ -9,7 +9,7 @@ from typing import Any
 
 import pytest
 
-from src.main import post_digest_if_due, process_research_queue
+from src.main import process_research_queue
 from src.models import ClassificationResult, ClassifiedDisclosure, Disclosure, Tier
 from src.research import runner
 from src.settings import JST, REPO_ROOT, Settings
@@ -63,7 +63,7 @@ def test_rule_scores(classifier: Classifier) -> None:
     tob = classifier.classify("当社株式に対する公開買付けの開始に関するお知らせ")
     assert tob.score == 95
     monthly = classifier.classify("2026年7月度 月次売上高に関するお知らせ")
-    assert monthly.score == 30
+    assert monthly.score == 35
     excluded = classifier.classify("自己株式の取得状況に関するお知らせ")
     assert excluded.score == 0
 
@@ -170,44 +170,6 @@ def test_research_failure_retries_then_permanent(tmp_path: Path, monkeypatch: An
     assert any("失敗" in p["text"] for p in slack.posts)  # 失敗通知がスレッドに投稿される
 
 
-# ---- 夕方ダイジェスト --------------------------------------------------------
-
-
-def test_digest_posts_once_after_cutoff(tmp_path: Path) -> None:
-    state = make_state(tmp_path)
-    state.add_to_digest(
-        {
-            "security_code": "1234",
-            "company_name": "テスト社",
-            "title": "株主優待制度の変更",
-            "tier": 2,
-            "score": 40,
-            "document_url": "https://example/x.pdf",
-        }
-    )
-    slack = FakeSlack()
-    settings = make_settings(tmp_path)
-
-    noon = NOW  # 12:00 → まだ投稿しない
-    assert post_digest_if_due(state, settings, slack, noon) is False
-
-    evening = NOW.replace(hour=19, minute=50)
-    assert post_digest_if_due(state, settings, slack, evening) is True
-    assert "ダイジェスト" in slack.posts[0]["text"]
-    assert state.pending_digest == []
-
-    # 同日2回目は投稿しない
-    assert post_digest_if_due(state, settings, slack, evening) is False
-
-
-def test_digest_skipped_when_empty(tmp_path: Path) -> None:
-    state = make_state(tmp_path)
-    slack = FakeSlack()
-    evening = NOW.replace(hour=19, minute=50)
-    assert post_digest_if_due(state, make_settings(tmp_path), slack, evening) is False
-    assert slack.posts == []
-
-
 # ---- runner(subprocessモック) ----------------------------------------------
 
 
@@ -270,3 +232,19 @@ def test_research_skipped_when_cli_missing(tmp_path: Path) -> None:
     mapping = state.thread_mappings()[0]
     assert mapping["research_status"] == "queued"
     assert mapping["research_attempts"] == 0
+
+
+def test_stale_queued_jobs_expire(tmp_path: Path, monkeypatch: Any) -> None:
+    """24時間を超えてqueuedのままのジョブは失効し、実行されない。"""
+    state = make_state(tmp_path)
+    queue_job(state, "old")
+    state.thread_mappings()[0]["posted_at"] = (NOW - dt.timedelta(hours=30)).isoformat()
+    queue_job(state, "fresh")
+    slack = FakeSlack()
+    monkeypatch.setattr(runner, "run_research", lambda job, settings: "ok")
+
+    stats = process_research_queue(state, make_settings(tmp_path), slack, NOW)
+    assert stats["started"] == 1  # freshのみ実行
+    statuses = {m["disclosure_id"]: m["research_status"] for m in state.thread_mappings()}
+    assert statuses["old"] == "expired"
+    assert statuses["fresh"] == "completed"
