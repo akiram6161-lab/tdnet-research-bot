@@ -7,6 +7,11 @@ on:
     - cron: "*/15 22-23 * * 0-4"
     - cron: "*/15 0-11 * * 1-5"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "監視時間外でも実行する(動作確認用)"
+        type: boolean
+        default: false
 
 concurrency:
   group: tdnet-research-monitor
@@ -48,6 +53,9 @@ jobs:
           JQUANTS_API_KEY: ${{ secrets.JQUANTS_API_KEY }}
           RESEARCH_SCORE_THRESHOLD: ${{ vars.RESEARCH_SCORE_THRESHOLD || '80' }}
           MAX_AUTO_RESEARCH_PER_DAY: ${{ vars.MAX_AUTO_RESEARCH_PER_DAY || '15' }}
+          # force指定時は監視時間チェックを事実上無効化(平日のみ・動作確認用)
+          MONITOR_START: ${{ inputs.force && '00:00' || '07:45' }}
+          MONITOR_END: ${{ inputs.force && '23:59' || '20:00' }}
           TZ: Asia/Tokyo
         run: python -m src.main
 
