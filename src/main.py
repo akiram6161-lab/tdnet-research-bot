@@ -93,7 +93,13 @@ def classify_and_label(
     return results
 
 
-def run_monitor(settings: Settings, *, dry_run: bool, tdnet_only: bool) -> int:
+def run_monitor(
+    settings: Settings,
+    *,
+    dry_run: bool,
+    tdnet_only: bool,
+    tdnet_client: TDnetClient | None = None,
+) -> int:
     run_id = uuid.uuid4().hex[:12]
     started = now_jst()
 
@@ -120,7 +126,7 @@ def run_monitor(settings: Settings, *, dry_run: bool, tdnet_only: bool) -> int:
         since = min(since, last_success)
     since = max(since, started - dt.timedelta(days=MAX_LOOKBACK_DAYS))
 
-    client = TDnetClient()
+    client = tdnet_client or TDnetClient()
     result = client.fetch_window(since, started)
     disclosures = [row_to_disclosure(row, retrieved_at=started) for row in result.rows]
     new_items = select_new_disclosures(disclosures, state)
@@ -182,9 +188,15 @@ def run_monitor(settings: Settings, *, dry_run: bool, tdnet_only: bool) -> int:
                 posted=False,
             )
 
-    if result.complete:
-        state.set_last_successful_tdnet_check(started)
     state.prune(started)
+    if result.complete:
+        # 空実行で毎回commitが発生しないよう、最終成功時刻は
+        # 「他に状態変更があるとき」または「12時間以上古いとき」のみ永続化する。
+        # lookbackは常に最低30分あるため、記録が多少古くても取りこぼしは生じない。
+        last = state.last_successful_tdnet_check
+        stale = last is None or (started - last) > dt.timedelta(hours=12)
+        if state.dirty or stale:
+            state.set_last_successful_tdnet_check(started)
     changed = state.save()
 
     log_event(

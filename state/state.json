@@ -1,1 +1,39 @@
-{}
+{
+  "disclosure_thread_mappings": [
+    {
+      "acknowledgement_ts": null,
+      "channel_id": "REDACTED",
+      "disclosure_id": "140120260730503483",
+      "parent_ts": "1785409284.617509",
+      "posted_at": "2026-07-30T20:01:24.788250+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_completed_at": null,
+      "research_status": "not_requested",
+      "tier": 1
+    }
+  ],
+  "failed_items": [],
+  "last_slack_poll_at": null,
+  "last_successful_tdnet_check": "2026-07-30T20:01:44.426082+09:00",
+  "processed_disclosures": {
+    "140120260730503483": {
+      "disclosed_at": "2026-07-30T18:30:00+09:00",
+      "first_seen": "2026-07-30T20:01:24.788286+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "441A",
+      "tier": 1
+    },
+    "140120260730504111": {
+      "disclosed_at": "2026-07-30T19:00:00+09:00",
+      "first_seen": "2026-07-30T20:01:24.788314+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2667",
+      "tier": 9
+    }
+  },
+  "processed_research_reply_ts": [],
+  "schema_version": 1
+}
