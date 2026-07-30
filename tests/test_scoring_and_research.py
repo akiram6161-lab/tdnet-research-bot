@@ -257,3 +257,16 @@ def test_runner_raises_on_empty_output(monkeypatch: Any) -> None:
     monkeypatch.setattr(subprocess, "run", fake_run)
     with pytest.raises(runner.ResearchError):
         runner.run_research({"title": "x"}, Settings())
+
+
+def test_research_skipped_when_cli_missing(tmp_path: Path) -> None:
+    """claude CLI未導入の実行ではqueuedのまま持ち越す(リトライを消費しない)。"""
+    state = make_state(tmp_path)
+    queue_job(state, "a")
+    slack = FakeSlack()
+    settings = make_settings(tmp_path, claude_cli="definitely-missing-cli-xyz")
+    stats = process_research_queue(state, settings, slack, NOW)
+    assert stats == {"started": 0, "completed": 0, "failed": 0}
+    mapping = state.thread_mappings()[0]
+    assert mapping["research_status"] == "queued"
+    assert mapping["research_attempts"] == 0

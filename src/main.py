@@ -262,12 +262,18 @@ def process_research_queue(
     now: dt.datetime,
 ) -> dict[str, int]:
     """queued 状態のスレッドを、実行回数上限の範囲で Claude Code リサーチする。"""
+    import shutil
+
     from src.research.runner import ResearchError, run_research
     from src.slack.formatter import RESEARCH_FAILED_MESSAGE
 
     stats = {"started": 0, "completed": 0, "failed": 0}
     queued = state.thread_mappings(research_status="queued")
     if not queued:
+        return stats
+    if shutil.which(settings.claude_cli) is None:
+        # CLI未導入の実行(CIのインストール省略時など)ではqueuedのまま次回に持ち越す
+        log_event(logger, "claude CLI not available; research jobs stay queued")
         return stats
     if slack is None:
         from src.slack.client import SlackClient
@@ -480,10 +486,31 @@ def cmd_classify_title(settings: Settings, title: str) -> int:
     return 0
 
 
+def run_research_only(settings: Settings) -> int:
+    """queuedの自動リサーチのみを処理する(monitor.ymlの分離ステップ用)。"""
+    if not (settings.slack_bot_token and settings.slack_channel_id):
+        print("SLACK_BOT_TOKEN / SLACK_CHANNEL_ID を設定してください。")
+        return 1
+    state = StateRepository(settings.state_path, settings.state_retention_days)
+    state.load()
+    stats = process_research_queue(state, settings, None, now_jst())
+    changed = state.save()
+    log_event(
+        logger,
+        "research-only run finished",
+        research_jobs_started=stats["started"],
+        research_jobs_completed=stats["completed"],
+        failed_research_jobs=stats["failed"],
+        state_changed=changed,
+    )
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="python -m src.main")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--tdnet-only", action="store_true")
+    parser.add_argument("--research-only", action="store_true")
     parser.add_argument("--slack-commands-only", action="store_true")
     parser.add_argument("--check-connections", action="store_true")
     parser.add_argument("--test-slack", action="store_true")
@@ -504,6 +531,8 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_test_slack(settings)
     if args.classify_title:
         return cmd_classify_title(settings, args.classify_title)
+    if args.research_only:
+        return run_research_only(settings)
     if args.slack_commands_only or args.research_disclosure_id or args.research_parent_ts:
         print("この機能は Phase 2 / Phase 3 で実装予定です。")
         return 2
