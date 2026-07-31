@@ -281,8 +281,8 @@ def process_research_queue(
         slack = SlackClient(settings.slack_bot_token)
 
     today = now.astimezone(JST).strftime("%Y-%m-%d")
-    # 24時間を超えて残ったジョブは失効させ、翌日の新規開示を優先する
-    cutoff = now - dt.timedelta(hours=24)
+    # 72時間を超えて残ったジョブは失効させる(金曜夕方の案件を月曜に処理できる幅)
+    cutoff = now - dt.timedelta(hours=72)
     for job in queued:
         posted_at = job.get("posted_at")
         with contextlib.suppress(TypeError, ValueError):

@@ -235,10 +235,10 @@ def test_research_skipped_when_cli_missing(tmp_path: Path) -> None:
 
 
 def test_stale_queued_jobs_expire(tmp_path: Path, monkeypatch: Any) -> None:
-    """24時間を超えてqueuedのままのジョブは失効し、実行されない。"""
+    """72時間を超えてqueuedのままのジョブは失効し、実行されない。"""
     state = make_state(tmp_path)
     queue_job(state, "old")
-    state.thread_mappings()[0]["posted_at"] = (NOW - dt.timedelta(hours=30)).isoformat()
+    state.thread_mappings()[0]["posted_at"] = (NOW - dt.timedelta(hours=80)).isoformat()
     queue_job(state, "fresh")
     slack = FakeSlack()
     monkeypatch.setattr(runner, "run_research", lambda job, settings: "ok")
