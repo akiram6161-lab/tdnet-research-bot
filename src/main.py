@@ -100,9 +100,14 @@ def classify_and_label(
 
 
 def is_notify_target(item: ClassifiedDisclosure, threshold: int) -> bool:
-    """個別速報の対象か。アクティビスト銘柄はスコア・Tierに関係なく全開示を通知する。"""
+    """個別速報の対象か。
+
+    アクティビスト銘柄はスコアに関係なく全開示を通知する
+    (ただし定例ノイズ=除外カテゴリ(説明会資料・株式報酬・ガバナンス報告書等)は対象外)。
+    それ以外の銘柄はTier 1/2かつスコア閾値以上のみ。
+    """
     if item.in_activist:
-        return True
+        return item.classification.tier != Tier.EXCLUDED
     return (
         item.classification.tier in (Tier.TIER1, Tier.TIER2)
         and item.total_score >= threshold

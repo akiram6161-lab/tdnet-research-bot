@@ -251,9 +251,10 @@ def test_stale_queued_jobs_expire(tmp_path: Path, monkeypatch: Any) -> None:
 
 
 def test_activist_stocks_notify_all_disclosures() -> None:
-    """アクティビスト銘柄はTier 3・低スコアでも通知対象、それ以外は閾値どおり。"""
+    """アクティビスト銘柄はTier 3・低スコアでも通知対象(除外カテゴリのみ対象外)。"""
     assert is_notify_target(make_item(0, tier=Tier.TIER3, in_activist=True), 80)
     assert is_notify_target(make_item(30, tier=Tier.TIER2, in_activist=True), 80)
+    assert not is_notify_target(make_item(0, tier=Tier.EXCLUDED, in_activist=True), 80)
     assert not is_notify_target(make_item(0, tier=Tier.TIER3), 80)
     assert not is_notify_target(make_item(75, tier=Tier.TIER1), 80)
     assert is_notify_target(make_item(85, tier=Tier.TIER1), 80)
