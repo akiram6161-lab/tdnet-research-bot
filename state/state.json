@@ -2,7 +2,6 @@
   "disclosure_thread_mappings": [
     {
       "acknowledgement_ts": null,
-      "channel_id": "REDACTED",
       "disclosure_id": "140120260730503483",
       "parent_ts": "1785409284.617509",
       "posted_at": "2026-07-30T20:01:24.788250+09:00",
@@ -15,7 +14,6 @@
     {
       "acknowledgement_ts": null,
       "category": "重大インシデント",
-      "channel_id": "REDACTED",
       "company_name": "ｎｍｓ ＨＤ",
       "disclosed_at": "2026-07-30 17:30",
       "disclosure_id": "140120260727599733",
@@ -35,7 +33,6 @@
     {
       "acknowledgement_ts": null,
       "category": "M&A・所有構造",
-      "channel_id": "REDACTED",
       "company_name": "カカクコム",
       "disclosed_at": "2026-07-30 08:30",
       "disclosure_id": "140120260730502663",
@@ -55,7 +52,6 @@
     {
       "acknowledgement_ts": null,
       "category": "M&A・所有構造",
-      "channel_id": "REDACTED",
       "company_name": "帝人",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260729502356",
@@ -75,7 +71,6 @@
     {
       "acknowledgement_ts": null,
       "category": "M&A・所有構造",
-      "channel_id": "REDACTED",
       "company_name": "郵船",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260730503269",
@@ -95,7 +90,6 @@
     {
       "acknowledgement_ts": null,
       "category": "M&A・所有構造",
-      "channel_id": "REDACTED",
       "company_name": "ジェネパ",
       "disclosed_at": "2026-07-30 11:35",
       "disclosure_id": "140120260728501113",
@@ -115,7 +109,6 @@
     {
       "acknowledgement_ts": null,
       "category": "重大インシデント",
-      "channel_id": "REDACTED",
       "company_name": "Ｇ－エネチェンジ",
       "disclosed_at": "2026-07-30 17:30",
       "disclosure_id": "140120260729502515",
@@ -135,7 +128,6 @@
     {
       "acknowledgement_ts": null,
       "category": "アクティビズム・ガバナンス",
-      "channel_id": "REDACTED",
       "company_name": "ＪＨＤ",
       "disclosed_at": "2026-07-30 17:00",
       "disclosure_id": "140120260730503599",
@@ -155,7 +147,6 @@
     {
       "acknowledgement_ts": null,
       "category": "アクティビズム・ガバナンス",
-      "channel_id": "REDACTED",
       "company_name": "東北鋼",
       "disclosed_at": "2026-07-30 16:00",
       "disclosure_id": "140120260730503119",
@@ -175,7 +166,6 @@
     {
       "acknowledgement_ts": null,
       "category": "アクティビズム・ガバナンス",
-      "channel_id": "REDACTED",
       "company_name": "メタプラネット",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260730503543",
@@ -195,7 +185,6 @@
     {
       "acknowledgement_ts": null,
       "category": "アクティビズム・ガバナンス",
-      "channel_id": "REDACTED",
       "company_name": "オルトプラス",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260730503286",
@@ -215,7 +204,6 @@
     {
       "acknowledgement_ts": null,
       "category": "M&A・所有構造",
-      "channel_id": "REDACTED",
       "company_name": "ナイガイ",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260729502302",
@@ -235,7 +223,6 @@
     {
       "acknowledgement_ts": null,
       "category": "重大インシデント",
-      "channel_id": "REDACTED",
       "company_name": "サンリオ",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260730503266",
@@ -255,7 +242,6 @@
     {
       "acknowledgement_ts": null,
       "category": "資本政策",
-      "channel_id": "REDACTED",
       "company_name": "コカ・コーラＢＪＨ",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260730502855",
@@ -275,7 +261,6 @@
     {
       "acknowledgement_ts": null,
       "category": "資本政策",
-      "channel_id": "REDACTED",
       "company_name": "郵船",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260730503301",
@@ -295,7 +280,6 @@
     {
       "acknowledgement_ts": null,
       "category": "資本政策",
-      "channel_id": "REDACTED",
       "company_name": "Ｇ－クオルテック",
       "disclosed_at": "2026-07-30 15:30",
       "disclosure_id": "140120260730502968",
@@ -315,7 +299,6 @@
     {
       "acknowledgement_ts": null,
       "category": "資本政策",
-      "channel_id": "REDACTED",
       "company_name": "Ｇ－シンバイオ製薬",
       "disclosed_at": "2026-07-30 12:00",
       "disclosure_id": "140120260730502888",
@@ -335,7 +318,6 @@
     {
       "acknowledgement_ts": null,
       "category": "資本政策",
-      "channel_id": "REDACTED",
       "company_name": "信越化",
       "disclosed_at": "2026-07-30 11:30",
       "disclosure_id": "140120260730503103",
@@ -355,7 +337,6 @@
     {
       "acknowledgement_ts": null,
       "category": "業績予想修正",
-      "channel_id": "REDACTED",
       "company_name": "佐藤商",
       "disclosed_at": "2026-07-31 13:30",
       "disclosure_id": "140120260730503858",
@@ -375,7 +356,6 @@
     {
       "acknowledgement_ts": null,
       "category": "M&A・所有構造",
-      "channel_id": "REDACTED",
       "company_name": "Ｇ－売れるネットＧ",
       "disclosed_at": "2026-07-31 12:00",
       "disclosure_id": "140120260731505007",
@@ -395,7 +375,6 @@
     {
       "acknowledgement_ts": null,
       "category": "アクティビズム・ガバナンス",
-      "channel_id": "REDACTED",
       "company_name": "Ｇ－ＣＲＡＶＩＡ",
       "disclosed_at": "2026-07-31 12:00",
       "disclosure_id": "140120260730503148",
@@ -415,7 +394,6 @@
     {
       "acknowledgement_ts": null,
       "category": "アクティビズム・ガバナンス",
-      "channel_id": "REDACTED",
       "company_name": "ＩＤホールディングス",
       "disclosed_at": "2026-07-31 11:30",
       "disclosure_id": "140120260731504453",
@@ -435,7 +413,6 @@
     {
       "acknowledgement_ts": null,
       "category": "業績予想修正",
-      "channel_id": "REDACTED",
       "company_name": "佐藤商",
       "disclosed_at": "2026-07-31 13:30",
       "disclosure_id": "140120260730503794",
@@ -455,7 +432,6 @@
     {
       "acknowledgement_ts": null,
       "category": "業績・財務",
-      "channel_id": "REDACTED",
       "company_name": "デンヨー",
       "disclosed_at": "2026-07-31 14:00",
       "disclosure_id": "140120260728501294",
@@ -475,7 +451,6 @@
     {
       "acknowledgement_ts": null,
       "category": "業績予想修正",
-      "channel_id": "REDACTED",
       "company_name": "ＪＡＬＣＯ ＨＤ",
       "disclosed_at": "2026-07-31 12:30",
       "disclosure_id": "140120260730503939",
@@ -495,7 +470,6 @@
     {
       "acknowledgement_ts": null,
       "category": "資本政策",
-      "channel_id": "REDACTED",
       "company_name": "宮入バル",
       "disclosed_at": "2026-07-31 13:30",
       "disclosure_id": "140120260731504983",
@@ -515,7 +489,6 @@
     {
       "acknowledgement_ts": null,
       "category": "資本政策",
-      "channel_id": "REDACTED",
       "company_name": "都築電気",
       "disclosed_at": "2026-07-31 13:30",
       "disclosure_id": "140120260731504440",
@@ -535,7 +508,6 @@
     {
       "acknowledgement_ts": null,
       "category": "資本政策",
-      "channel_id": "REDACTED",
       "company_name": "アオイ電子",
       "disclosed_at": "2026-07-31 13:00",
       "disclosure_id": "140120260731504943",
@@ -555,7 +527,6 @@
     {
       "acknowledgement_ts": null,
       "category": "その他",
-      "channel_id": "REDACTED",
       "company_name": "弘電社",
       "disclosed_at": "2026-07-31 14:30",
       "disclosure_id": "140120260730503789",
@@ -575,7 +546,6 @@
     {
       "acknowledgement_ts": null,
       "category": "その他",
-      "channel_id": "REDACTED",
       "company_name": "アツギ",
       "disclosed_at": "2026-07-31 14:30",
       "disclosure_id": "140120260730502849",
@@ -595,7 +565,6 @@
     {
       "acknowledgement_ts": null,
       "category": "その他",
-      "channel_id": "REDACTED",
       "company_name": "西武ホールディングス",
       "disclosed_at": "2026-07-31 14:00",
       "disclosure_id": "140120260731504825",
@@ -615,7 +584,6 @@
     {
       "acknowledgement_ts": null,
       "category": "その他",
-      "channel_id": "REDACTED",
       "company_name": "西武ホールディングス",
       "disclosed_at": "2026-07-31 14:00",
       "disclosure_id": "140120260731504856",
@@ -635,7 +603,6 @@
     {
       "acknowledgement_ts": null,
       "category": "その他",
-      "channel_id": "REDACTED",
       "company_name": "西武ホールディングス",
       "disclosed_at": "2026-07-31 14:00",
       "disclosure_id": "140120260731504868",
@@ -655,7 +622,6 @@
     {
       "acknowledgement_ts": null,
       "category": "その他",
-      "channel_id": "REDACTED",
       "company_name": "佐藤商",
       "disclosed_at": "2026-07-31 13:30",
       "disclosure_id": "140120260730503780",

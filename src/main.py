@@ -176,7 +176,6 @@ def run_monitor(
         state.add_thread_mapping(
             {
                 "disclosure_id": d.disclosure_id,
-                "channel_id": settings.slack_channel_id,
                 "parent_ts": ts,
                 "posted_at": now_jst().isoformat(),
                 "tier": item.classification.tier.value,

@@ -34,9 +34,9 @@ jobs:
       EDINET_DB_API_KEY: ${{ secrets.EDINET_DB_API_KEY }}
       JQUANTS_API_KEY: ${{ secrets.JQUANTS_API_KEY }}
       RESEARCH_SCORE_THRESHOLD: ${{ vars.RESEARCH_SCORE_THRESHOLD || '80' }}
-      # cron間引きにより実実行回数が少なくActions分数に余裕があるため既定10件/日
+      # パブリックリポジトリはActions無制限のため、閾値超えは原則全件リサーチする
       # (リポジトリ変数 MAX_AUTO_RESEARCH_PER_DAY で調整可)
-      MAX_AUTO_RESEARCH_PER_DAY: ${{ vars.MAX_AUTO_RESEARCH_PER_DAY || '10' }}
+      MAX_AUTO_RESEARCH_PER_DAY: ${{ vars.MAX_AUTO_RESEARCH_PER_DAY || '30' }}
       # force指定時は監視時間チェックを事実上無効化(平日のみ・動作確認用)
       MONITOR_START: ${{ inputs.force && '00:00' || '07:45' }}
       MONITOR_END: ${{ inputs.force && '23:59' || '20:00' }}
