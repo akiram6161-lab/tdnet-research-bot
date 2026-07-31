@@ -250,13 +250,17 @@ def test_stale_queued_jobs_expire(tmp_path: Path, monkeypatch: Any) -> None:
     assert statuses["fresh"] == "completed"
 
 
-def test_activist_stocks_notify_all_disclosures() -> None:
-    """アクティビスト銘柄はTier 3・低スコアでも通知対象(除外カテゴリのみ対象外)。"""
-    assert is_notify_target(make_item(0, tier=Tier.TIER3, in_activist=True), 80)
-    assert is_notify_target(make_item(30, tier=Tier.TIER2, in_activist=True), 80)
-    assert not is_notify_target(make_item(0, tier=Tier.EXCLUDED, in_activist=True), 80)
-    assert not is_notify_target(make_item(0, tier=Tier.TIER3), 80)
-    assert not is_notify_target(make_item(75, tier=Tier.TIER1), 80)
-    assert is_notify_target(make_item(85, tier=Tier.TIER1), 80)
-    # アクティビストボーナス+15でリサーチ閾値にも届く(75+15=90)
+def test_activist_bonus_lowers_effective_bar() -> None:
+    """アクティビスト銘柄は+15点で資本政策イベント(基礎65点以上)が通知対象になる。"""
+    # 自己株買い(75)・配当修正(72)・特別損益(68)は+15で閾値80を超える
+    assert is_notify_target(make_item(75, in_activist=True), 80)
+    assert is_notify_target(make_item(72, in_activist=True), 80)
+    assert is_notify_target(make_item(68, in_activist=True), 80)
+    # 中計(55)・月次(35)・Tier3(決算短信)は落ちる
+    assert not is_notify_target(make_item(55, tier=Tier.TIER2, in_activist=True), 80)
+    assert not is_notify_target(make_item(35, tier=Tier.TIER2, in_activist=True), 80)
+    assert not is_notify_target(make_item(0, tier=Tier.TIER3, in_activist=True), 80)
+    # 非アクティビストは従来どおり
+    assert not is_notify_target(make_item(75), 80)
+    assert is_notify_target(make_item(85), 80)
     assert make_item(75, in_activist=True).total_score == 90

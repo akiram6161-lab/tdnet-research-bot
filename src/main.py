@@ -100,14 +100,12 @@ def classify_and_label(
 
 
 def is_notify_target(item: ClassifiedDisclosure, threshold: int) -> bool:
-    """個別速報の対象か。
+    """個別速報の対象か。Tier 1/2かつ合計スコアが閾値以上。
 
-    アクティビスト銘柄はスコアに関係なく全開示を通知する
-    (ただし定例ノイズ=除外カテゴリ(説明会資料・株式報酬・ガバナンス報告書等)は対象外)。
-    それ以外の銘柄はTier 1/2かつスコア閾値以上のみ。
+    アクティビスト銘柄は+15点ボーナスにより実効的な足切りが下がるため、
+    増配・自己株式取得・業績修正など株価に効く資本政策イベント(基礎65点以上)が
+    通知対象に入る。決算説明資料・月次などの定例情報は通常どおり落ちる。
     """
-    if item.in_activist:
-        return item.classification.tier != Tier.EXCLUDED
     return (
         item.classification.tier in (Tier.TIER1, Tier.TIER2)
         and item.total_score >= threshold
