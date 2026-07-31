@@ -24,6 +24,8 @@ _EMPTY_STATE: dict[str, Any] = {
     "failed_items": [],
     "research_daily": {"date": None, "count": 0},
     "last_highlight_date": None,
+    "seen_holdings": [],
+    "last_holdings_check_at": None,
 }
 
 
@@ -140,6 +142,24 @@ class StateRepository:
 
     def set_last_highlight_date(self, date_str: str) -> None:
         self._state["last_highlight_date"] = date_str
+
+    # ---- 大量保有(アクティビスト)の既読管理 ------------------------------
+
+    @property
+    def seen_holdings(self) -> set[str]:
+        return set(self._state.get("seen_holdings") or [])
+
+    def add_seen_holdings(self, keys: list[str], max_entries: int = 3000) -> None:
+        merged = list(self._state.get("seen_holdings") or []) + keys
+        self._state["seen_holdings"] = merged[-max_entries:]
+
+    @property
+    def last_holdings_check_at(self) -> dt.datetime | None:
+        value = self._state.get("last_holdings_check_at")
+        return dt.datetime.fromisoformat(value) if value else None
+
+    def set_last_holdings_check_at(self, moment: dt.datetime) -> None:
+        self._state["last_holdings_check_at"] = moment.isoformat()
 
     # ---- 自動リサーチの日次カウンタ ---------------------------------------
 

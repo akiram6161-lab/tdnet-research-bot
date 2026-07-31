@@ -329,3 +329,89 @@ def test_fresh_jobs_processed_before_stale_high_score(tmp_path: Path, monkeypatc
     settings = make_settings(tmp_path, max_research_jobs_per_run=2)
     process_research_queue(state, settings, FakeSlack(), NOW)
     assert order == ["fresh_low", "old_high"]
+
+
+# ---- 大量保有(アクティビスト)検知 -------------------------------------------
+
+
+def make_position(filer: str = "テストファンド", code: str = "1234",
+                  submit: str = "2026-07-30", ratio: float = 0.08,
+                  category: str = "activist") -> dict[str, Any]:
+    return {
+        "filer_name": filer, "issuer_name": "対象社", "issuer_sec_code": code,
+        "holding_ratio": ratio, "purpose_category": category,
+        "base_date": "2026-07-25", "submit_date": submit,
+    }
+
+
+def test_holdings_bootstrap_then_detect(tmp_path: Path, monkeypatch: Any) -> None:
+    """初回は既読化のみ(通知なし)、2回目以降の新規提出だけ通知+深掘りキュー。"""
+    from src import main as main_module
+
+    state = make_state(tmp_path)
+    slack = FakeSlack()
+    settings = make_settings(tmp_path, edinet_db_api_key="edb-test")
+    data = {"activist": [make_position()], "activist_implied": []}
+    monkeypatch.setattr(
+        main_module, "check_new_holdings", main_module.check_new_holdings
+    )
+    import src.research.edinetdb as edb
+    monkeypatch.setattr(
+        edb, "fetch_activist_positions",
+        lambda s, category="activist", limit=500: list(data[category]),
+    )
+
+    # 初回: bootstrap
+    assert main_module.check_new_holdings(state, settings, slack, NOW) == 0
+    assert slack.posts == []
+
+    # 2回目(4時間後): 新規提出を検知
+    data["activist"].append(make_position(code="9999", submit="2026-07-31"))
+    later = NOW + dt.timedelta(hours=5)
+    assert main_module.check_new_holdings(state, settings, slack, later) == 1
+    assert "大量保有報告" in slack.posts[0]["text"]
+    holding_jobs = [m for m in state.thread_mappings() if m.get("kind") == "holding"]
+    assert len(holding_jobs) == 1
+    assert holding_jobs[0]["research_status"] == "queued"  # activist明示は深掘り対象
+
+    # 3回目(さらに4時間後): 既読なので通知なし
+    much_later = later + dt.timedelta(hours=5)
+    assert main_module.check_new_holdings(state, settings, slack, much_later) == 0
+
+
+def test_holdings_interval_guard(tmp_path: Path, monkeypatch: Any) -> None:
+    """前回チェックから4時間未満はAPIを呼ばない。"""
+    import src.research.edinetdb as edb
+    from src import main as main_module
+
+    state = make_state(tmp_path)
+    state.set_last_holdings_check_at(NOW - dt.timedelta(hours=1))
+    calls = []
+    monkeypatch.setattr(
+        edb, "fetch_activist_positions",
+        lambda *a, **k: calls.append(1) or [],
+    )
+    settings = make_settings(tmp_path, edinet_db_api_key="edb-test")
+    assert main_module.check_new_holdings(state, settings, FakeSlack(), NOW) == 0
+    assert calls == []
+
+
+def test_holding_deep_dive_dispatch(tmp_path: Path, monkeypatch: Any) -> None:
+    """kind=holdingのキューはrun_holding_deep_diveで処理される。"""
+    state = make_state(tmp_path)
+    state.add_thread_mapping({
+        "disclosure_id": "holding:x", "kind": "holding", "parent_ts": "ts-h",
+        "posted_at": NOW.isoformat(), "score": 90, "research_status": "queued",
+        "research_attempts": 0, "filer_name": "テストファンド",
+        "company_name": "対象社", "security_code": "1234",
+    })
+    slack = FakeSlack()
+    called = {}
+    monkeypatch.setattr(
+        runner, "run_holding_deep_dive",
+        lambda job, settings: (called.setdefault("job", job) and "深掘り本文") or "深掘り本文",
+    )
+    stats = process_research_queue(state, make_settings(tmp_path), slack, NOW)
+    assert stats["completed"] == 1
+    assert slack.posts[0]["text"] == "深掘り本文"
+    assert slack.posts[0]["thread_ts"] == "ts-h"

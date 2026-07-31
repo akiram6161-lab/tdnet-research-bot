@@ -221,7 +221,9 @@ def run_monitor(
 
     research_stats = {"started": 0, "completed": 0, "failed": 0}
     highlight_posted = False
+    holdings_alerted = 0
     if not tdnet_only:
+        holdings_alerted = check_new_holdings(state, settings, slack, started)
         research_stats = process_research_queue(state, settings, slack, started)
         highlight_posted = post_daily_highlight_if_due(state, settings, slack, started)
 
@@ -251,6 +253,7 @@ def run_monitor(
         research_jobs_completed=research_stats["completed"],
         failed_research_jobs=research_stats["failed"],
         highlight_posted=highlight_posted,
+        holdings_alerted=holdings_alerted,
         state_changed=changed,
         errors=result.errors,
     )
@@ -325,6 +328,137 @@ def post_daily_highlight_if_due(
     return True
 
 
+HOLDINGS_CHECK_INTERVAL_HOURS = 4
+HOLDINGS_ALERT_LIMIT_PER_RUN = 15
+
+
+def build_holding_alert_text(position: dict[str, Any]) -> str:
+    ratio = position.get("holding_ratio")
+    ratio_str = f"{float(ratio) * 100:.2f}%" if ratio is not None else "不明"
+    category = str(position.get("purpose_category", ""))
+    label = "アクティビスト(重要提案行為)" if category == "activist" else "アクティビスト示唆"
+    lines = [
+        f"🧲 大量保有報告|{label}",
+        "",
+        f"*{position.get('filer_name')}* → "
+        f"*[{position.get('issuer_sec_code')}] {position.get('issuer_name')}*",
+        f"保有比率: {ratio_str}|提出日: {position.get('submit_date')}"
+        f"|基準日: {position.get('base_date')}",
+    ]
+    value = position.get("est_holding_value")
+    if value:
+        lines.append(f"推定保有額: {float(value) / 1e8:.1f}億円")
+    return "\n".join(lines)
+
+
+def check_new_holdings(
+    state: StateRepository,
+    settings: Settings,
+    slack: Any,
+    now: dt.datetime,
+) -> int:
+    """EDINET DBの新規大量保有(アクティビスト)を検知して速報+深掘りキュー投入する。"""
+    from src.research.edinetdb import EdinetDbError, fetch_activist_positions, holding_key
+
+    if not settings.edinet_db_api_key:
+        return 0
+    last = state.last_holdings_check_at
+    if last is not None and (now - last) < dt.timedelta(hours=HOLDINGS_CHECK_INTERVAL_HOURS):
+        return 0
+
+    positions: list[dict[str, Any]] = []
+    try:
+        for category in ("activist", "activist_implied"):
+            positions.extend(fetch_activist_positions(settings, category, limit=200))
+    except EdinetDbError as exc:
+        log_event(logger, "holdings check failed", error=str(exc))
+        return 0
+    state.set_last_holdings_check_at(now)
+
+    seen = state.seen_holdings
+    if not seen:
+        # 初回は既存分をすべて既読にして通知しない(バックログの洪水防止)
+        state.add_seen_holdings([holding_key(p) for p in positions])
+        log_event(logger, "holdings bootstrap", seeded=len(positions))
+        return 0
+
+    new_positions = [p for p in positions if holding_key(p) not in seen]
+    new_positions.sort(key=lambda p: str(p.get("submit_date") or ""), reverse=True)
+    alerted = 0
+    if new_positions and slack is None:
+        from src.slack.client import SlackClient
+
+        slack = SlackClient(settings.slack_bot_token)
+    # ファイラー別の他保有ポジション一覧(深掘りプロンプト用)
+    by_filer: dict[str, list[str]] = {}
+    for p in positions:
+        ratio = p.get("holding_ratio") or 0
+        if ratio >= 0.01:
+            by_filer.setdefault(str(p.get("filer_name")), []).append(
+                f"[{p.get('issuer_sec_code')}] {p.get('issuer_name')} {ratio * 100:.1f}%"
+            )
+    for p in new_positions[:HOLDINGS_ALERT_LIMIT_PER_RUN]:
+        ts = slack.post_parent_message(
+            settings.slack_channel_id, text=build_holding_alert_text(p)
+        )
+        alerted += 1
+        is_activist = p.get("purpose_category") == "activist"
+        state.add_thread_mapping(
+            {
+                "disclosure_id": f"holding:{holding_key(p)}",
+                "kind": "holding",
+                "parent_ts": ts,
+                "posted_at": now_jst().isoformat(),
+                "tier": 1,
+                "score": 90 if is_activist else 70,
+                "security_code": str(p.get("issuer_sec_code", "")),
+                "company_name": str(p.get("issuer_name", "")),
+                "filer_name": str(p.get("filer_name", "")),
+                "ratio": p.get("holding_ratio"),
+                "submit_date": str(p.get("submit_date", "")),
+                "holding_category": str(p.get("purpose_category", "")),
+                "other_positions": by_filer.get(str(p.get("filer_name")), [])[:15],
+                "title": f"{p.get('filer_name')}による大量保有報告",
+                "document_url": "",
+                "disclosed_at": str(p.get("submit_date", "")),
+                # アクティビスト明示のみ深掘り。示唆どまりは速報のみ
+                "research_status": "queued" if is_activist else "not_requested",
+                "research_attempts": 0,
+            }
+        )
+        state.add_seen_holdings([holding_key(p)])
+    if len(new_positions) > HOLDINGS_ALERT_LIMIT_PER_RUN:
+        log_event(
+            logger,
+            "holdings alert limit reached; remainder deferred to next run",
+            deferred=len(new_positions) - HOLDINGS_ALERT_LIMIT_PER_RUN,
+        )
+    return alerted
+
+
+def sync_activists(settings: Settings) -> int:
+    """EDINET DBからアクティビスト保有銘柄(5%以上)を取得しactivists.csvを再生成する。"""
+    import csv
+
+    from src.research.edinetdb import fetch_activist_positions
+
+    positions = fetch_activist_positions(settings, "activist", limit=1000)
+    by_issuer: dict[str, dict[str, Any]] = {}
+    for p in positions:
+        code, ratio = p.get("issuer_sec_code"), p.get("holding_ratio") or 0
+        if not code or ratio < 0.05:
+            continue
+        entry = by_issuer.setdefault(str(code), {"name": p["issuer_name"], "ratio": 0.0})
+        entry["ratio"] = max(entry["ratio"], ratio)
+    with settings.activists_path.open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(["security_code", "company_name", "active"])
+        for code, entry in sorted(by_issuer.items(), key=lambda x: -x[1]["ratio"]):
+            writer.writerow([code, entry["name"], "true"])
+    print(f"activists.csv updated: {len(by_issuer)} issuers (from {len(positions)} positions)")
+    return 0
+
+
 def run_highlight_only(settings: Settings) -> int:
     """ハイライト投稿のみ実行する(monitor.ymlの分離ステップ用)。"""
     if not (settings.slack_bot_token and settings.slack_channel_id):
@@ -396,7 +530,12 @@ def process_research_queue(
         stats["started"] += 1
         state.increment_research_count(today)
         try:
-            summary = run_research(job, settings)
+            if job.get("kind") == "holding":
+                from src.research.runner import run_holding_deep_dive
+
+                summary = run_holding_deep_dive(job, settings)
+            else:
+                summary = run_research(job, settings)
             slack.post_parent_message(
                 str(job.get("channel_id") or settings.slack_channel_id),
                 text=summary,
@@ -583,6 +722,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--research-only", action="store_true")
     parser.add_argument("--daily-highlight", action="store_true")
     parser.add_argument("--highlight-due", action="store_true")
+    parser.add_argument("--sync-activists", action="store_true")
     parser.add_argument("--slack-commands-only", action="store_true")
     parser.add_argument("--check-connections", action="store_true")
     parser.add_argument("--test-slack", action="store_true")
@@ -609,6 +749,8 @@ def main(argv: list[str] | None = None) -> int:
         return run_highlight_only(settings)
     if args.highlight_due:
         return cmd_highlight_due(settings)
+    if args.sync_activists:
+        return sync_activists(settings)
     if args.slack_commands_only or args.research_disclosure_id or args.research_parent_ts:
         print("この機能は Phase 2 / Phase 3 で実装予定です。")
         return 2

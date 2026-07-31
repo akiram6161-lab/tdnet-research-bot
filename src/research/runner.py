@@ -22,6 +22,9 @@ PROMPT_PATH = Path(__file__).resolve().parent.parent.parent / "prompts" / "discl
 HIGHLIGHT_PROMPT_PATH = (
     Path(__file__).resolve().parent.parent.parent / "prompts" / "daily_highlight.md"
 )
+HOLDING_PROMPT_PATH = (
+    Path(__file__).resolve().parent.parent.parent / "prompts" / "holding_deep_dive.md"
+)
 
 
 class ResearchError(RuntimeError):
@@ -146,3 +149,24 @@ def run_daily_highlight(
         summary, deep = output.split("---DEEPDIVE---", 1)
         return summary.strip(), deep.strip() or None
     return output.strip(), None
+
+
+def run_holding_deep_dive(job: dict[str, Any], settings: Settings) -> str:
+    """大量保有報告のアクティビスト深掘りを実行する。"""
+    template = HOLDING_PROMPT_PATH.read_text(encoding="utf-8")
+    ratio = job.get("ratio")
+    ratio_str = f"{float(ratio) * 100:.2f}%" if ratio is not None else "取得不可"
+    others = job.get("other_positions") or []
+    others_str = "\n".join(f"- {o}" for o in others) if others else "(他の保有情報なし)"
+    replacements = {
+        "{filer}": str(job.get("filer_name", "")),
+        "{issuer}": str(job.get("company_name", "")),
+        "{code}": str(job.get("security_code", "")),
+        "{ratio}": ratio_str,
+        "{submit_date}": str(job.get("submit_date", "")),
+        "{category}": str(job.get("holding_category", "")),
+        "{other_positions}": others_str,
+    }
+    for key, value in replacements.items():
+        template = template.replace(key, value)
+    return _run_claude(template, settings, RESEARCH_TIMEOUT_SECONDS)
