@@ -40,9 +40,10 @@ class Settings:
     monitor_end: dt.time = dt.time(20, 0)
     lookback_minutes: int = 30
     thread_polling_days: int = 14
-    max_research_jobs_per_run: int = 2
+    max_research_jobs_per_run: int = 4
     state_retention_days: int = 90
     research_score_threshold: int = 80
+    highlight_after: dt.time = dt.time(19, 45)
     max_auto_research_per_day: int = 15
     claude_cli: str = "claude"
     claude_code_oauth_token: str = ""
@@ -77,9 +78,10 @@ class Settings:
             monitor_end=_parse_hhmm(env.get("MONITOR_END", "20:00"), "20:00"),
             lookback_minutes=int(env.get("LOOKBACK_MINUTES", "30")),
             thread_polling_days=int(env.get("THREAD_POLLING_DAYS", "14")),
-            max_research_jobs_per_run=int(env.get("MAX_RESEARCH_JOBS_PER_RUN", "2")),
+            max_research_jobs_per_run=int(env.get("MAX_RESEARCH_JOBS_PER_RUN", "4")),
             state_retention_days=int(env.get("STATE_RETENTION_DAYS", "90")),
             research_score_threshold=int(env.get("RESEARCH_SCORE_THRESHOLD", "80")),
+            highlight_after=_parse_hhmm(env.get("HIGHLIGHT_AFTER", "19:45"), "19:45"),
             max_auto_research_per_day=int(env.get("MAX_AUTO_RESEARCH_PER_DAY", "15")),
             claude_cli=env.get("CLAUDE_CLI", "claude"),
             claude_code_oauth_token=env.get("CLAUDE_CODE_OAUTH_TOKEN", ""),

@@ -264,3 +264,68 @@ def test_activist_bonus_lowers_effective_bar() -> None:
     assert not is_notify_target(make_item(75), 80)
     assert is_notify_target(make_item(85), 80)
     assert make_item(75, in_activist=True).total_score == 90
+
+
+# ---- デイリーハイライト ------------------------------------------------------
+
+
+def test_highlight_gating(tmp_path: Path) -> None:
+    """当日はhighlight_after以降のみ、取り逃しは翌日リカバリ、二重投稿なし。"""
+    from src.main import determine_highlight_date
+
+    state = make_state(tmp_path)
+    settings = make_settings(tmp_path)
+    queue_job(state, "a")  # posted_at = 2026-07-30 12:00
+
+    noon = NOW  # 7/30 12:00 → 当日はまだ出さない(前日以前に対象なし)
+    assert determine_highlight_date(state, settings, noon) is None
+
+    evening = NOW.replace(hour=20, minute=0)  # 7/30 20:00 → 当日分が対象
+    assert determine_highlight_date(state, settings, evening) == dt.date(2026, 7, 30)
+
+    # 当日中に出せなかった場合、翌朝の実行でリカバリされる
+    next_morning = NOW.replace(day=31, hour=8, minute=0)
+    assert determine_highlight_date(state, settings, next_morning) == dt.date(2026, 7, 30)
+
+    # 投稿済みなら二度と対象にならない
+    state.set_last_highlight_date("2026-07-30")
+    assert determine_highlight_date(state, settings, evening) is None
+    assert determine_highlight_date(state, settings, next_morning) is None
+
+
+def test_highlight_posts_summary_and_deepdive(tmp_path: Path, monkeypatch: Any) -> None:
+    from src import main as main_module
+    from src.main import post_daily_highlight_if_due
+
+    state = make_state(tmp_path)
+    queue_job(state, "a")
+    slack = FakeSlack()
+    monkeypatch.setattr(
+        main_module, "determine_highlight_date", lambda s, st, n: dt.date(2026, 7, 30)
+    )
+    monkeypatch.setattr(runner, "run_daily_highlight", lambda i, d, s: ("ハイライト", "深掘り"))
+    monkeypatch.setattr("shutil.which", lambda cli: "/usr/bin/claude")
+
+    assert post_daily_highlight_if_due(state, make_settings(tmp_path), slack, NOW) is True
+    assert slack.posts[0]["text"] == "ハイライト"
+    assert slack.posts[1]["text"] == "深掘り"
+    assert slack.posts[1]["thread_ts"] == "ts-1"  # 深掘りはハイライトのスレッドに付く
+    assert state.last_highlight_date == "2026-07-30"
+
+
+def test_fresh_jobs_processed_before_stale_high_score(tmp_path: Path, monkeypatch: Any) -> None:
+    """当日分(低スコア)が前日の高スコアより先に処理される。"""
+    state = make_state(tmp_path)
+    queue_job(state, "old_high", score=95)
+    state.thread_mappings()[0]["posted_at"] = (NOW - dt.timedelta(days=1)).isoformat()
+    queue_job(state, "fresh_low", score=82)
+    order: list[str] = []
+
+    def record(job: Any, settings: Any) -> str:
+        order.append(job["disclosure_id"])
+        return "ok"
+
+    monkeypatch.setattr(runner, "run_research", record)
+    settings = make_settings(tmp_path, max_research_jobs_per_run=2)
+    process_research_queue(state, settings, FakeSlack(), NOW)
+    assert order == ["fresh_low", "old_high"]

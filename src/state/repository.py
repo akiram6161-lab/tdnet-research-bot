@@ -23,6 +23,7 @@ _EMPTY_STATE: dict[str, Any] = {
     "last_slack_poll_at": None,
     "failed_items": [],
     "research_daily": {"date": None, "count": 0},
+    "last_highlight_date": None,
 }
 
 
@@ -130,6 +131,15 @@ class StateRepository:
         if research_status is None:
             return mappings
         return [m for m in mappings if m.get("research_status") == research_status]
+
+    # ---- デイリーハイライト -----------------------------------------------
+
+    @property
+    def last_highlight_date(self) -> str:
+        return str(self._state.get("last_highlight_date") or "")
+
+    def set_last_highlight_date(self, date_str: str) -> None:
+        self._state["last_highlight_date"] = date_str
 
     # ---- 自動リサーチの日次カウンタ ---------------------------------------
 

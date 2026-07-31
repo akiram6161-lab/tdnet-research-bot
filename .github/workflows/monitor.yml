@@ -56,26 +56,32 @@ jobs:
       - name: Run monitor
         run: python -m src.main
 
-      # リサーチ待ちがある時だけclaude CLIをインストールして実行(Actions分数の節約)
+      # リサーチ待ち/ハイライト予定がある時だけclaude CLIをインストール(Actions分数の節約)
       - name: Check research queue
         id: queue
         run: |
           count=$(grep -c '"research_status": "queued"' state/state.json || true)
+          highlight=$(python -m src.main --highlight-due 2>/dev/null | tail -1)
           echo "queued=${count}" >> "$GITHUB_OUTPUT"
-          echo "queued research jobs: ${count}"
+          echo "highlight=${highlight}" >> "$GITHUB_OUTPUT"
+          echo "queued research jobs: ${count} / highlight due: ${highlight}"
 
       - uses: actions/setup-node@v4
-        if: steps.queue.outputs.queued != '0'
+        if: steps.queue.outputs.queued != '0' || steps.queue.outputs.highlight == '1'
         with:
           node-version: "22"
 
       - name: Install Claude Code CLI
-        if: steps.queue.outputs.queued != '0'
+        if: steps.queue.outputs.queued != '0' || steps.queue.outputs.highlight == '1'
         run: npm install -g @anthropic-ai/claude-code
 
       - name: Run research
         if: steps.queue.outputs.queued != '0'
         run: python -m src.main --research-only
+
+      - name: Run daily highlight
+        if: steps.queue.outputs.highlight == '1'
+        run: python -m src.main --daily-highlight
 
       - name: Commit state if changed
         run: |

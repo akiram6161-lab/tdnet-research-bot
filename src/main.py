@@ -221,8 +221,10 @@ def run_monitor(
             )
 
     research_stats = {"started": 0, "completed": 0, "failed": 0}
+    highlight_posted = False
     if not tdnet_only:
         research_stats = process_research_queue(state, settings, slack, started)
+        highlight_posted = post_daily_highlight_if_due(state, settings, slack, started)
 
     state.prune(started)
     if result.complete:
@@ -249,9 +251,100 @@ def run_monitor(
         research_jobs_started=research_stats["started"],
         research_jobs_completed=research_stats["completed"],
         failed_research_jobs=research_stats["failed"],
+        highlight_posted=highlight_posted,
         state_changed=changed,
         errors=result.errors,
     )
+    return 0
+
+
+def determine_highlight_date(
+    state: StateRepository, settings: Settings, now: dt.datetime
+) -> dt.date | None:
+    """ハイライトを出すべき対象日を返す。対象なしなら None。
+
+    当日は highlight_after(既定19:45)以降にのみ対象となる。
+    実行が間引かれて当日中に出せなかった場合は、翌営業日以降の実行で
+    直近3日まで遡ってリカバリ投稿する。
+    """
+    local = now.astimezone(JST)
+    last = state.last_highlight_date
+    candidates: list[dt.date] = []
+    if local.time() >= settings.highlight_after:
+        candidates.append(local.date())
+    candidates += [local.date() - dt.timedelta(days=back) for back in range(1, 4)]
+    for day in candidates:
+        day_str = day.isoformat()
+        if last and day_str <= last:
+            return None
+        has_items = any(
+            str(m.get("posted_at", "")).startswith(day_str) for m in state.thread_mappings()
+        )
+        if has_items:
+            return day
+    return None
+
+
+def post_daily_highlight_if_due(
+    state: StateRepository,
+    settings: Settings,
+    slack: Any,
+    now: dt.datetime,
+) -> bool:
+    """1日1回、その日の通知済み開示からハイライト+深掘りを投稿する。"""
+    import shutil
+
+    from src.research.runner import ResearchError, run_daily_highlight
+
+    target = determine_highlight_date(state, settings, now)
+    if target is None:
+        return False
+    if shutil.which(settings.claude_cli) is None:
+        log_event(logger, "claude CLI not available; highlight deferred")
+        return False
+
+    day_str = target.isoformat()
+    items = [
+        m for m in state.thread_mappings() if str(m.get("posted_at", "")).startswith(day_str)
+    ]
+    try:
+        summary, deep_dive = run_daily_highlight(items, day_str, settings)
+    except ResearchError as exc:
+        # 失敗しても last_highlight_date を進めず、次回実行でリトライする
+        log_event(logger, "daily highlight failed", error=str(exc))
+        return False
+
+    if slack is None:
+        from src.slack.client import SlackClient
+
+        slack = SlackClient(settings.slack_bot_token)
+    ts = slack.post_parent_message(settings.slack_channel_id, text=summary)
+    if deep_dive:
+        slack.post_parent_message(settings.slack_channel_id, text=deep_dive, thread_ts=ts)
+    state.set_last_highlight_date(day_str)
+    log_event(logger, "daily highlight posted", target_date=day_str, items=len(items))
+    return True
+
+
+def run_highlight_only(settings: Settings) -> int:
+    """ハイライト投稿のみ実行する(monitor.ymlの分離ステップ用)。"""
+    if not (settings.slack_bot_token and settings.slack_channel_id):
+        print("SLACK_BOT_TOKEN / SLACK_CHANNEL_ID を設定してください。")
+        return 1
+    state = StateRepository(settings.state_path, settings.state_retention_days)
+    state.load()
+    posted = post_daily_highlight_if_due(state, settings, None, now_jst())
+    state.save()
+    log_event(logger, "highlight-only run finished", highlight_posted=posted)
+    return 0
+
+
+def cmd_highlight_due(settings: Settings) -> int:
+    """ハイライトを出すべきか(1/0)を出力する。workflowの条件分岐用。"""
+    state = StateRepository(settings.state_path, settings.state_retention_days)
+    state.load()
+    due = determine_highlight_date(state, settings, now_jst())
+    print("1" if due is not None else "0")
     return 0
 
 
@@ -289,8 +382,11 @@ def process_research_queue(
             if posted_at and dt.datetime.fromisoformat(posted_at) < cutoff:
                 job["research_status"] = "expired"
     queued = [j for j in queued if j.get("research_status") == "queued"]
-    # スコアの高い順に処理する
-    queued.sort(key=lambda m: -int(m.get("score", 0)))
+    # 当日分を最優先(投稿日の新しい順)、同日内はスコアの高い順に処理する
+    queued.sort(
+        key=lambda m: (str(m.get("posted_at", ""))[:10], int(m.get("score", 0))),
+        reverse=True,
+    )
     for job in queued:
         if stats["started"] >= settings.max_research_jobs_per_run:
             break
@@ -486,6 +582,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--tdnet-only", action="store_true")
     parser.add_argument("--research-only", action="store_true")
+    parser.add_argument("--daily-highlight", action="store_true")
+    parser.add_argument("--highlight-due", action="store_true")
     parser.add_argument("--slack-commands-only", action="store_true")
     parser.add_argument("--check-connections", action="store_true")
     parser.add_argument("--test-slack", action="store_true")
@@ -508,6 +606,10 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_classify_title(settings, args.classify_title)
     if args.research_only:
         return run_research_only(settings)
+    if args.daily_highlight:
+        return run_highlight_only(settings)
+    if args.highlight_due:
+        return cmd_highlight_due(settings)
     if args.slack_commands_only or args.research_disclosure_id or args.research_parent_ts:
         print("この機能は Phase 2 / Phase 3 で実装予定です。")
         return 2
