@@ -2209,7 +2209,8 @@
       "posted_at": "2026-08-03T12:36:25.401790+09:00",
       "ratio": 0.1253,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-04T09:59:25.000119+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "9702",
       "submit_date": "2026-07-30",
@@ -2233,7 +2234,8 @@
       "posted_at": "2026-08-03T12:36:25.639217+09:00",
       "ratio": 0.0601,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-04T10:01:22.813365+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "2464",
       "submit_date": "2026-07-30",
@@ -2261,7 +2263,8 @@
       "posted_at": "2026-08-03T12:36:25.862931+09:00",
       "ratio": 0.2361,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-04T10:03:23.725670+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "4972",
       "submit_date": "2026-07-30",
@@ -2288,7 +2291,8 @@
       "posted_at": "2026-08-03T12:36:26.112248+09:00",
       "ratio": 0.1703,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-04T10:04:54.301901+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "6018",
       "submit_date": "2026-07-30",
@@ -6377,6 +6381,22 @@
       "posted": false,
       "security_code": "7283",
       "tier": 1
+    },
+    "140120260730502689": {
+      "disclosed_at": "2026-08-04T09:00:00+09:00",
+      "first_seen": "2026-08-04T09:57:27.147659+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260730502690": {
+      "disclosed_at": "2026-08-04T09:00:00+09:00",
+      "first_seen": "2026-08-04T09:57:27.147647+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     },
     "140120260730502691": {
       "disclosed_at": "2026-07-30T15:30:00+09:00",
@@ -17389,7 +17409,7 @@
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 4,
+    "count": 8,
     "date": "2026-08-04"
   },
   "schema_version": 1,
