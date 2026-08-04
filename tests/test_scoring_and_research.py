@@ -415,3 +415,36 @@ def test_holding_deep_dive_dispatch(tmp_path: Path, monkeypatch: Any) -> None:
     assert stats["completed"] == 1
     assert slack.posts[0]["text"] == "深掘り本文"
     assert slack.posts[0]["thread_ts"] == "ts-h"
+
+
+# ---- 新規情報/アップデート判定用の関連開示 -----------------------------------
+
+
+def test_build_prompt_related_disclosures() -> None:
+    """関連開示があればリスト、なければ(なし)がプロンプトに入る。"""
+    job = {"title": "x", "related_disclosures": ["2026-07-30 15:00 TOB開始のお知らせ (https://a.pdf)"]}
+    prompt = runner.build_prompt(job)
+    assert "- 2026-07-30 15:00 TOB開始のお知らせ" in prompt
+    prompt2 = runner.build_prompt({"title": "x"})
+    assert "TOB開始のお知らせ" not in prompt2  # 関連なし時はリストが入らない
+
+
+def test_related_disclosures_for_same_code_within_window(tmp_path: Path) -> None:
+    from src.main import related_disclosures_for
+
+    state = make_state(tmp_path)
+    queue_job(state, "current")  # code 1234
+    queue_job(state, "prior")    # code 1234 同一銘柄・同日
+    state.add_thread_mapping({  # 別銘柄
+        "disclosure_id": "other", "security_code": "9999", "posted_at": NOW.isoformat(),
+        "disclosed_at": "2026-07-30 10:00", "title": "無関係", "research_status": "completed",
+    })
+    state.add_thread_mapping({  # 同一銘柄だが8日前
+        "disclosure_id": "stale", "security_code": "1234",
+        "posted_at": (NOW - dt.timedelta(days=8)).isoformat(),
+        "disclosed_at": "2026-07-22 10:00", "title": "古い開示", "research_status": "completed",
+    })
+    job = {"disclosure_id": "current", "security_code": "1234"}
+    related = related_disclosures_for(state, job, NOW)
+    assert len(related) == 1
+    assert "テスト開示" in related[0]

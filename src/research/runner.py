@@ -34,7 +34,10 @@ class ResearchError(RuntimeError):
 def build_prompt(job: dict[str, Any]) -> str:
     """スレッドマッピング(state)の情報からリサーチプロンプトを組み立てる。"""
     template = PROMPT_PATH.read_text(encoding="utf-8")
+    related = job.get("related_disclosures") or []
+    related_str = "\n".join(f"- {r}" for r in related) if related else "(なし)"
     replacements = {
+        "{related_disclosures}": related_str,
         "{security_code}": str(job.get("security_code", "")),
         "{company_name}": str(job.get("company_name", "")),
         "{disclosed_at}": str(job.get("disclosed_at", "")),

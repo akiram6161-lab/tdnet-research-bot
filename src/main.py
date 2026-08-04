@@ -328,6 +328,31 @@ def post_daily_highlight_if_due(
     return True
 
 
+RELATED_DISCLOSURE_DAYS = 7
+
+
+def related_disclosures_for(
+    state: StateRepository, job: dict[str, Any], now: dt.datetime
+) -> list[str]:
+    """同一銘柄の直近の通知済み開示(大量保有含む)を新規/アップデート判定用に返す。"""
+    code = str(job.get("security_code", ""))
+    current_id = job.get("disclosure_id")
+    cutoff = now - dt.timedelta(days=RELATED_DISCLOSURE_DAYS)
+    related: list[str] = []
+    for m in state.thread_mappings():
+        if str(m.get("security_code", "")) != code or m.get("disclosure_id") == current_id:
+            continue
+        posted_at = str(m.get("posted_at", ""))
+        with contextlib.suppress(ValueError):
+            if posted_at and dt.datetime.fromisoformat(posted_at) < cutoff:
+                continue
+        entry = f"{m.get('disclosed_at', '')} {m.get('title', '')}"
+        if m.get("document_url"):
+            entry += f" ({m.get('document_url')})"
+        related.append(entry)
+    return related[-10:]
+
+
 HOLDINGS_CHECK_INTERVAL_HOURS = 4
 HOLDINGS_ALERT_LIMIT_PER_RUN = 15
 
@@ -535,6 +560,7 @@ def process_research_queue(
 
                 summary = run_holding_deep_dive(job, settings)
             else:
+                job["related_disclosures"] = related_disclosures_for(state, job, now)
                 summary = run_research(job, settings)
             slack.post_parent_message(
                 str(job.get("channel_id") or settings.slack_channel_id),
