@@ -2941,11 +2941,213 @@
       "security_code": "6594",
       "tier": 1,
       "title": "当社海外子会社サーバーへの不正アクセスによるランサムウェア被害と情報流出の可能性に関するお知らせ（第２報）"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "ＡＣＣＥＳＳ",
+      "disclosed_at": "2026-08-04 19:00",
+      "disclosure_id": "140120260804508756",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260804508756.pdf",
+      "parent_ts": "1785885387.304409",
+      "posted_at": "2026-08-05T08:16:27.370035+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 85,
+      "security_code": "4813",
+      "tier": 1,
+      "title": "主要株主の異動に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "重大インシデント",
+      "company_name": "アドバンスクリエイト",
+      "disclosed_at": "2026-08-04 18:15",
+      "disclosure_id": "140120260804508510",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260804508510.pdf",
+      "parent_ts": "1785885387.525699",
+      "posted_at": "2026-08-05T08:16:27.604373+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 82,
+      "security_code": "8798",
+      "tier": 1,
+      "title": "第三者委員会の調査報告書の公表に関するお知らせ"
+    },
+    {
+      "company_name": "株式会社メタルアート",
+      "disclosed_at": "2026-08-03",
+      "disclosure_id": "holding:株式会社ＭＩ２|5644|2026-08-03",
+      "document_url": "",
+      "filer_name": "株式会社ＭＩ２",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[5644] 株式会社メタルアート 8.8%",
+        "[367A] プリモグローバルホールディングス株式会社 1.6%",
+        "[2982] 株式会社ADワークスグループ 2.6%"
+      ],
+      "parent_ts": "1785885389.529209",
+      "posted_at": "2026-08-05T08:16:29.579761+09:00",
+      "ratio": 0.088,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-05T08:18:36.020468+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "5644",
+      "submit_date": "2026-08-03",
+      "tier": 1,
+      "title": "株式会社ＭＩ２による大量保有報告"
+    },
+    {
+      "company_name": "京阪神ビルディング株式会社",
+      "disclosed_at": "2026-08-03",
+      "disclosure_id": "holding:株式会社ストラテジックキャピタル|8818|2026-08-03",
+      "document_url": "",
+      "filer_name": "株式会社ストラテジックキャピタル",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[8818] 京阪神ビルディング株式会社 9.2%",
+        "[7745] 株式会社Ａ＆Ｄホロンホールディングス 15.7%",
+        "[4189] ＫＨネオケム株式会社 18.2%",
+        "[2001] 株式会社ニップン 7.1%",
+        "[3765] ガンホー・オンライン・エンターテイメント株式会社 13.7%",
+        "[6516] 山洋電気株式会社 13.2%",
+        "[5331] ノリタケ株式会社 4.4%"
+      ],
+      "parent_ts": "1785885389.692109",
+      "posted_at": "2026-08-05T08:16:29.749743+09:00",
+      "ratio": 0.0917,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-05T08:20:33.563296+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "8818",
+      "submit_date": "2026-08-03",
+      "tier": 1,
+      "title": "株式会社ストラテジックキャピタルによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社Ａ＆Ｄホロンホールディングス",
+      "disclosed_at": "2026-08-03",
+      "disclosure_id": "holding:株式会社ストラテジックキャピタル|7745|2026-08-03",
+      "document_url": "",
+      "filer_name": "株式会社ストラテジックキャピタル",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[8818] 京阪神ビルディング株式会社 9.2%",
+        "[7745] 株式会社Ａ＆Ｄホロンホールディングス 15.7%",
+        "[4189] ＫＨネオケム株式会社 18.2%",
+        "[2001] 株式会社ニップン 7.1%",
+        "[3765] ガンホー・オンライン・エンターテイメント株式会社 13.7%",
+        "[6516] 山洋電気株式会社 13.2%",
+        "[5331] ノリタケ株式会社 4.4%"
+      ],
+      "parent_ts": "1785885389.885409",
+      "posted_at": "2026-08-05T08:16:29.945604+09:00",
+      "ratio": 0.1572,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-05T08:21:50.647500+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "7745",
+      "submit_date": "2026-08-03",
+      "tier": 1,
+      "title": "株式会社ストラテジックキャピタルによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社ＡＩＲＭＡＮ",
+      "disclosed_at": "2026-08-03",
+      "disclosure_id": "holding:株式会社ヴァレックス・パートナーズ|6364|2026-08-03",
+      "document_url": "",
+      "filer_name": "株式会社ヴァレックス・パートナーズ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6364] 株式会社ＡＩＲＭＡＮ 13.0%",
+        "[4290] 株式会社プレステージ・インターナショナル 4.1%",
+        "[3179] シュッピン株式会社 13.5%",
+        "[3983] 株式会社オロ 8.7%",
+        "[6333] 株式会社ＴＥＩＫＯＫＵ 18.4%"
+      ],
+      "parent_ts": "1785885390.082029",
+      "posted_at": "2026-08-05T08:16:30.144204+09:00",
+      "ratio": 0.1297,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-05T08:23:19.340854+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "6364",
+      "submit_date": "2026-08-03",
+      "tier": 1,
+      "title": "株式会社ヴァレックス・パートナーズによる大量保有報告"
+    },
+    {
+      "company_name": "ＫＨネオケム株式会社",
+      "disclosed_at": "2026-08-03",
+      "disclosure_id": "holding:株式会社ストラテジックキャピタル|4189|2026-08-03",
+      "document_url": "",
+      "filer_name": "株式会社ストラテジックキャピタル",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[8818] 京阪神ビルディング株式会社 9.2%",
+        "[7745] 株式会社Ａ＆Ｄホロンホールディングス 15.7%",
+        "[4189] ＫＨネオケム株式会社 18.2%",
+        "[2001] 株式会社ニップン 7.1%",
+        "[3765] ガンホー・オンライン・エンターテイメント株式会社 13.7%",
+        "[6516] 山洋電気株式会社 13.2%",
+        "[5331] ノリタケ株式会社 4.4%"
+      ],
+      "parent_ts": "1785885390.291269",
+      "posted_at": "2026-08-05T08:16:30.351352+09:00",
+      "ratio": 0.1824,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "4189",
+      "submit_date": "2026-08-03",
+      "tier": 1,
+      "title": "株式会社ストラテジックキャピタルによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社プレステージ・インターナショナル",
+      "disclosed_at": "2026-08-03",
+      "disclosure_id": "holding:株式会社ヴァレックス・パートナーズ|4290|2026-08-03",
+      "document_url": "",
+      "filer_name": "株式会社ヴァレックス・パートナーズ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6364] 株式会社ＡＩＲＭＡＮ 13.0%",
+        "[4290] 株式会社プレステージ・インターナショナル 4.1%",
+        "[3179] シュッピン株式会社 13.5%",
+        "[3983] 株式会社オロ 8.7%",
+        "[6333] 株式会社ＴＥＩＫＯＫＵ 18.4%"
+      ],
+      "parent_ts": "1785885390.494279",
+      "posted_at": "2026-08-05T08:16:30.546785+09:00",
+      "ratio": 0.0414,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "4290",
+      "submit_date": "2026-08-03",
+      "tier": 1,
+      "title": "株式会社ヴァレックス・パートナーズによる大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-04",
-  "last_holdings_check_at": "2026-08-04T17:51:23.524009+09:00",
+  "last_holdings_check_at": "2026-08-05T08:16:23.834186+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-07-31T19:01:00.612333+09:00",
   "processed_disclosures": {
@@ -19197,6 +19399,14 @@
       "security_code": "7203",
       "tier": 3
     },
+    "140120260804507895": {
+      "disclosed_at": "2026-08-04T19:30:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.604446+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7203",
+      "tier": 3
+    },
     "140120260804507900": {
       "disclosed_at": "2026-08-04T11:00:00+09:00",
       "first_seen": "2026-08-04T12:19:59.447077+09:00",
@@ -19499,6 +19709,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "9434",
+      "tier": 3
+    },
+    "140120260804508092": {
+      "disclosed_at": "2026-08-04T18:00:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.604491+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7729",
       "tier": 3
     },
     "140120260804508094": {
@@ -20069,6 +20287,14 @@
       "security_code": "4676",
       "tier": 3
     },
+    "140120260804508510": {
+      "disclosed_at": "2026-08-04T18:15:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.604426+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8798",
+      "tier": 1
+    },
     "140120260804508513": {
       "disclosed_at": "2026-08-04T15:30:00+09:00",
       "first_seen": "2026-08-04T17:51:27.826248+09:00",
@@ -20245,6 +20471,14 @@
       "security_code": "4221",
       "tier": 9
     },
+    "140120260804508756": {
+      "disclosed_at": "2026-08-04T19:00:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.370085+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4813",
+      "tier": 1
+    },
     "140120260804508757": {
       "disclosed_at": "2026-08-04T17:10:00+09:00",
       "first_seen": "2026-08-04T17:51:27.823964+09:00",
@@ -20284,12 +20518,52 @@
       "posted": false,
       "security_code": "157A",
       "tier": 3
+    },
+    "140120260804508917": {
+      "disclosed_at": "2026-08-04T18:15:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.604476+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4543",
+      "tier": 9
+    },
+    "140120260804508939": {
+      "disclosed_at": "2026-08-04T18:15:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.604483+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4543",
+      "tier": 9
+    },
+    "140120260804508980": {
+      "disclosed_at": "2026-08-04T18:20:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.604454+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "443A",
+      "tier": 9
+    },
+    "140120260804509001": {
+      "disclosed_at": "2026-08-04T18:20:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.604463+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "516A",
+      "tier": 9
+    },
+    "140120260804509002": {
+      "disclosed_at": "2026-08-04T18:20:00+09:00",
+      "first_seen": "2026-08-05T08:16:27.604470+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "517A",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 30,
-    "date": "2026-08-04"
+    "count": 4,
+    "date": "2026-08-05"
   },
   "schema_version": 1,
   "seen_holdings": [
@@ -20650,6 +20924,12 @@
     "ＧＬＯＢＡＬ　ＭＡＮＡＧＥＭＥＮＴ　ＰＡＲＴＮＥＲＳ　ＬＩＭＩＴＥＤ|2464|2026-07-30",
     "ＡＸＩＵＭ　ＣＡＰＩＴＡＬ　ＰＴＥ．ＬＴＤ．|4972|2026-07-30",
     "Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．|6018|2026-07-30",
-    "株式会社ＭＩ２|367A|2026-07-30"
+    "株式会社ＭＩ２|367A|2026-07-30",
+    "株式会社ＭＩ２|5644|2026-08-03",
+    "株式会社ストラテジックキャピタル|8818|2026-08-03",
+    "株式会社ストラテジックキャピタル|7745|2026-08-03",
+    "株式会社ヴァレックス・パートナーズ|6364|2026-08-03",
+    "株式会社ストラテジックキャピタル|4189|2026-08-03",
+    "株式会社ヴァレックス・パートナーズ|4290|2026-08-03"
   ]
 }
