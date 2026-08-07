@@ -4983,11 +4983,14 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260807515309.pdf",
       "parent_ts": "1786088628.177209",
       "posted_at": "2026-08-07T16:43:48.248372+09:00",
+      "related_disclosures": [
+        "2026-07-30 ＧＬＯＢＡＬ　ＭＡＮＡＧＥＭＥＮＴ　ＰＡＲＴＮＥＲＳ　ＬＩＭＩＴＥＤによる大量保有報告"
+      ],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-07T19:38:32.502791+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "2464",
       "tier": 1,
@@ -5002,11 +5005,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260807514570.pdf",
       "parent_ts": "1786088628.522009",
       "posted_at": "2026-08-07T16:43:48.588248+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-07T19:40:14.264292+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "4800",
       "tier": 1,
@@ -5724,7 +5728,7 @@
   "last_highlight_date": "2026-08-06",
   "last_holdings_check_at": "2026-08-07T16:43:42.812190+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-07T18:43:25.336982+09:00",
+  "last_successful_tdnet_check": "2026-08-07T19:36:13.671397+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -47373,11 +47377,27 @@
       "posted": false,
       "security_code": "4335",
       "tier": 3
+    },
+    "140120260807515835": {
+      "disclosed_at": "2026-08-07T19:15:00+09:00",
+      "first_seen": "2026-08-07T19:36:16.084035+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4053",
+      "tier": 3
+    },
+    "140120260807515845": {
+      "disclosed_at": "2026-08-07T19:30:00+09:00",
+      "first_seen": "2026-08-07T19:36:16.084022+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3948",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 28,
+    "count": 30,
     "date": "2026-08-07"
   },
   "schema_version": 1,
