@@ -7104,11 +7104,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260812518255.pdf",
       "parent_ts": "1786520498.837639",
       "posted_at": "2026-08-12T16:41:38.892396+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-12T17:56:40.347670+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "3001",
       "tier": 1,
@@ -7123,11 +7124,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260810516770.pdf",
       "parent_ts": "1786520499.092829",
       "posted_at": "2026-08-12T16:41:39.149468+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-12T17:58:30.212061+09:00",
+      "research_status": "completed",
       "score": 85,
       "security_code": "7918",
       "tier": 1,
@@ -7208,11 +7210,108 @@
       "security_code": "2195",
       "tier": 1,
       "title": "日本アジア投資株式会社との業務提携及び 投資事業有限責任組合JAICサプライチェーンファンドを 割当予定先とする第三者割当による新株式発行 補足資料"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "アジア投資",
+      "disclosed_at": "2026-08-12 17:45",
+      "disclosure_id": "140120260812518495",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260812518495.pdf",
+      "parent_ts": "1786524768.503729",
+      "posted_at": "2026-08-12T17:52:48.610691+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-12T17:54:05.271532+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "8518",
+      "tier": 1,
+      "title": "主要株主の異動についてのお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "資本政策",
+      "company_name": "Ｇ－グローバルセキュ",
+      "disclosed_at": "2026-08-12 17:15",
+      "disclosure_id": "140120260812518426",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260812518426.pdf",
+      "parent_ts": "1786524768.788359",
+      "posted_at": "2026-08-12T17:52:48.854494+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-12T17:55:24.220663+09:00",
+      "research_status": "completed",
+      "score": 93,
+      "security_code": "4417",
+      "tier": 1,
+      "title": "（開示事項の経過）株式会社網屋との資本業務提携に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "disclosed_at": "2026-08-12 17:10",
+      "disclosure_id": "140120260812518468",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260812518468.pdf",
+      "parent_ts": "1786524769.035899",
+      "posted_at": "2026-08-12T17:52:49.107994+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 85,
+      "security_code": "3856",
+      "tier": 1,
+      "title": "過年度の有価証券報告書等の訂正及び2026年３月期等の決算短信見通し並びに2027年３月期第１四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "資本政策",
+      "company_name": "ラクス",
+      "disclosed_at": "2026-08-12 16:45",
+      "disclosure_id": "140120260812518024",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260812518024.pdf",
+      "parent_ts": "1786524769.232539",
+      "posted_at": "2026-08-12T17:52:49.298739+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 82,
+      "security_code": "3923",
+      "tier": 1,
+      "title": "株式会社ROBOT PAYMENTとの資本業務提携契約の締結及び第三者割当による自己株式処分の引受けに関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "資本政策",
+      "company_name": "Ｇ－ロボペイ",
+      "disclosed_at": "2026-08-12 16:45",
+      "disclosure_id": "140120260812517585",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260812517585.pdf",
+      "parent_ts": "1786524769.479209",
+      "posted_at": "2026-08-12T17:52:49.546876+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 82,
+      "security_code": "4374",
+      "tier": 1,
+      "title": "株式会社ラクスとの資本業務提携及び第三者割当による自己株式の処分に関するお知らせ"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-10",
-  "last_holdings_check_at": "2026-08-12T13:23:53.165951+09:00",
+  "last_holdings_check_at": "2026-08-12T17:52:45.382554+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-08-07T19:36:13.671397+09:00",
   "processed_disclosures": {
@@ -8079,6 +8178,22 @@
       "posted": false,
       "security_code": "5410",
       "tier": 1
+    },
+    "140120260715594720": {
+      "disclosed_at": "2026-08-12T16:55:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547142+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4013",
+      "tier": 9
+    },
+    "140120260715594742": {
+      "disclosed_at": "2026-08-12T16:55:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547132+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4013",
+      "tier": 3
     },
     "140120260715594749": {
       "disclosed_at": "2026-07-31T13:30:00+09:00",
@@ -50240,6 +50355,14 @@
       "security_code": "268A",
       "tier": 9
     },
+    "140120260807515241": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547066+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3551",
+      "tier": 3
+    },
     "140120260807515242": {
       "disclosed_at": "2026-08-07T15:30:00+09:00",
       "first_seen": "2026-08-07T16:43:55.140559+09:00",
@@ -51510,6 +51633,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "4335",
+      "tier": 3
+    },
+    "140120260807515765": {
+      "disclosed_at": "2026-08-12T17:30:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.546975+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "385A",
       "tier": 3
     },
     "140120260807515771": {
@@ -57144,6 +57275,14 @@
       "security_code": "518A",
       "tier": 9
     },
+    "140120260812517585": {
+      "disclosed_at": "2026-08-12T16:45:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.546924+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4374",
+      "tier": 1
+    },
     "140120260812517586": {
       "disclosed_at": "2026-08-12T15:30:00+09:00",
       "first_seen": "2026-08-12T16:41:40.048908+09:00",
@@ -57167,6 +57306,14 @@
       "posted": false,
       "security_code": "3798",
       "tier": 3
+    },
+    "140120260812517591": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547019+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "308A",
+      "tier": 1
     },
     "140120260812517592": {
       "disclosed_at": "2026-08-12T15:30:00+09:00",
@@ -57992,6 +58139,14 @@
       "security_code": "8336",
       "tier": 3
     },
+    "140120260812517898": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547114+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8795",
+      "tier": 9
+    },
     "140120260812517901": {
       "disclosed_at": "2026-08-12T14:00:00+09:00",
       "first_seen": "2026-08-12T14:58:54.006816+09:00",
@@ -58102,6 +58257,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "7715",
+      "tier": 3
+    },
+    "140120260812517948": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547094+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7087",
       "tier": 3
     },
     "140120260812517953": {
@@ -58271,6 +58434,14 @@
       "posted": false,
       "security_code": "3306",
       "tier": 9
+    },
+    "140120260812518024": {
+      "disclosed_at": "2026-08-12T16:45:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.298784+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3923",
+      "tier": 1
     },
     "140120260812518027": {
       "disclosed_at": "2026-08-12T16:00:00+09:00",
@@ -58560,6 +58731,14 @@
       "security_code": "1914",
       "tier": 3
     },
+    "140120260812518166": {
+      "disclosed_at": "2026-08-12T16:45:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547185+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4374",
+      "tier": 9
+    },
     "140120260812518169": {
       "disclosed_at": "2026-08-12T15:30:00+09:00",
       "first_seen": "2026-08-12T16:41:40.047353+09:00",
@@ -58736,6 +58915,14 @@
       "security_code": "421A",
       "tier": 1
     },
+    "140120260812518243": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547103+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7087",
+      "tier": 9
+    },
     "140120260812518249": {
       "disclosed_at": "2026-08-12T16:20:00+09:00",
       "first_seen": "2026-08-12T16:41:40.045619+09:00",
@@ -58791,6 +58978,14 @@
       "posted": false,
       "security_code": "421A",
       "tier": 9
+    },
+    "140120260812518270": {
+      "disclosed_at": "2026-08-12T17:30:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.546964+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "269A",
+      "tier": 3
     },
     "140120260812518274": {
       "disclosed_at": "2026-08-12T15:30:00+09:00",
@@ -58854,6 +59049,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "9850",
+      "tier": 3
+    },
+    "140120260812518315": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547075+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4222",
       "tier": 3
     },
     "140120260812518317": {
@@ -58920,9 +59123,113 @@
       "security_code": "9227",
       "tier": 9
     },
+    "140120260812518379": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547008+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1436",
+      "tier": 3
+    },
     "140120260812518392": {
       "disclosed_at": "2026-08-12T16:20:00+09:00",
       "first_seen": "2026-08-12T16:41:40.045680+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4258",
+      "tier": 9
+    },
+    "140120260812518420": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547123+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9941",
+      "tier": 3
+    },
+    "140120260812518423": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547084+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5884",
+      "tier": 3
+    },
+    "140120260812518426": {
+      "disclosed_at": "2026-08-12T17:15:00+09:00",
+      "first_seen": "2026-08-12T17:52:48.854537+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4417",
+      "tier": 1
+    },
+    "140120260812518429": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547028+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "332A",
+      "tier": 3
+    },
+    "140120260812518435": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547037+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "332A",
+      "tier": 9
+    },
+    "140120260812518463": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547047+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "332A",
+      "tier": 9
+    },
+    "140120260812518464": {
+      "disclosed_at": "2026-08-12T17:30:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.546953+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2122",
+      "tier": 9
+    },
+    "140120260812518466": {
+      "disclosed_at": "2026-08-12T17:00:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.547057+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "332A",
+      "tier": 9
+    },
+    "140120260812518467": {
+      "disclosed_at": "2026-08-12T17:10:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.546996+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3719",
+      "tier": 3
+    },
+    "140120260812518468": {
+      "disclosed_at": "2026-08-12T17:10:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.108029+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3856",
+      "tier": 1
+    },
+    "140120260812518495": {
+      "disclosed_at": "2026-08-12T17:45:00+09:00",
+      "first_seen": "2026-08-12T17:52:48.610735+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8518",
+      "tier": 1
+    },
+    "140120260812518497": {
+      "disclosed_at": "2026-08-12T17:30:00+09:00",
+      "first_seen": "2026-08-12T17:52:49.546985+09:00",
       "language": "ja",
       "posted": false,
       "security_code": "4258",
@@ -58931,7 +59238,7 @@
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 11,
+    "count": 15,
     "date": "2026-08-12"
   },
   "schema_version": 1,
