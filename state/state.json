@@ -7474,11 +7474,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260813519166.pdf",
       "parent_ts": "1786607042.206489",
       "posted_at": "2026-08-13T16:44:02.268652+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-13T19:20:00.026376+09:00",
+      "research_status": "completed",
       "score": 88,
       "security_code": "5034",
       "tier": 1,
@@ -7493,11 +7494,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260813519659.pdf",
       "parent_ts": "1786607042.490339",
       "posted_at": "2026-08-13T16:44:02.554514+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-13T19:21:43.249567+09:00",
+      "research_status": "completed",
       "score": 85,
       "security_code": "340A",
       "tier": 1,
@@ -7753,13 +7755,76 @@
       "security_code": "4819",
       "tier": 1,
       "title": "持分法適用会社（株式会社カカクコム）株式に関する公開買付けの条件の変更に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "ＣＡＰＩＴＡ",
+      "disclosed_at": "2026-08-13 19:00",
+      "disclosure_id": "140120260813519711",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260813519711.pdf",
+      "parent_ts": "1786616091.724689",
+      "posted_at": "2026-08-13T19:14:51.799102+09:00",
+      "related_disclosures": [
+        "2026-08-13 19:00 株式会社桃の木による株式会社ＣＡＰＩＴＡ（証券コード：7462）の株券等に対する公開買付けの開始に関するお知らせ (https://www.release.tdnet.info/inbs/140120260813519458.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-13T19:16:50.128631+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "7462",
+      "tier": 1,
+      "title": "株式会社桃の木による当社株式に対する公開買付けに関する意見表明のお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "ＣＡＰＩＴＡ",
+      "disclosed_at": "2026-08-13 19:00",
+      "disclosure_id": "140120260813519458",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260813519458.pdf",
+      "parent_ts": "1786616092.013819",
+      "posted_at": "2026-08-13T19:14:52.084764+09:00",
+      "related_disclosures": [
+        "2026-08-13 19:00 株式会社桃の木による当社株式に対する公開買付けに関する意見表明のお知らせ (https://www.release.tdnet.info/inbs/140120260813519711.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-13T19:18:33.448165+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "7462",
+      "tier": 1,
+      "title": "株式会社桃の木による株式会社ＣＡＰＩＴＡ（証券コード：7462）の株券等に対する公開買付けの開始に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "イオンＦＳ",
+      "disclosed_at": "2026-08-13 18:00",
+      "disclosure_id": "140120260813519882",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260813519882.pdf",
+      "parent_ts": "1786616092.298149",
+      "posted_at": "2026-08-13T19:14:52.363973+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 85,
+      "security_code": "8570",
+      "tier": 1,
+      "title": "主要株主の異動に関するお知らせ"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-12",
   "last_holdings_check_at": "2026-08-13T17:55:14.373774+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-13T17:55:14.373774+09:00",
+  "last_successful_tdnet_check": "2026-08-13T19:14:49.307949+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -59817,6 +59882,14 @@
       "security_code": "7715",
       "tier": 3
     },
+    "140120260812517941": {
+      "disclosed_at": "2026-08-13T18:30:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.364114+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6571",
+      "tier": 9
+    },
     "140120260812517948": {
       "disclosed_at": "2026-08-12T17:00:00+09:00",
       "first_seen": "2026-08-12T17:52:49.547094+09:00",
@@ -61313,12 +61386,28 @@
       "security_code": "3979",
       "tier": 2
     },
+    "140120260812518483": {
+      "disclosed_at": "2026-08-13T18:30:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.364103+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6571",
+      "tier": 3
+    },
     "140120260812518489": {
       "disclosed_at": "2026-08-13T13:00:00+09:00",
       "first_seen": "2026-08-13T13:27:11.522061+09:00",
       "language": "ja",
       "posted": false,
       "security_code": "3099",
+      "tier": 3
+    },
+    "140120260812518492": {
+      "disclosed_at": "2026-08-13T18:30:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.364108+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6571",
       "tier": 3
     },
     "140120260812518495": {
@@ -64073,6 +64162,14 @@
       "security_code": "3679",
       "tier": 3
     },
+    "140120260813519458": {
+      "disclosed_at": "2026-08-13T19:00:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.084814+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "7462",
+      "tier": 1
+    },
     "140120260813519459": {
       "disclosed_at": "2026-08-13T15:30:00+09:00",
       "first_seen": "2026-08-13T16:44:05.366585+09:00",
@@ -64489,6 +64586,14 @@
       "security_code": "6177",
       "tier": 1
     },
+    "140120260813519711": {
+      "disclosed_at": "2026-08-13T19:00:00+09:00",
+      "first_seen": "2026-08-13T19:14:51.799153+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "7462",
+      "tier": 1
+    },
     "140120260813519714": {
       "disclosed_at": "2026-08-13T15:45:00+09:00",
       "first_seen": "2026-08-13T16:44:05.362270+09:00",
@@ -64616,11 +64721,51 @@
       "posted": false,
       "security_code": "509A",
       "tier": 2
+    },
+    "140120260813519882": {
+      "disclosed_at": "2026-08-13T18:00:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.364020+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8570",
+      "tier": 1
+    },
+    "140120260813519886": {
+      "disclosed_at": "2026-08-13T19:00:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.364079+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1447",
+      "tier": 9
+    },
+    "140120260813519928": {
+      "disclosed_at": "2026-08-13T18:00:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.364121+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 3
+    },
+    "140120260813519985": {
+      "disclosed_at": "2026-08-13T18:30:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.364095+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "475A",
+      "tier": 9
+    },
+    "140120260813519990": {
+      "disclosed_at": "2026-08-13T18:55:00+09:00",
+      "first_seen": "2026-08-13T19:14:52.364089+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "241A",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 9,
+    "count": 13,
     "date": "2026-08-13"
   },
   "schema_version": 1,
