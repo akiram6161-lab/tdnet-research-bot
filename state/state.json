@@ -7678,11 +7678,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260813519704.pdf",
       "parent_ts": "1786607044.700819",
       "posted_at": "2026-08-13T16:44:04.765505+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-14T11:31:16.347411+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "7957",
       "tier": 1,
@@ -7697,11 +7698,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260810516980.pdf",
       "parent_ts": "1786607045.000579",
       "posted_at": "2026-08-13T16:44:05.083082+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-14T11:32:45.721079+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "4888",
       "tier": 1,
@@ -7716,11 +7718,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260813519451.pdf",
       "parent_ts": "1786607045.293529",
       "posted_at": "2026-08-13T16:44:05.359081+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-14T11:34:35.791902+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "6522",
       "tier": 1,
@@ -8094,13 +8097,33 @@
       "security_code": "2371",
       "tier": 1,
       "title": "（変更）「Kamgras １株式会社による当社株券等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部変更に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "大木ヘルスケア",
+      "disclosed_at": "2026-08-14 11:00",
+      "disclosure_id": "140120260814520421",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260814520421.pdf",
+      "parent_ts": "1786674483.430799",
+      "posted_at": "2026-08-14T11:28:03.504530+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-14T11:29:39.152861+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "3417",
+      "tier": 1,
+      "title": "主要株主の異動に関するお知らせ"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-13",
   "last_holdings_check_at": "2026-08-14T07:58:31.972295+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-14T08:54:27.155484+09:00",
+  "last_successful_tdnet_check": "2026-08-14T11:28:01.803464+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -48526,6 +48549,14 @@
       "security_code": "7593",
       "tier": 9
     },
+    "140120260807514249": {
+      "disclosed_at": "2026-08-14T10:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504679+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2673",
+      "tier": 3
+    },
     "140120260807514251": {
       "disclosed_at": "2026-08-07T15:30:00+09:00",
       "first_seen": "2026-08-07T16:43:55.149640+09:00",
@@ -52372,6 +52403,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "5302",
+      "tier": 3
+    },
+    "140120260807515488": {
+      "disclosed_at": "2026-08-14T10:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504669+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1443",
       "tier": 3
     },
     "140120260807515491": {
@@ -59958,6 +59997,14 @@
       "security_code": "3154",
       "tier": 1
     },
+    "140120260812517841": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504637+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7256",
+      "tier": 9
+    },
     "140120260812517847": {
       "disclosed_at": "2026-08-12T15:30:00+09:00",
       "first_seen": "2026-08-12T16:41:40.048467+09:00",
@@ -59997,6 +60044,14 @@
       "posted": false,
       "security_code": "1724",
       "tier": 3
+    },
+    "140120260812517874": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504642+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7256",
+      "tier": 9
     },
     "140120260812517878": {
       "disclosed_at": "2026-08-12T15:30:00+09:00",
@@ -60126,6 +60181,14 @@
       "security_code": "4415",
       "tier": 9
     },
+    "140120260812517917": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504646+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7256",
+      "tier": 9
+    },
     "140120260812517921": {
       "disclosed_at": "2026-08-12T12:30:00+09:00",
       "first_seen": "2026-08-12T13:23:56.336393+09:00",
@@ -60190,6 +60253,14 @@
       "security_code": "7087",
       "tier": 3
     },
+    "140120260812517949": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504649+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7256",
+      "tier": 9
+    },
     "140120260812517953": {
       "disclosed_at": "2026-08-12T15:30:00+09:00",
       "first_seen": "2026-08-12T16:41:40.047724+09:00",
@@ -60214,6 +60285,14 @@
       "security_code": "9247",
       "tier": 1
     },
+    "140120260812517957": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504657+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7256",
+      "tier": 9
+    },
     "140120260812517958": {
       "disclosed_at": "2026-08-12T16:30:00+09:00",
       "first_seen": "2026-08-12T16:41:40.045555+09:00",
@@ -60237,6 +60316,14 @@
       "posted": false,
       "security_code": "4301",
       "tier": 3
+    },
+    "140120260812517970": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504653+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7256",
+      "tier": 9
     },
     "140120260812517971": {
       "disclosed_at": "2026-08-12T14:00:00+09:00",
@@ -62028,6 +62115,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "5035",
+      "tier": 3
+    },
+    "140120260812518637": {
+      "disclosed_at": "2026-08-14T10:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504675+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2673",
       "tier": 3
     },
     "140120260812518639": {
@@ -65038,6 +65133,14 @@
       "security_code": "1447",
       "tier": 9
     },
+    "140120260813519887": {
+      "disclosed_at": "2026-08-14T10:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504686+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8255",
+      "tier": 9
+    },
     "140120260813519928": {
       "disclosed_at": "2026-08-13T18:00:00+09:00",
       "first_seen": "2026-08-13T19:14:52.364121+09:00",
@@ -65060,6 +65163,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "241A",
+      "tier": 9
+    },
+    "140120260813520009": {
+      "disclosed_at": "2026-08-14T08:55:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504693+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3856",
       "tier": 9
     },
     "140120260813520046": {
@@ -65093,11 +65204,83 @@
       "posted": false,
       "security_code": "16724",
       "tier": 9
+    },
+    "140120260814520199": {
+      "disclosed_at": "2026-08-14T10:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504682+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "585A4",
+      "tier": 9
+    },
+    "140120260814520247": {
+      "disclosed_at": "2026-08-14T09:30:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504690+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8066",
+      "tier": 9
+    },
+    "140120260814520251": {
+      "disclosed_at": "2026-08-14T10:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504665+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13294",
+      "tier": 9
+    },
+    "140120260814520256": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504633+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5243",
+      "tier": 3
+    },
+    "140120260814520258": {
+      "disclosed_at": "2026-08-14T10:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504672+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16714",
+      "tier": 9
+    },
+    "140120260814520421": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504609+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3417",
+      "tier": 1
+    },
+    "140120260814520491": {
+      "disclosed_at": "2026-08-14T11:00:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504661+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9782",
+      "tier": 9
+    },
+    "140120260814520564": {
+      "disclosed_at": "2026-08-14T11:15:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504621+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "452A",
+      "tier": 9
+    },
+    "140120260814520565": {
+      "disclosed_at": "2026-08-14T11:15:00+09:00",
+      "first_seen": "2026-08-14T11:28:03.504628+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "453A",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 8,
+    "count": 12,
     "date": "2026-08-14"
   },
   "schema_version": 1,
