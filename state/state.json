@@ -8670,11 +8670,364 @@
       "security_code": "8129",
       "tier": 1,
       "title": "株主による新株予約権無償割当て差止めの仮処分の申立てに関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "アドバンスクリエイト",
+      "disclosed_at": "2026-08-14 20:40",
+      "disclosure_id": "140120260814521474",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260814521474.pdf",
+      "parent_ts": "1786920959.179719",
+      "posted_at": "2026-08-17T07:55:59.228475+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 85,
+      "security_code": "8798",
+      "tier": 1,
+      "title": "財務報告に係る内部統制の開示すべき重要な不備及び内部統制報告書の訂正報告書の提出に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "アドバンスクリエイト",
+      "disclosed_at": "2026-08-14 20:35",
+      "disclosure_id": "140120260814521470",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260814521470.pdf",
+      "parent_ts": "1786920959.349889",
+      "posted_at": "2026-08-17T07:55:59.398996+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 85,
+      "security_code": "8798",
+      "tier": 1,
+      "title": "過年度の有価証券報告書等の訂正報告書の提出及び過年度の決算短信等の訂正に関するお知らせ"
+    },
+    {
+      "company_name": "電気興業",
+      "disclosed_at": "2026-08-14",
+      "disclosure_id": "holding:ｆｕｎｄｎｏｔｅ株式会社|6706|2026-08-14",
+      "document_url": "",
+      "filer_name": "ｆｕｎｄｎｏｔｅ株式会社",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6706] 電気興業 14.1%",
+        "[6470] 大豊工業 12.8%",
+        "[6798] SMK 10.9%",
+        "[6928] エノモト 8.5%",
+        "[6958] 日本シイエムケイ 14.2%",
+        "[5013] ユシロ 7.5%",
+        "[9726] ＫＮＴ－ＣＴホールディングス 7.4%",
+        "[1967] ヤマト 7.8%",
+        "[8065] 佐藤商事 5.2%",
+        "[3443] 川田テクノロジーズ 3.2%"
+      ],
+      "parent_ts": "1786920961.659009",
+      "posted_at": "2026-08-17T07:56:01.742195+09:00",
+      "ratio": 0.1414,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-17T07:58:15.197776+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "6706",
+      "submit_date": "2026-08-14",
+      "tier": 1,
+      "title": "ｆｕｎｄｎｏｔｅ株式会社による大量保有報告"
+    },
+    {
+      "company_name": "株式会社ＣＥホールディングス",
+      "disclosed_at": "2026-08-14",
+      "disclosure_id": "holding:ＡＸＩＵＭ　ＣＡＰＩＴＡＬ　ＰＴＥ．ＬＴＤ．|4320|2026-08-14",
+      "document_url": "",
+      "filer_name": "ＡＸＩＵＭ　ＣＡＰＩＴＡＬ　ＰＴＥ．ＬＴＤ．",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[4320] 株式会社ＣＥホールディングス 12.9%",
+        "[9702] 株式会社アイ・エス・ビー 12.5%",
+        "[4972] 綜研化学株式会社 23.6%",
+        "[5821] 平河ヒューテック株式会社 9.0%",
+        "[6772] 東京コスモス電機株式会社 32.2%",
+        "[9913] 日邦産業株式会社 17.0%",
+        "[6794] フォスター電機株式会社 22.7%"
+      ],
+      "parent_ts": "1786920961.854189",
+      "posted_at": "2026-08-17T07:56:01.907841+09:00",
+      "ratio": 0.1292,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-17T07:59:49.906031+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "4320",
+      "submit_date": "2026-08-14",
+      "tier": 1,
+      "title": "ＡＸＩＵＭ　ＣＡＰＩＴＡＬ　ＰＴＥ．ＬＴＤ．による大量保有報告"
+    },
+    {
+      "company_name": "ダイニチ工業株式会社",
+      "disclosed_at": "2026-08-14",
+      "disclosure_id": "holding:Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ|5951|2026-08-14",
+      "document_url": "",
+      "filer_name": "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[5951] ダイニチ工業株式会社 5.8%"
+      ],
+      "parent_ts": "1786920962.058219",
+      "posted_at": "2026-08-17T07:56:02.111017+09:00",
+      "ratio": 0.0579,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-17T08:01:06.977880+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "5951",
+      "submit_date": "2026-08-14",
+      "tier": 1,
+      "title": "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社タダノ",
+      "disclosed_at": "2026-08-14",
+      "disclosure_id": "holding:シルチェスター・インターナショナル・インベスターズ・エルエルピー|6395|2026-08-14",
+      "document_url": "",
+      "filer_name": "シルチェスター・インターナショナル・インベスターズ・エルエルピー",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6395] 株式会社タダノ 5.8%",
+        "[6302] 住友重機械工業株式会社 6.0%",
+        "[7459] 株式会社メディパルホールディングス 11.7%",
+        "[5232] 住友大阪セメント株式会社 14.8%",
+        "[7731] 株式会社ニコン 6.1%",
+        "[5844] 株式会社京都フィナンシャルグループ 4.4%",
+        "[2784] アルフレッサ ホールディングス株式会社 13.2%",
+        "[5711] 三菱マテリアル株式会社 5.6%",
+        "[5714] ＤＯＷＡホールディングス株式会社 5.8%",
+        "[4272] 日本化薬株式会社 4.7%"
+      ],
+      "parent_ts": "1786920962.250839",
+      "posted_at": "2026-08-17T07:56:02.313613+09:00",
+      "ratio": 0.0578,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-17T08:03:36.309164+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "6395",
+      "submit_date": "2026-08-14",
+      "tier": 1,
+      "title": "シルチェスター・インターナショナル・インベスターズ・エルエルピーによる大量保有報告"
+    },
+    {
+      "company_name": "データセクション株式会社",
+      "disclosed_at": "2026-08-13",
+      "disclosure_id": "holding:ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．|3905|2026-08-13",
+      "document_url": "",
+      "filer_name": "ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[3905] データセクション株式会社 55.5%"
+      ],
+      "parent_ts": "1786920962.420209",
+      "posted_at": "2026-08-17T07:56:02.466872+09:00",
+      "ratio": 0.5551,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "3905",
+      "submit_date": "2026-08-13",
+      "tier": 1,
+      "title": "ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．による大量保有報告"
+    },
+    {
+      "company_name": "日本化学工業株式会社",
+      "disclosed_at": "2026-08-13",
+      "disclosure_id": "holding:株式会社Ｃ＆Ｉ　Ｈｏｌｄｉｎｇｓ|4092|2026-08-13",
+      "document_url": "",
+      "filer_name": "株式会社Ｃ＆Ｉ　Ｈｏｌｄｉｎｇｓ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[4092] 日本化学工業株式会社 8.1%"
+      ],
+      "parent_ts": "1786920962.621949",
+      "posted_at": "2026-08-17T07:56:02.670240+09:00",
+      "ratio": 0.0806,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "4092",
+      "submit_date": "2026-08-13",
+      "tier": 1,
+      "title": "株式会社Ｃ＆Ｉ　Ｈｏｌｄｉｎｇｓによる大量保有報告"
+    },
+    {
+      "company_name": "カシオ計算機株式会社",
+      "disclosed_at": "2026-08-13",
+      "disclosure_id": "holding:３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．|6952|2026-08-13",
+      "document_url": "",
+      "filer_name": "３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6952] カシオ計算機株式会社 4.0%",
+        "[9024] 株式会社西武ホールディングス 13.9%",
+        "[3086] Ｊ. フロント リテイリング株式会社 9.2%"
+      ],
+      "parent_ts": "1786920962.816629",
+      "posted_at": "2026-08-17T07:56:02.875484+09:00",
+      "ratio": 0.0399,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "6952",
+      "submit_date": "2026-08-13",
+      "tier": 1,
+      "title": "３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "company_name": "大豊工業",
+      "disclosed_at": "2026-08-13",
+      "disclosure_id": "holding:ｆｕｎｄｎｏｔｅ株式会社|6470|2026-08-13",
+      "document_url": "",
+      "filer_name": "ｆｕｎｄｎｏｔｅ株式会社",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6706] 電気興業 14.1%",
+        "[6470] 大豊工業 12.8%",
+        "[6798] SMK 10.9%",
+        "[6928] エノモト 8.5%",
+        "[6958] 日本シイエムケイ 14.2%",
+        "[5013] ユシロ 7.5%",
+        "[9726] ＫＮＴ－ＣＴホールディングス 7.4%",
+        "[1967] ヤマト 7.8%",
+        "[8065] 佐藤商事 5.2%",
+        "[3443] 川田テクノロジーズ 3.2%"
+      ],
+      "parent_ts": "1786920963.008469",
+      "posted_at": "2026-08-17T07:56:03.072523+09:00",
+      "ratio": 0.1283,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "6470",
+      "submit_date": "2026-08-13",
+      "tier": 1,
+      "title": "ｆｕｎｄｎｏｔｅ株式会社による大量保有報告"
+    },
+    {
+      "company_name": "大木ヘルスケアホールディングス株式会社",
+      "disclosed_at": "2026-08-13",
+      "disclosure_id": "holding:有限会社キャピタル・マネジメント|3417|2026-08-13",
+      "document_url": "",
+      "filer_name": "有限会社キャピタル・マネジメント",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[3417] 大木ヘルスケアホールディングス株式会社 10.0%",
+        "[2286] 林兼産業株式会社 6.1%",
+        "[4840] 株式会社トライアイズ 22.2%"
+      ],
+      "parent_ts": "1786920963.181589",
+      "posted_at": "2026-08-17T07:56:03.235759+09:00",
+      "ratio": 0.0995,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "3417",
+      "submit_date": "2026-08-13",
+      "tier": 1,
+      "title": "有限会社キャピタル・マネジメントによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社メタルアート",
+      "disclosed_at": "2026-08-13",
+      "disclosure_id": "holding:株式会社ＭＩ２|5644|2026-08-13",
+      "document_url": "",
+      "filer_name": "株式会社ＭＩ２",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[5644] 株式会社メタルアート 22.2%",
+        "[4767] 株式会社テー・オー・ダブリュー 2.2%",
+        "[367A] プリモグローバルホールディングス株式会社 1.7%",
+        "[2982] 株式会社ADワークスグループ 2.6%"
+      ],
+      "parent_ts": "1786920963.357149",
+      "posted_at": "2026-08-17T07:56:03.405589+09:00",
+      "ratio": 0.2217,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "5644",
+      "submit_date": "2026-08-13",
+      "tier": 1,
+      "title": "株式会社ＭＩ２による大量保有報告"
+    },
+    {
+      "company_name": "株式会社テー・オー・ダブリュー",
+      "disclosed_at": "2026-08-13",
+      "disclosure_id": "holding:株式会社ＭＩ２|4767|2026-08-13",
+      "document_url": "",
+      "filer_name": "株式会社ＭＩ２",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[5644] 株式会社メタルアート 22.2%",
+        "[4767] 株式会社テー・オー・ダブリュー 2.2%",
+        "[367A] プリモグローバルホールディングス株式会社 1.7%",
+        "[2982] 株式会社ADワークスグループ 2.6%"
+      ],
+      "parent_ts": "1786920963.538699",
+      "posted_at": "2026-08-17T07:56:03.584445+09:00",
+      "ratio": 0.0218,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "4767",
+      "submit_date": "2026-08-13",
+      "tier": 1,
+      "title": "株式会社ＭＩ２による大量保有報告"
+    },
+    {
+      "company_name": "住友大阪セメント株式会社",
+      "disclosed_at": "2026-08-13",
+      "disclosure_id": "holding:ゼナーアセットマネジメントエルエルピー|5232|2026-08-13",
+      "document_url": "",
+      "filer_name": "ゼナーアセットマネジメントエルエルピー",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[4078] 堺化学工業株式会社 5.0%",
+        "[3001] 片倉工業株式会社 5.0%",
+        "[5232] 住友大阪セメント株式会社 5.5%",
+        "[9110] NSユナイテッド海運株式会社 3.4%",
+        "[8914] エリアリンク株式会社 9.8%"
+      ],
+      "parent_ts": "1786920963.696389",
+      "posted_at": "2026-08-17T07:56:03.741631+09:00",
+      "ratio": 0.0546,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "5232",
+      "submit_date": "2026-08-13",
+      "tier": 1,
+      "title": "ゼナーアセットマネジメントエルエルピーによる大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-14",
-  "last_holdings_check_at": "2026-08-14T17:48:58.109562+09:00",
+  "last_holdings_check_at": "2026-08-17T07:55:55.912120+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-08-14T19:41:31.471356+09:00",
   "processed_disclosures": {
@@ -59054,6 +59407,14 @@
       "security_code": "3178",
       "tier": 3
     },
+    "140120260810517166": {
+      "disclosed_at": "2026-08-14T19:45:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399235+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7578",
+      "tier": 3
+    },
     "140120260810517168": {
       "disclosed_at": "2026-08-12T09:15:00+09:00",
       "first_seen": "2026-08-12T11:28:08.919512+09:00",
@@ -73774,6 +74135,14 @@
       "security_code": "3664",
       "tier": 9
     },
+    "140120260814521323": {
+      "disclosed_at": "2026-08-14T19:45:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399229+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7578",
+      "tier": 3
+    },
     "140120260814521326": {
       "disclosed_at": "2026-08-14T16:50:00+09:00",
       "first_seen": "2026-08-14T17:49:01.261877+09:00",
@@ -73958,12 +74327,100 @@
       "security_code": "8129",
       "tier": 1
     },
+    "140120260814521436": {
+      "disclosed_at": "2026-08-14T23:30:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399162+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260814521437": {
+      "disclosed_at": "2026-08-14T23:30:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399168+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260814521439": {
+      "disclosed_at": "2026-08-14T23:35:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399153+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260814521450": {
+      "disclosed_at": "2026-08-14T23:40:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399126+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260814521451": {
+      "disclosed_at": "2026-08-14T19:45:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399217+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7578",
+      "tier": 1
+    },
+    "140120260814521453": {
+      "disclosed_at": "2026-08-14T23:40:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399133+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260814521456": {
+      "disclosed_at": "2026-08-14T19:45:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399223+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7578",
+      "tier": 1
+    },
+    "140120260814521461": {
+      "disclosed_at": "2026-08-14T23:40:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399139+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260814521462": {
+      "disclosed_at": "2026-08-14T23:40:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399146+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260814521464": {
+      "disclosed_at": "2026-08-14T23:50:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399114+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
     "140120260814521465": {
       "disclosed_at": "2026-08-14T19:30:00+09:00",
       "first_seen": "2026-08-14T19:41:33.208386+09:00",
       "language": "ja",
       "posted": false,
       "security_code": "8129",
+      "tier": 9
+    },
+    "140120260814521466": {
+      "disclosed_at": "2026-08-14T23:50:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399120+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
       "tier": 9
     },
     "140120260814521468": {
@@ -73973,11 +74430,131 @@
       "posted": false,
       "security_code": "5868",
       "tier": 3
+    },
+    "140120260814521470": {
+      "disclosed_at": "2026-08-14T20:35:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399048+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8798",
+      "tier": 1
+    },
+    "140120260814521474": {
+      "disclosed_at": "2026-08-14T20:40:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.228528+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8798",
+      "tier": 1
+    },
+    "140120260814521482": {
+      "disclosed_at": "2026-08-14T20:45:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399210+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3905",
+      "tier": 2
+    },
+    "140120260814521484": {
+      "disclosed_at": "2026-08-14T20:45:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399204+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3905",
+      "tier": 3
+    },
+    "140120260814521485": {
+      "disclosed_at": "2026-08-14T22:10:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399174+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 3
+    },
+    "140120260814521487": {
+      "disclosed_at": "2026-08-14T22:10:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399180+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 3
+    },
+    "140120260814521490": {
+      "disclosed_at": "2026-08-14T22:10:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399186+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 1
+    },
+    "140120260814521493": {
+      "disclosed_at": "2026-08-14T22:10:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399192+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 3
+    },
+    "140120260814521495": {
+      "disclosed_at": "2026-08-14T22:10:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399198+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 1
+    },
+    "140120260814521497": {
+      "disclosed_at": "2026-08-14T23:50:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399099+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4011",
+      "tier": 3
+    },
+    "140120260814521499": {
+      "disclosed_at": "2026-08-14T23:50:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399093+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4011",
+      "tier": 1
+    },
+    "140120260814521502": {
+      "disclosed_at": "2026-08-14T23:50:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399086+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4011",
+      "tier": 3
+    },
+    "140120260814521503": {
+      "disclosed_at": "2026-08-14T23:55:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399069+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260814521504": {
+      "disclosed_at": "2026-08-14T23:50:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399107+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4011",
+      "tier": 3
+    },
+    "140120260814521505": {
+      "disclosed_at": "2026-08-14T23:55:00+09:00",
+      "first_seen": "2026-08-17T07:55:59.399078+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 4,
+    "count": 8,
     "date": "2026-08-17"
   },
   "schema_version": 1,
@@ -74392,6 +74969,18 @@
     "テラ株式会社|3544|2026-08-12",
     "ゼナーアセットマネジメントエルエルピー|9110|2026-08-12",
     "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|8570|2026-08-12",
-    "エンデバー・ユナイテッド株式会社|205A|2026-08-12"
+    "エンデバー・ユナイテッド株式会社|205A|2026-08-12",
+    "ｆｕｎｄｎｏｔｅ株式会社|6706|2026-08-14",
+    "ＡＸＩＵＭ　ＣＡＰＩＴＡＬ　ＰＴＥ．ＬＴＤ．|4320|2026-08-14",
+    "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ|5951|2026-08-14",
+    "シルチェスター・インターナショナル・インベスターズ・エルエルピー|6395|2026-08-14",
+    "ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．|3905|2026-08-13",
+    "株式会社Ｃ＆Ｉ　Ｈｏｌｄｉｎｇｓ|4092|2026-08-13",
+    "３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．|6952|2026-08-13",
+    "ｆｕｎｄｎｏｔｅ株式会社|6470|2026-08-13",
+    "有限会社キャピタル・マネジメント|3417|2026-08-13",
+    "株式会社ＭＩ２|5644|2026-08-13",
+    "株式会社ＭＩ２|4767|2026-08-13",
+    "ゼナーアセットマネジメントエルエルピー|5232|2026-08-13"
   ]
 }
