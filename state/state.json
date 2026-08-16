@@ -8840,7 +8840,8 @@
       "posted_at": "2026-08-17T07:56:02.466872+09:00",
       "ratio": 0.5551,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T08:32:55.866328+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "3905",
       "submit_date": "2026-08-13",
@@ -8862,7 +8863,8 @@
       "posted_at": "2026-08-17T07:56:02.670240+09:00",
       "ratio": 0.0806,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T08:34:18.202371+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "4092",
       "submit_date": "2026-08-13",
@@ -8886,7 +8888,8 @@
       "posted_at": "2026-08-17T07:56:02.875484+09:00",
       "ratio": 0.0399,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T08:36:22.756029+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "6952",
       "submit_date": "2026-08-13",
@@ -8917,7 +8920,8 @@
       "posted_at": "2026-08-17T07:56:03.072523+09:00",
       "ratio": 0.1283,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T08:38:30.939319+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "6470",
       "submit_date": "2026-08-13",
@@ -74550,11 +74554,35 @@
       "posted": false,
       "security_code": "8798",
       "tier": 9
+    },
+    "140120260816521539": {
+      "disclosed_at": "2026-08-17T08:30:00+09:00",
+      "first_seen": "2026-08-17T08:31:22.953532+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "319A",
+      "tier": 3
+    },
+    "140120260817521515": {
+      "disclosed_at": "2026-08-17T08:30:00+09:00",
+      "first_seen": "2026-08-17T08:31:22.953515+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260817521516": {
+      "disclosed_at": "2026-08-17T08:30:00+09:00",
+      "first_seen": "2026-08-17T08:31:22.953526+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 8,
+    "count": 12,
     "date": "2026-08-17"
   },
   "schema_version": 1,
