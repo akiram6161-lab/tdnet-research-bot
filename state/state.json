@@ -76221,6 +76221,22 @@
       "posted": false,
       "security_code": "3660",
       "tier": 3
+    },
+    "140120260818522132": {
+      "disclosed_at": "2026-08-18T08:45:00+09:00",
+      "first_seen": "2026-08-18T08:56:07.771932+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260818522134": {
+      "disclosed_at": "2026-08-18T08:45:00+09:00",
+      "first_seen": "2026-08-18T08:56:07.771943+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
