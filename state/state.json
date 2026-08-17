@@ -8680,11 +8680,14 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260814521474.pdf",
       "parent_ts": "1786920959.179719",
       "posted_at": "2026-08-17T07:55:59.228475+09:00",
+      "related_disclosures": [
+        "2026-08-14 20:35 過年度の有価証券報告書等の訂正報告書の提出及び過年度の決算短信等の訂正に関するお知らせ (https://www.release.tdnet.info/inbs/140120260814521470.pdf)"
+      ],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T09:01:36.128890+09:00",
+      "research_status": "completed",
       "score": 85,
       "security_code": "8798",
       "tier": 1,
@@ -8945,7 +8948,8 @@
       "posted_at": "2026-08-17T07:56:03.235759+09:00",
       "ratio": 0.0995,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T08:54:46.029945+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "3417",
       "submit_date": "2026-08-13",
@@ -8970,7 +8974,8 @@
       "posted_at": "2026-08-17T07:56:03.405589+09:00",
       "ratio": 0.2217,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T08:56:50.550314+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "5644",
       "submit_date": "2026-08-13",
@@ -8995,7 +9000,8 @@
       "posted_at": "2026-08-17T07:56:03.584445+09:00",
       "ratio": 0.0218,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T08:59:49.479654+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "4767",
       "submit_date": "2026-08-13",
@@ -74578,11 +74584,19 @@
       "posted": false,
       "security_code": "16724",
       "tier": 9
+    },
+    "140120260817521561": {
+      "disclosed_at": "2026-08-17T08:50:00+09:00",
+      "first_seen": "2026-08-17T08:52:52.056618+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1319",
+      "tier": 3
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 12,
+    "count": 16,
     "date": "2026-08-17"
   },
   "schema_version": 1,
