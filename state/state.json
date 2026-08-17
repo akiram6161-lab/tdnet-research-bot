@@ -75924,6 +75924,14 @@
       "security_code": "7524",
       "tier": 2
     },
+    "140120260817521897": {
+      "disclosed_at": "2026-08-17T19:00:00+09:00",
+      "first_seen": "2026-08-17T19:16:56.551124+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7780",
+      "tier": 9
+    },
     "140120260817521898": {
       "disclosed_at": "2026-08-17T15:15:00+09:00",
       "first_seen": "2026-08-17T15:21:11.155640+09:00",
@@ -76171,6 +76179,14 @@
       "posted": false,
       "security_code": "8979",
       "tier": 3
+    },
+    "140120260817522088": {
+      "disclosed_at": "2026-08-17T19:15:00+09:00",
+      "first_seen": "2026-08-17T19:16:56.551114+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "482A",
+      "tier": 1
     }
   },
   "processed_research_reply_ts": [],
