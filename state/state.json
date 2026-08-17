@@ -8625,11 +8625,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260814521330.pdf",
       "parent_ts": "1786697340.876089",
       "posted_at": "2026-08-14T17:49:00.952324+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T11:49:08.571109+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "4563",
       "tier": 1,
@@ -8644,11 +8645,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260814521294.pdf",
       "parent_ts": "1786697341.181559",
       "posted_at": "2026-08-14T17:49:01.261429+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-17T11:50:59.490262+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "4381",
       "tier": 1,
@@ -44839,6 +44841,14 @@
       "security_code": "1961",
       "tier": 3
     },
+    "140120260806512627": {
+      "disclosed_at": "2026-08-17T11:30:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374575+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8705",
+      "tier": 2
+    },
     "140120260806512629": {
       "disclosed_at": "2026-08-07T14:00:00+09:00",
       "first_seen": "2026-08-07T15:11:59.178220+09:00",
@@ -74670,11 +74680,91 @@
       "posted": false,
       "security_code": "16714",
       "tier": 9
+    },
+    "140120260817521589": {
+      "disclosed_at": "2026-08-17T11:00:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374585+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9563",
+      "tier": 9
+    },
+    "140120260817521605": {
+      "disclosed_at": "2026-08-17T11:00:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374580+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4183",
+      "tier": 3
+    },
+    "140120260817521640": {
+      "disclosed_at": "2026-08-17T11:30:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374577+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8798",
+      "tier": 9
+    },
+    "140120260817521643": {
+      "disclosed_at": "2026-08-17T11:30:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374572+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "20704",
+      "tier": 9
+    },
+    "140120260817521675": {
+      "disclosed_at": "2026-08-17T11:40:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374563+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13494",
+      "tier": 9
+    },
+    "140120260817521688": {
+      "disclosed_at": "2026-08-17T11:00:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374582+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9166",
+      "tier": 2
+    },
+    "140120260817521698": {
+      "disclosed_at": "2026-08-17T11:45:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374550+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13264",
+      "tier": 3
+    },
+    "140120260817521707": {
+      "disclosed_at": "2026-08-17T11:40:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374566+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4018",
+      "tier": 9
+    },
+    "140120260817521708": {
+      "disclosed_at": "2026-08-17T11:45:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374559+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "208A",
+      "tier": 9
+    },
+    "140120260817521721": {
+      "disclosed_at": "2026-08-17T11:40:00+09:00",
+      "first_seen": "2026-08-17T11:46:55.374569+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "518A",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 20,
+    "count": 22,
     "date": "2026-08-17"
   },
   "schema_version": 1,
