@@ -9613,11 +9613,327 @@
       "security_code": "3856",
       "tier": 1,
       "title": "過年度の有価証券報告書等の訂正報告書の提出及び過年度の決算短信の訂正に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "ボードルア",
+      "disclosed_at": "2026-08-19 08:00",
+      "disclosure_id": "140120260817521803",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260817521803.pdf",
+      "parent_ts": "1787094558.975689",
+      "posted_at": "2026-08-19T08:09:19.013907+09:00",
+      "related_disclosures": [
+        "2026-08-19 08:00 ビーシーピーイー ネオン ケイマン エルピーによる株式会社ボードルア（証券コード：4413）に対する公開買付けの開始に関するお知らせ (https://www.release.tdnet.info/inbs/140120260818522642.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-19T08:11:11.371459+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "4413",
+      "tier": 1,
+      "title": "MBOの実施及び応募の推奨に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "ボードルア",
+      "disclosed_at": "2026-08-19 08:00",
+      "disclosure_id": "140120260818522642",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260818522642.pdf",
+      "parent_ts": "1787094559.076959",
+      "posted_at": "2026-08-19T08:09:19.106184+09:00",
+      "related_disclosures": [
+        "2026-08-19 08:00 MBOの実施及び応募の推奨に関するお知らせ (https://www.release.tdnet.info/inbs/140120260817521803.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-19T08:13:02.880246+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "4413",
+      "tier": 1,
+      "title": "ビーシーピーイー ネオン ケイマン エルピーによる株式会社ボードルア（証券コード：4413）に対する公開買付けの開始に関するお知らせ"
+    },
+    {
+      "company_name": "株式会社カカクコム",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:株式会社デジタルガレージ|2371|2026-08-17",
+      "document_url": "",
+      "filer_name": "株式会社デジタルガレージ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[2371] 株式会社カカクコム 20.6%"
+      ],
+      "parent_ts": "1787094560.741159",
+      "posted_at": "2026-08-19T08:09:20.774978+09:00",
+      "ratio": 0.2064,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-19T08:14:49.136233+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "2371",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "株式会社デジタルガレージによる大量保有報告"
+    },
+    {
+      "company_name": "日本化学工業株式会社",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:株式会社Ｃ＆Ｉ　Ｈｏｌｄｉｎｇｓ|4092|2026-08-17",
+      "document_url": "",
+      "filer_name": "株式会社Ｃ＆Ｉ　Ｈｏｌｄｉｎｇｓ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[4092] 日本化学工業株式会社 6.6%"
+      ],
+      "parent_ts": "1787094560.825309",
+      "posted_at": "2026-08-19T08:09:20.855576+09:00",
+      "ratio": 0.0657,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-19T08:16:32.270176+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "4092",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "株式会社Ｃ＆Ｉ　Ｈｏｌｄｉｎｇｓによる大量保有報告"
+    },
+    {
+      "company_name": "東陽倉庫株式会社",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:有限会社キャピタル・マネジメント|9306|2026-08-17",
+      "document_url": "",
+      "filer_name": "有限会社キャピタル・マネジメント",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[9306] 東陽倉庫株式会社 5.0%",
+        "[3417] 大木ヘルスケアホールディングス株式会社 10.0%",
+        "[2286] 林兼産業株式会社 6.1%",
+        "[4840] 株式会社トライアイズ 22.2%"
+      ],
+      "parent_ts": "1787094560.907269",
+      "posted_at": "2026-08-19T08:09:20.935684+09:00",
+      "ratio": 0.0502,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "9306",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "有限会社キャピタル・マネジメントによる大量保有報告"
+    },
+    {
+      "company_name": "多木化学株式会社",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:アセット・バリュー・インベスターズ・リミテッド|4025|2026-08-17",
+      "document_url": "",
+      "filer_name": "アセット・バリュー・インベスターズ・リミテッド",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[4025] 多木化学株式会社 6.1%",
+        "[9682] 株式会社ＤＴＳ 6.4%",
+        "[6727] 株式会社ワコム 17.1%",
+        "[8929] 株式会社青山財産ネットワークス 6.1%",
+        "[9742] 株式会社アイネス 9.0%",
+        "[3106] 倉敷紡績株式会社 4.6%",
+        "[6794] フォスター電機株式会社 7.2%",
+        "[9854] 愛眼株式会社 5.0%",
+        "[3963] 株式会社シンクロ・フード 27.7%"
+      ],
+      "parent_ts": "1787094560.988599",
+      "posted_at": "2026-08-19T08:09:21.018241+09:00",
+      "ratio": 0.0608,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "4025",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "アセット・バリュー・インベスターズ・リミテッドによる大量保有報告"
+    },
+    {
+      "company_name": "那須電機鉄工株式会社",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:ＮＩＰＰＯＮ　ＡＣＴＩＶＥ　ＶＡＬＵＥ　ＦＵＮＤ　ＰＬＣ|5922|2026-08-17",
+      "document_url": "",
+      "filer_name": "ＮＩＰＰＯＮ　ＡＣＴＩＶＥ　ＶＡＬＵＥ　ＦＵＮＤ　ＰＬＣ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[5922] 那須電機鉄工株式会社 8.0%",
+        "[1976] 明星工業株式会社 8.4%",
+        "[5930] 文化シヤッター株式会社 3.5%",
+        "[4109] ステラケミファ株式会社 3.9%",
+        "[4549] 栄研化学株式会社 9.5%",
+        "[4326] 株式会社インテージホールディングス 1.4%",
+        "[9010] 富士急行株式会社 2.6%",
+        "[5943] 株式会社ノーリツ 4.8%",
+        "[3950] ザ・パック株式会社 5.2%",
+        "[4212] 積水樹脂株式会社 6.3%",
+        "[6328] 荏原実業株式会社 7.1%",
+        "[8291] 日産東京販売ホールディングス株式会社 4.8%"
+      ],
+      "parent_ts": "1787094561.110339",
+      "posted_at": "2026-08-19T08:09:21.140608+09:00",
+      "ratio": 0.0803,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "5922",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "ＮＩＰＰＯＮ　ＡＣＴＩＶＥ　ＶＡＬＵＥ　ＦＵＮＤ　ＰＬＣによる大量保有報告"
+    },
+    {
+      "company_name": "ダイニチ工業株式会社",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ|5951|2026-08-17",
+      "document_url": "",
+      "filer_name": "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[5951] ダイニチ工業株式会社 5.8%",
+        "[6249] 株式会社ゲームカードホールディングス 7.0%"
+      ],
+      "parent_ts": "1787094561.205809",
+      "posted_at": "2026-08-19T08:09:21.232730+09:00",
+      "ratio": 0.0579,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "5951",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社ゲームカードホールディングス",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ|6249|2026-08-17",
+      "document_url": "",
+      "filer_name": "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[5951] ダイニチ工業株式会社 5.8%",
+        "[6249] 株式会社ゲームカードホールディングス 7.0%"
+      ],
+      "parent_ts": "1787094561.301099",
+      "posted_at": "2026-08-19T08:09:21.337354+09:00",
+      "ratio": 0.0705,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "6249",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社イワキ",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:Ｃｈａｒｏｎ　Ｆｉｎａｎｃｅ　ＧｍｂＨ|6237|2026-08-17",
+      "document_url": "",
+      "filer_name": "Ｃｈａｒｏｎ　Ｆｉｎａｎｃｅ　ＧｍｂＨ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6237] 株式会社イワキ 18.9%",
+        "[6392] 株式会社ヤマダコーポレーション 9.3%"
+      ],
+      "parent_ts": "1787094561.397999",
+      "posted_at": "2026-08-19T08:09:21.447404+09:00",
+      "ratio": 0.1895,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "6237",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "Ｃｈａｒｏｎ　Ｆｉｎａｎｃｅ　ＧｍｂＨによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社電通総研",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|4812|2026-08-17",
+      "document_url": "",
+      "filer_name": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[3774] 株式会社インターネットイニシアティブ 9.1%",
+        "[6890] 株式会社フェローテック 6.6%",
+        "[7244] 市光工業株式会社 5.4%",
+        "[7004] カナデビア株式会社 5.4%",
+        "[4812] 株式会社電通総研 5.0%",
+        "[8570] イオンフィナンシャルサービス株式会社 10.8%",
+        "[2413] エムスリー株式会社 5.0%",
+        "[4849] エン株式会社 11.4%",
+        "[9072] ニッコンホールディングス株式会社 17.7%",
+        "[2871] 株式会社ニチレイ 6.1%",
+        "[2371] 株式会社カカクコム 19.5%",
+        "[6104] 芝浦機械株式会社 6.8%",
+        "[4088] エア・ウォーター株式会社 6.0%",
+        "[4631] DIC株式会社 11.6%",
+        "[1721] コムシスホールディングス株式会社 6.3%"
+      ],
+      "parent_ts": "1787094561.493899",
+      "posted_at": "2026-08-19T08:09:21.521313+09:00",
+      "ratio": 0.05,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "4812",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "company_name": "株式会社イワキ",
+      "disclosed_at": "2026-08-17",
+      "disclosure_id": "holding:ダルトン　インベストメンツ　インク|6237|2026-08-17",
+      "document_url": "",
+      "filer_name": "ダルトン　インベストメンツ　インク",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[6237] 株式会社イワキ 5.0%",
+        "[3132] マクニカホールディングス株式会社 9.2%",
+        "[8923] トーセイ株式会社 6.1%",
+        "[6351] 株式会社鶴見製作所 13.7%",
+        "[8715] アニコム　ホールディングス株式会社 14.8%",
+        "[9069] センコーグループホールディングス株式会社 9.5%",
+        "[5947] リンナイ株式会社 6.3%",
+        "[3076] あいホールディングス株式会社 6.0%",
+        "[2206] 江崎グリコ株式会社 8.2%",
+        "[5929] 三和ホールディングス株式会社 4.6%",
+        "[9058] トランコム株式会社 6.3%",
+        "[5186] ニッタ株式会社 5.6%"
+      ],
+      "parent_ts": "1787094561.578829",
+      "posted_at": "2026-08-19T08:09:21.612714+09:00",
+      "ratio": 0.0496,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "6237",
+      "submit_date": "2026-08-17",
+      "tier": 1,
+      "title": "ダルトン　インベストメンツ　インクによる大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-18",
-  "last_holdings_check_at": "2026-08-18T16:44:07.634417+09:00",
+  "last_holdings_check_at": "2026-08-19T08:09:15.452066+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-08-14T19:41:31.471356+09:00",
   "processed_disclosures": {
@@ -31629,6 +31945,14 @@
       "security_code": "3793",
       "tier": 9
     },
+    "140120260804508256": {
+      "disclosed_at": "2026-08-19T08:00:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106290+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "614A",
+      "tier": 3
+    },
     "140120260804508257": {
       "disclosed_at": "2026-08-07T15:30:00+09:00",
       "first_seen": "2026-08-07T16:43:55.151973+09:00",
@@ -31700,6 +32024,22 @@
       "posted": false,
       "security_code": "1787",
       "tier": 9
+    },
+    "140120260804508284": {
+      "disclosed_at": "2026-08-19T08:00:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106296+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "614A",
+      "tier": 3
+    },
+    "140120260804508287": {
+      "disclosed_at": "2026-08-19T08:00:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106302+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "614A",
+      "tier": 3
     },
     "140120260804508288": {
       "disclosed_at": "2026-08-07T15:30:00+09:00",
@@ -70941,6 +71281,14 @@
       "security_code": "8876",
       "tier": 9
     },
+    "140120260814520230": {
+      "disclosed_at": "2026-08-19T08:00:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106308+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "614A",
+      "tier": 3
+    },
     "140120260814520231": {
       "disclosed_at": "2026-08-14T15:30:00+09:00",
       "first_seen": "2026-08-14T16:41:33.537792+09:00",
@@ -76205,6 +76553,14 @@
       "security_code": "7035",
       "tier": 1
     },
+    "140120260817521797": {
+      "disclosed_at": "2026-08-19T08:00:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106276+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "186A",
+      "tier": 3
+    },
     "140120260817521799": {
       "disclosed_at": "2026-08-17T13:30:00+09:00",
       "first_seen": "2026-08-17T14:01:58.393210+09:00",
@@ -76228,6 +76584,14 @@
       "posted": false,
       "security_code": "3825",
       "tier": 2
+    },
+    "140120260817521803": {
+      "disclosed_at": "2026-08-19T08:00:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.013961+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4413",
+      "tier": 1
     },
     "140120260817521804": {
       "disclosed_at": "2026-08-17T15:30:00+09:00",
@@ -77525,6 +77889,14 @@
       "security_code": "2338",
       "tier": 9
     },
+    "140120260818522578": {
+      "disclosed_at": "2026-08-18T21:30:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106260+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3350",
+      "tier": 1
+    },
     "140120260818522587": {
       "disclosed_at": "2026-08-18T18:00:00+09:00",
       "first_seen": "2026-08-18T18:39:31.974260+09:00",
@@ -77540,6 +77912,14 @@
       "posted": false,
       "security_code": "3940",
       "tier": 1
+    },
+    "140120260818522608": {
+      "disclosed_at": "2026-08-18T21:30:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106268+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3350",
+      "tier": 3
     },
     "140120260818522611": {
       "disclosed_at": "2026-08-18T18:20:00+09:00",
@@ -77572,12 +77952,28 @@
       "posted": true,
       "security_code": "3856",
       "tier": 1
+    },
+    "140120260818522642": {
+      "disclosed_at": "2026-08-19T08:00:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106238+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4413",
+      "tier": 1
+    },
+    "140120260818522655": {
+      "disclosed_at": "2026-08-19T08:00:00+09:00",
+      "first_seen": "2026-08-19T08:09:19.106284+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4413",
+      "tier": 1
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 20,
-    "date": "2026-08-18"
+    "count": 4,
+    "date": "2026-08-19"
   },
   "schema_version": 1,
   "seen_holdings": [
@@ -78003,6 +78399,16 @@
     "有限会社キャピタル・マネジメント|3417|2026-08-13",
     "株式会社ＭＩ２|5644|2026-08-13",
     "株式会社ＭＩ２|4767|2026-08-13",
-    "ゼナーアセットマネジメントエルエルピー|5232|2026-08-13"
+    "ゼナーアセットマネジメントエルエルピー|5232|2026-08-13",
+    "株式会社デジタルガレージ|2371|2026-08-17",
+    "株式会社Ｃ＆Ｉ　Ｈｏｌｄｉｎｇｓ|4092|2026-08-17",
+    "有限会社キャピタル・マネジメント|9306|2026-08-17",
+    "アセット・バリュー・インベスターズ・リミテッド|4025|2026-08-17",
+    "ＮＩＰＰＯＮ　ＡＣＴＩＶＥ　ＶＡＬＵＥ　ＦＵＮＤ　ＰＬＣ|5922|2026-08-17",
+    "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ|5951|2026-08-17",
+    "Ｒａｎｇｅｌｅｙ　Ｃａｐｉｔａｌ，　ＬＬＣ|6249|2026-08-17",
+    "Ｃｈａｒｏｎ　Ｆｉｎａｎｃｅ　ＧｍｂＨ|6237|2026-08-17",
+    "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|4812|2026-08-17",
+    "ダルトン　インベストメンツ　インク|6237|2026-08-17"
   ]
 }
