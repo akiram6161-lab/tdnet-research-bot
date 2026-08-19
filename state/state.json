@@ -9835,7 +9835,8 @@
       "posted_at": "2026-08-19T08:09:21.337354+09:00",
       "ratio": 0.0705,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-19T09:26:07.788592+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "6249",
       "submit_date": "2026-08-17",
@@ -9858,7 +9859,8 @@
       "posted_at": "2026-08-19T08:09:21.447404+09:00",
       "ratio": 0.1895,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-19T09:28:16.695064+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "6237",
       "submit_date": "2026-08-17",
@@ -9943,11 +9945,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260818522694.pdf",
       "parent_ts": "1787096499.358969",
       "posted_at": "2026-08-19T08:41:39.390358+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-19T09:29:33.655599+09:00",
+      "research_status": "completed",
       "score": 85,
       "security_code": "6305",
       "tier": 1,
@@ -78007,11 +78010,27 @@
       "posted": false,
       "security_code": "6305",
       "tier": 1
+    },
+    "140120260819522706": {
+      "disclosed_at": "2026-08-19T09:10:00+09:00",
+      "first_seen": "2026-08-19T09:24:09.749336+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260819522708": {
+      "disclosed_at": "2026-08-19T09:10:00+09:00",
+      "first_seen": "2026-08-19T09:24:09.749361+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 8,
+    "count": 11,
     "date": "2026-08-19"
   },
   "schema_version": 1,
