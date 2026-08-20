@@ -10556,13 +10556,33 @@
       "security_code": "2721",
       "tier": 1,
       "title": "臨時株主総会の開催場所に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "重大インシデント",
+      "company_name": "ＣＯＴＡ",
+      "disclosed_at": "2026-08-20 18:30",
+      "disclosure_id": "140120260820523700",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260820523700.pdf",
+      "parent_ts": "1787218861.184719",
+      "posted_at": "2026-08-20T18:41:01.250954+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-20T18:42:21.263869+09:00",
+      "research_status": "completed",
+      "score": 82,
+      "security_code": "4923",
+      "tier": 1,
+      "title": "サイバー攻撃によるシステム障害発生のお知らせ（最終報）"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-19",
   "last_holdings_check_at": "2026-08-20T16:46:52.997281+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-20T17:58:28.820759+09:00",
+  "last_successful_tdnet_check": "2026-08-20T18:41:00.027322+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -79836,6 +79856,14 @@
       "security_code": "9236",
       "tier": 1
     },
+    "140120260819523133": {
+      "disclosed_at": "2026-08-20T18:30:00+09:00",
+      "first_seen": "2026-08-20T18:41:01.251041+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4892",
+      "tier": 9
+    },
     "140120260819523136": {
       "disclosed_at": "2026-08-20T15:30:00+09:00",
       "first_seen": "2026-08-20T15:56:13.111423+09:00",
@@ -80764,6 +80792,14 @@
       "security_code": "4259",
       "tier": 3
     },
+    "140120260820523700": {
+      "disclosed_at": "2026-08-20T18:30:00+09:00",
+      "first_seen": "2026-08-20T18:41:01.251010+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4923",
+      "tier": 1
+    },
     "140120260820523715": {
       "disclosed_at": "2026-08-20T17:00:00+09:00",
       "first_seen": "2026-08-20T17:18:41.863765+09:00",
@@ -81091,11 +81127,51 @@
       "posted": false,
       "security_code": "9027",
       "tier": 1
+    },
+    "140120260820523961": {
+      "disclosed_at": "2026-08-20T18:00:00+09:00",
+      "first_seen": "2026-08-20T18:41:01.251057+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1469",
+      "tier": 9
+    },
+    "140120260820523963": {
+      "disclosed_at": "2026-08-20T18:00:00+09:00",
+      "first_seen": "2026-08-20T18:41:01.251066+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4619",
+      "tier": 9
+    },
+    "140120260820523965": {
+      "disclosed_at": "2026-08-20T18:00:00+09:00",
+      "first_seen": "2026-08-20T18:41:01.251073+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5533",
+      "tier": 3
+    },
+    "140120260820523980": {
+      "disclosed_at": "2026-08-20T18:30:00+09:00",
+      "first_seen": "2026-08-20T18:41:01.251050+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7685",
+      "tier": 3
+    },
+    "140120260820523989": {
+      "disclosed_at": "2026-08-20T18:40:00+09:00",
+      "first_seen": "2026-08-20T18:41:01.251028+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "218A",
+      "tier": 1
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 6,
+    "count": 7,
     "date": "2026-08-20"
   },
   "schema_version": 1,
