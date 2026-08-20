@@ -10703,7 +10703,7 @@
   "last_highlight_date": "2026-08-20",
   "last_holdings_check_at": "2026-08-21T08:12:48.537294+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-21T08:12:48.537294+09:00",
+  "last_successful_tdnet_check": "2026-08-21T08:45:18.330504+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -81312,6 +81312,22 @@
       "posted": false,
       "security_code": "218A",
       "tier": 1
+    },
+    "140120260821524043": {
+      "disclosed_at": "2026-08-21T08:30:00+09:00",
+      "first_seen": "2026-08-21T08:45:18.732294+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260821524044": {
+      "disclosed_at": "2026-08-21T08:30:00+09:00",
+      "first_seen": "2026-08-21T08:45:18.732303+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
