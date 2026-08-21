@@ -10703,7 +10703,7 @@
   "last_highlight_date": "2026-08-20",
   "last_holdings_check_at": "2026-08-21T08:12:48.537294+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-21T08:45:18.330504+09:00",
+  "last_successful_tdnet_check": "2026-08-21T09:26:53.342290+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -61409,6 +61409,14 @@
       "security_code": "1379",
       "tier": 3
     },
+    "140120260810517194": {
+      "disclosed_at": "2026-08-21T09:00:00+09:00",
+      "first_seen": "2026-08-21T09:26:53.870013+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8331",
+      "tier": 3
+    },
     "140120260810517196": {
       "disclosed_at": "2026-08-12T16:00:00+09:00",
       "first_seen": "2026-08-12T16:41:40.046128+09:00",
@@ -80881,6 +80889,14 @@
       "security_code": "277A",
       "tier": 3
     },
+    "140120260820523657": {
+      "disclosed_at": "2026-08-21T09:00:00+09:00",
+      "first_seen": "2026-08-21T09:26:53.870003+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1431",
+      "tier": 2
+    },
     "140120260820523658": {
       "disclosed_at": "2026-08-20T17:00:00+09:00",
       "first_seen": "2026-08-20T17:18:41.863780+09:00",
@@ -80888,6 +80904,14 @@
       "posted": false,
       "security_code": "2323",
       "tier": 3
+    },
+    "140120260820523660": {
+      "disclosed_at": "2026-08-21T09:00:00+09:00",
+      "first_seen": "2026-08-21T09:26:53.870010+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1431",
+      "tier": 2
     },
     "140120260820523676": {
       "disclosed_at": "2026-08-20T15:30:00+09:00",
@@ -81312,6 +81336,22 @@
       "posted": false,
       "security_code": "218A",
       "tier": 1
+    },
+    "140120260820523994": {
+      "disclosed_at": "2026-08-21T08:50:00+09:00",
+      "first_seen": "2026-08-21T09:26:53.870016+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2015",
+      "tier": 9
+    },
+    "140120260820523995": {
+      "disclosed_at": "2026-08-21T08:50:00+09:00",
+      "first_seen": "2026-08-21T09:26:53.870018+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2016",
+      "tier": 9
     },
     "140120260821524043": {
       "disclosed_at": "2026-08-21T08:30:00+09:00",
