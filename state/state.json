@@ -10947,11 +10947,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260820523927.pdf",
       "parent_ts": "1787296194.243089",
       "posted_at": "2026-08-21T16:09:54.317815+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-21T19:37:35.003922+09:00",
+      "research_status": "completed",
       "score": 80,
       "security_code": "441A",
       "tier": 1,
@@ -10966,11 +10967,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260821524159.pdf",
       "parent_ts": "1787296194.545359",
       "posted_at": "2026-08-21T16:09:54.615232+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-21T19:38:47.416784+09:00",
+      "research_status": "completed",
       "score": 80,
       "security_code": "9322",
       "tier": 1,
@@ -11223,7 +11225,7 @@
   "last_highlight_date": "2026-08-20",
   "last_holdings_check_at": "2026-08-21T16:59:11.142028+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-21T18:20:39.431282+09:00",
+  "last_successful_tdnet_check": "2026-08-21T19:36:05.208527+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -83720,11 +83722,19 @@
       "posted": false,
       "security_code": "7707",
       "tier": 3
+    },
+    "140120260821524708": {
+      "disclosed_at": "2026-08-21T19:00:00+09:00",
+      "first_seen": "2026-08-21T19:36:06.046355+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "603A",
+      "tier": 3
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 24,
+    "count": 26,
     "date": "2026-08-21"
   },
   "schema_version": 1,
