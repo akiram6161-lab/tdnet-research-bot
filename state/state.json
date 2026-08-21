@@ -10847,11 +10847,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260820523547.pdf",
       "parent_ts": "1787296192.735829",
       "posted_at": "2026-08-21T16:09:52.805007+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-21T18:23:25.882513+09:00",
+      "research_status": "completed",
       "score": 85,
       "security_code": "9692",
       "tier": 1,
@@ -10866,11 +10867,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260820523948.pdf",
       "parent_ts": "1787296193.041329",
       "posted_at": "2026-08-21T16:09:53.115629+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-21T18:25:12.615700+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "4918",
       "tier": 1,
@@ -10885,11 +10887,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260821524068.pdf",
       "parent_ts": "1787296193.340709",
       "posted_at": "2026-08-21T16:09:53.416714+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-21T18:26:45.903556+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "5216",
       "tier": 1,
@@ -11188,13 +11191,35 @@
       "security_code": "603A",
       "tier": 1,
       "title": "第三者割当増資の結果に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "カカクコム",
+      "disclosed_at": "2026-08-21 18:20",
+      "disclosure_id": "140120260821524675",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260821524675.pdf",
+      "parent_ts": "1787304040.527139",
+      "posted_at": "2026-08-21T18:20:40.560863+09:00",
+      "related_disclosures": [
+        "2026-08-17 株式会社デジタルガレージによる大量保有報告"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-21T18:22:23.977995+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "2371",
+      "tier": 1,
+      "title": "「BCPE Blitz Cayman, L.P.による当社株券等に対する公開買付けの開始予定に関するお知らせ」の経過に関するお知らせ"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-20",
   "last_holdings_check_at": "2026-08-21T16:59:11.142028+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-21T17:49:17.884769+09:00",
+  "last_successful_tdnet_check": "2026-08-21T18:20:39.431282+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -82964,6 +82989,14 @@
       "security_code": "13494",
       "tier": 9
     },
+    "140120260821524285": {
+      "disclosed_at": "2026-08-21T18:00:00+09:00",
+      "first_seen": "2026-08-21T18:20:40.560950+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2995",
+      "tier": 3
+    },
     "140120260821524286": {
       "disclosed_at": "2026-08-21T16:30:00+09:00",
       "first_seen": "2026-08-21T16:59:11.829090+09:00",
@@ -83564,6 +83597,14 @@
       "security_code": "4183",
       "tier": 1
     },
+    "140120260821524606": {
+      "disclosed_at": "2026-08-21T18:00:00+09:00",
+      "first_seen": "2026-08-21T18:20:40.560958+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "594A",
+      "tier": 3
+    },
     "140120260821524608": {
       "disclosed_at": "2026-08-21T16:35:00+09:00",
       "first_seen": "2026-08-21T16:59:11.829065+09:00",
@@ -83644,6 +83685,14 @@
       "security_code": "4829",
       "tier": 9
     },
+    "140120260821524656": {
+      "disclosed_at": "2026-08-21T18:15:00+09:00",
+      "first_seen": "2026-08-21T18:20:40.560933+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4671",
+      "tier": 9
+    },
     "140120260821524668": {
       "disclosed_at": "2026-08-21T17:40:00+09:00",
       "first_seen": "2026-08-21T17:49:19.711460+09:00",
@@ -83651,11 +83700,27 @@
       "posted": false,
       "security_code": "9621",
       "tier": 3
+    },
+    "140120260821524675": {
+      "disclosed_at": "2026-08-21T18:20:00+09:00",
+      "first_seen": "2026-08-21T18:20:40.560917+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "2371",
+      "tier": 1
+    },
+    "140120260821524697": {
+      "disclosed_at": "2026-08-21T18:15:00+09:00",
+      "first_seen": "2026-08-21T18:20:40.560943+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7707",
+      "tier": 3
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 16,
+    "count": 20,
     "date": "2026-08-21"
   },
   "schema_version": 1,
