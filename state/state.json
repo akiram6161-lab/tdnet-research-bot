@@ -86002,6 +86002,30 @@
       "posted": true,
       "security_code": "2164",
       "tier": 1
+    },
+    "140120260825525408": {
+      "disclosed_at": "2026-08-25T08:30:00+09:00",
+      "first_seen": "2026-08-25T08:41:58.065604+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7138",
+      "tier": 3
+    },
+    "140120260825525410": {
+      "disclosed_at": "2026-08-25T08:30:00+09:00",
+      "first_seen": "2026-08-25T08:41:58.065588+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260825525412": {
+      "disclosed_at": "2026-08-25T08:30:00+09:00",
+      "first_seen": "2026-08-25T08:41:58.065599+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
