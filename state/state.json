@@ -11489,6 +11489,30 @@
       "security_code": "4073",
       "tier": 1,
       "title": "株式の立会外分売終了および主要株主の異動に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "アクティビズム・ガバナンス",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "disclosed_at": "2026-08-24 14:20",
+      "disclosure_id": "140120260824525123",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260824525123.pdf",
+      "parent_ts": "1787548819.737679",
+      "posted_at": "2026-08-24T14:20:19.808930+09:00",
+      "related_disclosures": [
+        "2026-08-18 19:15 過年度の有価証券報告書等の訂正報告書の提出及び過年度の決算短信の訂正に関するお知らせ (https://www.release.tdnet.info/inbs/140120260818522630.pdf)",
+        "2026-08-19 11:20 過年度の有価証券報告書に係る監査報告書及び四半期レビュー報告書並びに期中レビュー報告書の意見不表明（結論不表明）に関するお知らせ (https://www.release.tdnet.info/inbs/140120260819522935.pdf)",
+        "2026-08-19 13:45 財務報告に係る内部統制の開示すべき重要な不備及び「内部統制報告書の訂正報告書」の提出に関するお知らせ (https://www.release.tdnet.info/inbs/140120260819522977.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-24T14:21:59.029298+09:00",
+      "research_status": "completed",
+      "score": 92,
+      "security_code": "3856",
+      "tier": 1,
+      "title": "臨時株主総会の開催及び付議議案の決定に関するお知らせ"
     }
   ],
   "failed_items": [],
@@ -80737,6 +80761,14 @@
       "security_code": "7906",
       "tier": 9
     },
+    "140120260819523040": {
+      "disclosed_at": "2026-08-24T14:00:00+09:00",
+      "first_seen": "2026-08-24T14:20:19.808992+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5979",
+      "tier": 9
+    },
     "140120260819523052": {
       "disclosed_at": "2026-08-19T15:30:00+09:00",
       "first_seen": "2026-08-19T15:54:59.346370+09:00",
@@ -82375,6 +82407,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "5534",
+      "tier": 9
+    },
+    "140120260820523912": {
+      "disclosed_at": "2026-08-24T14:00:00+09:00",
+      "first_seen": "2026-08-24T14:20:19.809005+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8343",
       "tier": 9
     },
     "140120260820523918": {
@@ -84041,6 +84081,14 @@
       "security_code": "4829",
       "tier": 9
     },
+    "140120260821524655": {
+      "disclosed_at": "2026-08-24T14:00:00+09:00",
+      "first_seen": "2026-08-24T14:20:19.808999+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6574",
+      "tier": 2
+    },
     "140120260821524656": {
       "disclosed_at": "2026-08-21T18:15:00+09:00",
       "first_seen": "2026-08-21T18:20:40.560933+09:00",
@@ -84193,6 +84241,14 @@
       "security_code": "7966",
       "tier": 9
     },
+    "140120260824524794": {
+      "disclosed_at": "2026-08-24T14:00:00+09:00",
+      "first_seen": "2026-08-24T14:20:19.808982+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2883",
+      "tier": 3
+    },
     "140120260824524800": {
       "disclosed_at": "2026-08-24T09:30:00+09:00",
       "first_seen": "2026-08-24T10:44:50.120555+09:00",
@@ -84295,6 +84351,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "20704",
+      "tier": 9
+    },
+    "140120260824524902": {
+      "disclosed_at": "2026-08-24T14:00:00+09:00",
+      "first_seen": "2026-08-24T14:20:19.809013+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8345",
       "tier": 9
     },
     "140120260824524919": {
@@ -84488,11 +84552,19 @@
       "posted": false,
       "security_code": "349A",
       "tier": 9
+    },
+    "140120260824525123": {
+      "disclosed_at": "2026-08-24T14:20:00+09:00",
+      "first_seen": "2026-08-24T14:20:19.808967+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3856",
+      "tier": 1
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 8,
+    "count": 9,
     "date": "2026-08-24"
   },
   "schema_version": 1,
