@@ -11709,11 +11709,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260824525110.pdf",
       "parent_ts": "1787555439.946829",
       "posted_at": "2026-08-24T16:10:40.046529+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-24T18:56:03.502710+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "6696",
       "tier": 1,
@@ -11728,11 +11729,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260821524618.pdf",
       "parent_ts": "1787555440.266739",
       "posted_at": "2026-08-24T16:10:40.342642+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-24T18:57:16.279797+09:00",
+      "research_status": "completed",
       "score": 80,
       "security_code": "9706",
       "tier": 1,
@@ -11811,11 +11813,14 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260824525271.pdf",
       "parent_ts": "1787558749.386289",
       "posted_at": "2026-08-24T17:05:49.467891+09:00",
+      "related_disclosures": [
+        "2026-08-24 17:00 海外募集による新株式発行に関する補足説明資料 (https://www.release.tdnet.info/inbs/140120260824525276.pdf)"
+      ],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-24T18:59:10.726824+09:00",
+      "research_status": "completed",
       "score": 80,
       "security_code": "6232",
       "tier": 1,
@@ -11830,11 +11835,14 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260824525276.pdf",
       "parent_ts": "1787558749.907679",
       "posted_at": "2026-08-24T17:05:49.984244+09:00",
+      "related_disclosures": [
+        "2026-08-24 17:00 海外募集による新株式発行に関するお知らせ (https://www.release.tdnet.info/inbs/140120260824525271.pdf)"
+      ],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-24T19:00:36.988510+09:00",
+      "research_status": "completed",
       "score": 80,
       "security_code": "6232",
       "tier": 1,
@@ -85679,6 +85687,14 @@
       "security_code": "7746",
       "tier": 1
     },
+    "140120260824525208": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568658+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2565",
+      "tier": 9
+    },
     "140120260824525211": {
       "disclosed_at": "2026-08-24T17:00:00+09:00",
       "first_seen": "2026-08-24T17:05:49.984360+09:00",
@@ -85695,6 +85711,14 @@
       "security_code": "4068",
       "tier": 3
     },
+    "140120260824525213": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568662+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2855",
+      "tier": 9
+    },
     "140120260824525217": {
       "disclosed_at": "2026-08-24T16:05:00+09:00",
       "first_seen": "2026-08-24T16:10:37.579395+09:00",
@@ -85702,6 +85726,94 @@
       "posted": true,
       "security_code": "9241",
       "tier": 1
+    },
+    "140120260824525218": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568620+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "179A",
+      "tier": 9
+    },
+    "140120260824525219": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568631+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "180A",
+      "tier": 9
+    },
+    "140120260824525220": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568636+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2018",
+      "tier": 9
+    },
+    "140120260824525221": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568640+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2096",
+      "tier": 9
+    },
+    "140120260824525222": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568644+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2097",
+      "tier": 9
+    },
+    "140120260824525223": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568648+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2098",
+      "tier": 9
+    },
+    "140120260824525224": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568651+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "234A",
+      "tier": 9
+    },
+    "140120260824525225": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568655+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "235A",
+      "tier": 9
+    },
+    "140120260824525226": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568665+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2864",
+      "tier": 9
+    },
+    "140120260824525227": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568669+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "512A",
+      "tier": 9
+    },
+    "140120260824525228": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568672+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "513A",
+      "tier": 9
     },
     "140120260824525230": {
       "disclosed_at": "2026-08-24T17:00:00+09:00",
@@ -85782,11 +85894,27 @@
       "posted": false,
       "security_code": "7063",
       "tier": 9
+    },
+    "140120260824525325": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568675+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8572",
+      "tier": 9
+    },
+    "140120260824525328": {
+      "disclosed_at": "2026-08-24T18:00:00+09:00",
+      "first_seen": "2026-08-24T18:54:51.568679+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8572",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 21,
+    "count": 25,
     "date": "2026-08-24"
   },
   "schema_version": 1,
