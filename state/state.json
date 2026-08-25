@@ -12237,6 +12237,51 @@
       "security_code": "6232",
       "tier": 1,
       "title": "海外募集による新株式発行に係る発行価格等の決定に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "重大インシデント",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "disclosed_at": "2026-08-25 18:30",
+      "disclosure_id": "140120260825526054",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260825526054.pdf",
+      "parent_ts": "1787651704.478329",
+      "posted_at": "2026-08-25T18:55:04.525345+09:00",
+      "related_disclosures": [
+        "2026-08-18 19:15 過年度の有価証券報告書等の訂正報告書の提出及び過年度の決算短信の訂正に関するお知らせ (https://www.release.tdnet.info/inbs/140120260818522630.pdf)",
+        "2026-08-19 11:20 過年度の有価証券報告書に係る監査報告書及び四半期レビュー報告書並びに期中レビュー報告書の意見不表明（結論不表明）に関するお知らせ (https://www.release.tdnet.info/inbs/140120260819522935.pdf)",
+        "2026-08-19 13:45 財務報告に係る内部統制の開示すべき重要な不備及び「内部統制報告書の訂正報告書」の提出に関するお知らせ (https://www.release.tdnet.info/inbs/140120260819522977.pdf)",
+        "2026-08-24 14:20 臨時株主総会の開催及び付議議案の決定に関するお知らせ (https://www.release.tdnet.info/inbs/140120260824525123.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-25T18:56:31.855161+09:00",
+      "research_status": "completed",
+      "score": 92,
+      "security_code": "3856",
+      "tier": 1,
+      "title": "当社株式の上場廃止の決定及び整理銘柄指定に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "アクティビズム・ガバナンス",
+      "company_name": "アインＨＤ",
+      "disclosed_at": "2026-08-25 18:30",
+      "disclosure_id": "140120260825525883",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260825525883.pdf",
+      "parent_ts": "1787651704.650659",
+      "posted_at": "2026-08-25T18:55:04.700320+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-25T18:57:51.659173+09:00",
+      "research_status": "completed",
+      "score": 92,
+      "security_code": "9627",
+      "tier": 1,
+      "title": "オアシスによる当社株式を対象とする買集め行為を踏まえた当社株式の大規模買付行為等への対応方針（買収への対応方針）の導入に関するお知らせ"
     }
   ],
   "failed_items": [],
@@ -87469,6 +87514,14 @@
       "security_code": "8977",
       "tier": 3
     },
+    "140120260825525883": {
+      "disclosed_at": "2026-08-25T18:30:00+09:00",
+      "first_seen": "2026-08-25T18:55:04.700370+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "9627",
+      "tier": 1
+    },
     "140120260825525888": {
       "disclosed_at": "2026-08-25T17:00:00+09:00",
       "first_seen": "2026-08-25T17:00:22.184931+09:00",
@@ -87524,6 +87577,14 @@
       "posted": false,
       "security_code": "1591",
       "tier": 9
+    },
+    "140120260825525912": {
+      "disclosed_at": "2026-08-25T18:30:00+09:00",
+      "first_seen": "2026-08-25T18:55:04.700404+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9627",
+      "tier": 3
     },
     "140120260825525915": {
       "disclosed_at": "2026-08-25T16:00:00+09:00",
@@ -87692,11 +87753,35 @@
       "posted": false,
       "security_code": "2016",
       "tier": 9
+    },
+    "140120260825526049": {
+      "disclosed_at": "2026-08-25T18:30:00+09:00",
+      "first_seen": "2026-08-25T18:55:04.700396+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "485A",
+      "tier": 2
+    },
+    "140120260825526054": {
+      "disclosed_at": "2026-08-25T18:30:00+09:00",
+      "first_seen": "2026-08-25T18:55:04.525394+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3856",
+      "tier": 1
+    },
+    "140120260825526058": {
+      "disclosed_at": "2026-08-25T18:45:00+09:00",
+      "first_seen": "2026-08-25T18:55:04.700388+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6036",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 16,
+    "count": 18,
     "date": "2026-08-25"
   },
   "schema_version": 1,
