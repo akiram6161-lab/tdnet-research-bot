@@ -12415,7 +12415,8 @@
       "posted_at": "2026-08-26T08:13:20.776027+09:00",
       "ratio": 0.8415,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-26T08:45:23.966266+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "2997",
       "submit_date": "2026-08-24",
@@ -12448,7 +12449,8 @@
       "posted_at": "2026-08-26T08:13:20.876041+09:00",
       "ratio": 0.0506,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-08-26T08:46:40.199169+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "6005",
       "submit_date": "2026-08-24",
@@ -87989,11 +87991,43 @@
       "posted": false,
       "security_code": "6036",
       "tier": 9
+    },
+    "140120260825526062": {
+      "disclosed_at": "2026-08-26T08:30:00+09:00",
+      "first_seen": "2026-08-26T08:44:12.909674+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7138",
+      "tier": 3
+    },
+    "140120260826525428": {
+      "disclosed_at": "2026-08-26T08:30:00+09:00",
+      "first_seen": "2026-08-26T08:44:12.909678+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7590",
+      "tier": 9
+    },
+    "140120260826526115": {
+      "disclosed_at": "2026-08-26T08:30:00+09:00",
+      "first_seen": "2026-08-26T08:44:12.909658+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260826526116": {
+      "disclosed_at": "2026-08-26T08:30:00+09:00",
+      "first_seen": "2026-08-26T08:44:12.909669+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 4,
+    "count": 6,
     "date": "2026-08-26"
   },
   "schema_version": 1,
