@@ -11947,6 +11947,26 @@
       "security_code": "3607",
       "tier": 1,
       "title": "連結子会社の事業廃止に伴う事業整理損（連結決算）の計上、及び連結子会社への増資に伴う子会社支援損失引当金繰入額（個別決算）の計上に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "Ｇ－ウェッジＨＤ",
+      "disclosed_at": "2026-08-25 14:30",
+      "disclosure_id": "140120260825525777",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260825525777.pdf",
+      "parent_ts": "1787636234.311109",
+      "posted_at": "2026-08-25T14:37:14.351270+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-25T14:38:23.668446+09:00",
+      "research_status": "completed",
+      "score": 88,
+      "security_code": "2388",
+      "tier": 1,
+      "title": "完全子会社の吸収合併（簡易合併・略式合併）に関するお知らせ"
     }
   ],
   "failed_items": [],
@@ -80075,6 +80095,14 @@
       "security_code": "8798",
       "tier": 1
     },
+    "140120260818522456": {
+      "disclosed_at": "2026-08-25T14:00:00+09:00",
+      "first_seen": "2026-08-25T14:37:14.351375+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8388",
+      "tier": 9
+    },
     "140120260818522460": {
       "disclosed_at": "2026-08-18T15:30:00+09:00",
       "first_seen": "2026-08-18T15:54:42.087228+09:00",
@@ -84323,6 +84351,14 @@
       "security_code": "1330",
       "tier": 3
     },
+    "140120260821524508": {
+      "disclosed_at": "2026-08-25T14:30:00+09:00",
+      "first_seen": "2026-08-25T14:37:14.351339+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5302",
+      "tier": 2
+    },
     "140120260821524509": {
       "disclosed_at": "2026-08-21T16:00:00+09:00",
       "first_seen": "2026-08-21T16:09:51.844943+09:00",
@@ -86027,6 +86063,14 @@
       "security_code": "7063",
       "tier": 9
     },
+    "140120260824525301": {
+      "disclosed_at": "2026-08-25T14:30:00+09:00",
+      "first_seen": "2026-08-25T14:37:14.351350+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7337",
+      "tier": 3
+    },
     "140120260824525325": {
       "disclosed_at": "2026-08-24T18:00:00+09:00",
       "first_seen": "2026-08-24T18:54:51.568675+09:00",
@@ -86171,6 +86215,14 @@
       "security_code": "5983",
       "tier": 9
     },
+    "140120260825525486": {
+      "disclosed_at": "2026-08-25T14:00:00+09:00",
+      "first_seen": "2026-08-25T14:37:14.351357+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1925",
+      "tier": 9
+    },
     "140120260825525492": {
       "disclosed_at": "2026-08-25T11:30:00+09:00",
       "first_seen": "2026-08-25T11:45:41.245649+09:00",
@@ -86218,6 +86270,14 @@
       "posted": false,
       "security_code": "20704",
       "tier": 9
+    },
+    "140120260825525579": {
+      "disclosed_at": "2026-08-25T14:00:00+09:00",
+      "first_seen": "2026-08-25T14:37:14.351369+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8081",
+      "tier": 3
     },
     "140120260825525600": {
       "disclosed_at": "2026-08-25T11:30:00+09:00",
@@ -86282,11 +86342,27 @@
       "posted": false,
       "security_code": "9170",
       "tier": 3
+    },
+    "140120260825525739": {
+      "disclosed_at": "2026-08-25T14:00:00+09:00",
+      "first_seen": "2026-08-25T14:37:14.351363+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7743",
+      "tier": 9
+    },
+    "140120260825525777": {
+      "disclosed_at": "2026-08-25T14:30:00+09:00",
+      "first_seen": "2026-08-25T14:37:14.351323+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "2388",
+      "tier": 1
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 2,
+    "count": 3,
     "date": "2026-08-25"
   },
   "schema_version": 1,
