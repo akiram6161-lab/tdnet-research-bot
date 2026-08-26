@@ -12498,11 +12498,136 @@
       "security_code": "5162",
       "tier": 1,
       "title": "公開買付けに準ずる行為として政令で定める買集め行為に関するお知らせ"
+    },
+    {
+      "company_name": "サンケン電気株式会社",
+      "disclosed_at": "2026-08-25",
+      "disclosure_id": "holding:エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ）|6707|2026-08-25",
+      "document_url": "",
+      "filer_name": "エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ）",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6707] サンケン電気株式会社 34.4%",
+        "[4047] 関東電化工業株式会社 19.8%",
+        "[7752] 株式会社リコー 24.8%",
+        "[9107] 川崎汽船株式会社 38.5%"
+      ],
+      "parent_ts": "1787716675.290969",
+      "posted_at": "2026-08-26T12:57:55.436527+09:00",
+      "ratio": 0.3437,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-26T12:59:30.265574+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "6707",
+      "submit_date": "2026-08-25",
+      "tier": 1,
+      "title": "エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ）による大量保有報告"
+    },
+    {
+      "company_name": "シュッピン株式会社",
+      "disclosed_at": "2026-08-25",
+      "disclosure_id": "holding:株式会社ヴァレックス・パートナーズ|3179|2026-08-25",
+      "document_url": "",
+      "filer_name": "株式会社ヴァレックス・パートナーズ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[3179] シュッピン株式会社 14.6%",
+        "[3964] 株式会社オークネット 8.0%",
+        "[6364] 株式会社ＡＩＲＭＡＮ 13.0%",
+        "[4290] 株式会社プレステージ・インターナショナル 4.1%",
+        "[3983] 株式会社オロ 8.7%",
+        "[6333] 株式会社ＴＥＩＫＯＫＵ 18.4%"
+      ],
+      "parent_ts": "1787716675.613789",
+      "posted_at": "2026-08-26T12:57:55.696802+09:00",
+      "ratio": 0.1463,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-26T13:00:53.669625+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "3179",
+      "submit_date": "2026-08-25",
+      "tier": 1,
+      "title": "株式会社ヴァレックス・パートナーズによる大量保有報告"
+    },
+    {
+      "company_name": "タキヒヨー株式会社",
+      "disclosed_at": "2026-08-25",
+      "disclosure_id": "holding:ＵＧＳアセットマネジメント株式会社|9982|2026-08-25",
+      "document_url": "",
+      "filer_name": "ＵＧＳアセットマネジメント株式会社",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[9982] タキヒヨー株式会社 8.2%",
+        "[2207] 株式会社meito 9.8%"
+      ],
+      "parent_ts": "1787716675.868319",
+      "posted_at": "2026-08-26T12:57:55.942112+09:00",
+      "ratio": 0.0819,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-26T13:02:48.287084+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "9982",
+      "submit_date": "2026-08-25",
+      "tier": 1,
+      "title": "ＵＧＳアセットマネジメント株式会社による大量保有報告"
+    },
+    {
+      "company_name": "株式会社小森コーポレーション",
+      "disclosed_at": "2026-08-25",
+      "disclosure_id": "holding:ブランデス・インベストメント・パートナーズ・エル・ピー|6349|2026-08-25",
+      "document_url": "",
+      "filer_name": "ブランデス・インベストメント・パートナーズ・エル・ピー",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6349] 株式会社小森コーポレーション 5.7%"
+      ],
+      "parent_ts": "1787716676.113199",
+      "posted_at": "2026-08-26T12:57:56.190626+09:00",
+      "ratio": 0.057,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-26T13:04:13.534339+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "6349",
+      "submit_date": "2026-08-25",
+      "tier": 1,
+      "title": "ブランデス・インベストメント・パートナーズ・エル・ピーによる大量保有報告"
+    },
+    {
+      "company_name": "児玉化学工業株式会社",
+      "disclosed_at": "2026-08-25",
+      "disclosure_id": "holding:エンデバー・ユナイテッド株式会社|4222|2026-08-25",
+      "document_url": "",
+      "filer_name": "エンデバー・ユナイテッド株式会社",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[4222] 児玉化学工業株式会社 38.7%",
+        "[205A] 株式会社ロゴスホールディングス 5.3%",
+        "[407A] 株式会社ＵＮＩＣＯＮホールディングス 40.0%"
+      ],
+      "parent_ts": "1787716676.373339",
+      "posted_at": "2026-08-26T12:57:56.451309+09:00",
+      "ratio": 0.3867,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "4222",
+      "submit_date": "2026-08-25",
+      "tier": 1,
+      "title": "エンデバー・ユナイテッド株式会社による大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-25",
-  "last_holdings_check_at": "2026-08-26T08:13:17.023830+09:00",
+  "last_holdings_check_at": "2026-08-26T12:57:52.089481+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-08-21T19:36:05.208527+09:00",
   "processed_disclosures": {
@@ -88114,6 +88239,14 @@
       "security_code": "7472",
       "tier": 9
     },
+    "140120260826526135": {
+      "disclosed_at": "2026-08-26T12:00:00+09:00",
+      "first_seen": "2026-08-26T12:57:53.173275+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13294",
+      "tier": 9
+    },
     "140120260826526139": {
       "disclosed_at": "2026-08-26T11:00:00+09:00",
       "first_seen": "2026-08-26T11:52:53.875910+09:00",
@@ -88144,6 +88277,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "3309",
+      "tier": 3
+    },
+    "140120260826526175": {
+      "disclosed_at": "2026-08-26T12:00:00+09:00",
+      "first_seen": "2026-08-26T12:57:53.173280+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2992",
       "tier": 3
     },
     "140120260826526204": {
@@ -88193,11 +88334,19 @@
       "posted": false,
       "security_code": "13264",
       "tier": 3
+    },
+    "140120260826526322": {
+      "disclosed_at": "2026-08-26T12:15:00+09:00",
+      "first_seen": "2026-08-26T12:57:53.173260+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "587A4",
+      "tier": 3
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 8,
+    "count": 12,
     "date": "2026-08-26"
   },
   "schema_version": 1,
@@ -88664,6 +88813,11 @@
     "ＮＩＰＰＯＮ　ＡＣＴＩＶＥ　ＶＡＬＵＥ　ＦＵＮＤ　ＰＬＣ|5943|2026-08-24",
     "エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ）|4047|2026-08-24",
     "エリアリンク株式会社|2997|2026-08-24",
-    "シルチェスター・インターナショナル・インベスターズ・エルエルピー|6005|2026-08-24"
+    "シルチェスター・インターナショナル・インベスターズ・エルエルピー|6005|2026-08-24",
+    "エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ）|6707|2026-08-25",
+    "株式会社ヴァレックス・パートナーズ|3179|2026-08-25",
+    "ＵＧＳアセットマネジメント株式会社|9982|2026-08-25",
+    "ブランデス・インベストメント・パートナーズ・エル・ピー|6349|2026-08-25",
+    "エンデバー・ユナイテッド株式会社|4222|2026-08-25"
   ]
 }
