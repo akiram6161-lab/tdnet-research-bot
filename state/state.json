@@ -12909,13 +12909,128 @@
       "security_code": "7743",
       "tier": 1,
       "title": "ラックスシェア・プレシジョン・ケイマン・リミテッドによる株式会社シード（証券コード：7743）の普通株式に対する公開買付けの開始に関するお知らせ"
+    },
+    {
+      "company_name": "株式会社ワコム",
+      "disclosed_at": "2026-08-26",
+      "disclosure_id": "holding:アセット・バリュー・インベスターズ・リミテッド|6727|2026-08-26",
+      "document_url": "",
+      "filer_name": "アセット・バリュー・インベスターズ・リミテッド",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6727] 株式会社ワコム 18.1%",
+        "[4025] 多木化学株式会社 6.1%",
+        "[9682] 株式会社ＤＴＳ 6.4%",
+        "[8929] 株式会社青山財産ネットワークス 6.1%",
+        "[9742] 株式会社アイネス 9.0%",
+        "[3106] 倉敷紡績株式会社 4.6%",
+        "[6794] フォスター電機株式会社 7.2%",
+        "[9854] 愛眼株式会社 5.0%",
+        "[3963] 株式会社シンクロ・フード 27.7%"
+      ],
+      "parent_ts": "1787800035.538079",
+      "posted_at": "2026-08-27T12:07:15.614343+09:00",
+      "ratio": 0.1811,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-27T12:09:18.747559+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "6727",
+      "submit_date": "2026-08-26",
+      "tier": 1,
+      "title": "アセット・バリュー・インベスターズ・リミテッドによる大量保有報告"
+    },
+    {
+      "company_name": "太洋物産株式会社",
+      "disclosed_at": "2026-08-26",
+      "disclosure_id": "holding:木野　将徳|9941|2026-08-26",
+      "document_url": "",
+      "filer_name": "木野　将徳",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[9941] 太洋物産株式会社 18.0%"
+      ],
+      "parent_ts": "1787800035.790509",
+      "posted_at": "2026-08-27T12:07:15.861420+09:00",
+      "ratio": 0.1798,
+      "research_attempts": 0,
+      "research_completed_at": "2026-08-27T12:12:12.127252+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "9941",
+      "submit_date": "2026-08-26",
+      "tier": 1,
+      "title": "木野　将徳による大量保有報告"
+    },
+    {
+      "company_name": "コムシスホールディングス株式会社",
+      "disclosed_at": "2026-08-26",
+      "disclosure_id": "holding:Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|1721|2026-08-26",
+      "document_url": "",
+      "filer_name": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[3774] 株式会社インターネットイニシアティブ 9.1%",
+        "[6890] 株式会社フェローテック 6.6%",
+        "[1721] コムシスホールディングス株式会社 7.4%",
+        "[4849] エン株式会社 12.4%",
+        "[2871] 株式会社ニチレイ 7.3%",
+        "[2413] エムスリー株式会社 6.3%",
+        "[4812] 株式会社電通総研 5.0%",
+        "[8570] イオンフィナンシャルサービス株式会社 10.8%",
+        "[9072] ニッコンホールディングス株式会社 17.7%",
+        "[2371] 株式会社カカクコム 19.5%",
+        "[6104] 芝浦機械株式会社 6.8%",
+        "[4088] エア・ウォーター株式会社 6.0%",
+        "[4631] DIC株式会社 11.6%",
+        "[6594] ニデック株式会社 6.8%",
+        "[5423] 東京製鐵株式会社 8.6%"
+      ],
+      "parent_ts": "1787800036.038299",
+      "posted_at": "2026-08-27T12:07:16.109950+09:00",
+      "ratio": 0.0736,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "1721",
+      "submit_date": "2026-08-26",
+      "tier": 1,
+      "title": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "company_name": "株式会社河合楽器製作所",
+      "disclosed_at": "2026-08-26",
+      "disclosure_id": "holding:ひびき・パース・アドバイザーズ・エスピーシー|7952|2026-08-26",
+      "document_url": "",
+      "filer_name": "ひびき・パース・アドバイザーズ・エスピーシー",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[4973] 日本高純度化学株式会社 5.0%",
+        "[5121] 藤倉コンポジット株式会社 9.2%",
+        "[7952] 株式会社河合楽器製作所 7.2%",
+        "[7460] 株式会社ヤギ 7.2%"
+      ],
+      "parent_ts": "1787800036.271319",
+      "posted_at": "2026-08-27T12:07:16.346901+09:00",
+      "ratio": 0.0723,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "7952",
+      "submit_date": "2026-08-26",
+      "tier": 1,
+      "title": "ひびき・パース・アドバイザーズ・エスピーシーによる大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-08-26",
-  "last_holdings_check_at": "2026-08-26T17:01:40.340161+09:00",
+  "last_holdings_check_at": "2026-08-27T12:07:12.261485+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-08-21T19:36:05.208527+09:00",
+  "last_successful_tdnet_check": "2026-08-27T12:07:12.261485+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -88261,6 +88376,14 @@
       "security_code": "8766",
       "tier": 9
     },
+    "140120260825525828": {
+      "disclosed_at": "2026-08-26T22:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403484+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5202",
+      "tier": 3
+    },
     "140120260825525829": {
       "disclosed_at": "2026-08-25T15:30:00+09:00",
       "first_seen": "2026-08-25T16:10:17.324746+09:00",
@@ -89373,6 +89496,14 @@
       "security_code": "3281",
       "tier": 3
     },
+    "140120260826526379": {
+      "disclosed_at": "2026-08-27T08:40:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403550+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4374",
+      "tier": 3
+    },
     "140120260826526381": {
       "disclosed_at": "2026-08-26T15:30:00+09:00",
       "first_seen": "2026-08-26T16:13:12.849978+09:00",
@@ -89387,6 +89518,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "8953",
+      "tier": 3
+    },
+    "140120260826526393": {
+      "disclosed_at": "2026-08-27T10:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403537+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8881",
       "tier": 3
     },
     "140120260826526411": {
@@ -89460,6 +89599,14 @@
       "posted": false,
       "security_code": "3457",
       "tier": 3
+    },
+    "140120260826526462": {
+      "disclosed_at": "2026-08-27T08:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403555+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "278A",
+      "tier": 9
     },
     "140120260826526474": {
       "disclosed_at": "2026-08-26T15:30:00+09:00",
@@ -89588,6 +89735,14 @@
       "posted": false,
       "security_code": "3840",
       "tier": 2
+    },
+    "140120260826526562": {
+      "disclosed_at": "2026-08-27T10:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403535+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6395",
+      "tier": 3
     },
     "140120260826526563": {
       "disclosed_at": "2026-08-26T15:30:00+09:00",
@@ -89756,12 +89911,164 @@
       "posted": false,
       "security_code": "2769",
       "tier": 3
+    },
+    "140120260827526799": {
+      "disclosed_at": "2026-08-27T08:45:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403547+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7951",
+      "tier": 2
+    },
+    "140120260827526814": {
+      "disclosed_at": "2026-08-27T09:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403542+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260827526815": {
+      "disclosed_at": "2026-08-27T09:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403545+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260827526824": {
+      "disclosed_at": "2026-08-27T08:30:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403552+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7138",
+      "tier": 3
+    },
+    "140120260827526826": {
+      "disclosed_at": "2026-08-27T10:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403532+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "585A4",
+      "tier": 9
+    },
+    "140120260827526849": {
+      "disclosed_at": "2026-08-27T09:45:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403540+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7523",
+      "tier": 3
+    },
+    "140120260827526861": {
+      "disclosed_at": "2026-08-27T10:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403530+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16714",
+      "tier": 9
+    },
+    "140120260827526863": {
+      "disclosed_at": "2026-08-27T10:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403527+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13294",
+      "tier": 9
+    },
+    "140120260827526901": {
+      "disclosed_at": "2026-08-27T11:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403522+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1679",
+      "tier": 9
+    },
+    "140120260827526905": {
+      "disclosed_at": "2026-08-27T11:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403517+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1572",
+      "tier": 9
+    },
+    "140120260827526906": {
+      "disclosed_at": "2026-08-27T11:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403519+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1573",
+      "tier": 9
+    },
+    "140120260827526913": {
+      "disclosed_at": "2026-08-27T12:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403500+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8927",
+      "tier": 3
+    },
+    "140120260827526920": {
+      "disclosed_at": "2026-08-27T10:30:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403524+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7743",
+      "tier": 1
+    },
+    "140120260827526934": {
+      "disclosed_at": "2026-08-27T11:30:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403514+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7991",
+      "tier": 3
+    },
+    "140120260827526941": {
+      "disclosed_at": "2026-08-27T11:30:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403512+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "20704",
+      "tier": 9
+    },
+    "140120260827526974": {
+      "disclosed_at": "2026-08-27T12:00:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403496+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6768",
+      "tier": 1
+    },
+    "140120260827526986": {
+      "disclosed_at": "2026-08-27T11:35:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403509+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13494",
+      "tier": 9
+    },
+    "140120260827527001": {
+      "disclosed_at": "2026-08-27T11:40:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403506+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13264",
+      "tier": 3
+    },
+    "140120260827527009": {
+      "disclosed_at": "2026-08-27T11:45:00+09:00",
+      "first_seen": "2026-08-27T12:07:13.403503+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "15574",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 26,
-    "date": "2026-08-26"
+    "count": 2,
+    "date": "2026-08-27"
   },
   "schema_version": 1,
   "seen_holdings": [
@@ -90232,6 +90539,10 @@
     "株式会社ヴァレックス・パートナーズ|3179|2026-08-25",
     "ＵＧＳアセットマネジメント株式会社|9982|2026-08-25",
     "ブランデス・インベストメント・パートナーズ・エル・ピー|6349|2026-08-25",
-    "エンデバー・ユナイテッド株式会社|4222|2026-08-25"
+    "エンデバー・ユナイテッド株式会社|4222|2026-08-25",
+    "アセット・バリュー・インベスターズ・リミテッド|6727|2026-08-26",
+    "木野　将徳|9941|2026-08-26",
+    "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|1721|2026-08-26",
+    "ひびき・パース・アドバイザーズ・エスピーシー|7952|2026-08-26"
   ]
 }
