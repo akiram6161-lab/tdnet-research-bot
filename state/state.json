@@ -15223,13 +15223,257 @@
       "security_code": "4099",
       "tier": 1,
       "title": "株式の売出しに関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "イーソル",
+      "disclosed_at": "2026-09-01 20:45",
+      "disclosure_id": "140120260901529864",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260901529864.pdf",
+      "parent_ts": "1788307538.778429",
+      "posted_at": "2026-09-02T09:05:38.826248+09:00",
+      "related_disclosures": [
+        "2026-09-01 20:45 株式会社BCJ-110によるイーソル株式会社（証券コード：4420）の普通株式に対する公開買付けの開始に関するお知らせ (https://www.release.tdnet.info/inbs/140120260901529882.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-02T09:08:02.310855+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "4420",
+      "tier": 1,
+      "title": "ＭＢＯの実施及び応募の推奨に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "イーソル",
+      "disclosed_at": "2026-09-01 20:45",
+      "disclosure_id": "140120260901529882",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260901529882.pdf",
+      "parent_ts": "1788307538.983799",
+      "posted_at": "2026-09-02T09:05:39.044838+09:00",
+      "related_disclosures": [
+        "2026-09-01 20:45 ＭＢＯの実施及び応募の推奨に関するお知らせ (https://www.release.tdnet.info/inbs/140120260901529864.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-02T09:09:32.717903+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "4420",
+      "tier": 1,
+      "title": "株式会社BCJ-110によるイーソル株式会社（証券コード：4420）の普通株式に対する公開買付けの開始に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "伊藤忠",
+      "disclosed_at": "2026-09-02 08:30",
+      "disclosure_id": "140120260902529238",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260902529238.pdf",
+      "parent_ts": "1788307539.206949",
+      "posted_at": "2026-09-02T09:05:39.257003+09:00",
+      "related_disclosures": [
+        "2026-08-31 08:30 株式会社電通総研の株式（証券コード：4812）に対する公開買付けの開始予定に関するお知らせ (https://www.release.tdnet.info/inbs/140120260828528016.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-02T09:11:38.546372+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "8001",
+      "tier": 1,
+      "title": "自己株式の公開買付けの結果並びに市場買付の開始に関するお知らせ"
+    },
+    {
+      "company_name": "株式会社カカクコム",
+      "disclosed_at": "2026-08-31",
+      "disclosure_id": "holding:株式会社デジタルガレージ|2371|2026-08-31",
+      "document_url": "",
+      "filer_name": "株式会社デジタルガレージ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[2371] 株式会社カカクコム 20.6%"
+      ],
+      "parent_ts": "1788307541.244059",
+      "posted_at": "2026-09-02T09:05:41.293751+09:00",
+      "ratio": 0.2064,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-02T09:14:01.831025+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "2371",
+      "submit_date": "2026-08-31",
+      "tier": 1,
+      "title": "株式会社デジタルガレージによる大量保有報告"
+    },
+    {
+      "company_name": "ヤマハ発動機株式会社",
+      "disclosed_at": "2026-08-31",
+      "disclosure_id": "holding:シルチェスター・インターナショナル・インベスターズ・エルエルピー|7272|2026-08-31",
+      "document_url": "",
+      "filer_name": "シルチェスター・インターナショナル・インベスターズ・エルエルピー",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[7272] ヤマハ発動機株式会社 7.6%",
+        "[5711] 三菱マテリアル株式会社 4.6%",
+        "[6005] 三浦工業株式会社 5.1%",
+        "[2433] 株式会社博報堂ＤＹホールディングス 5.1%",
+        "[6395] 株式会社タダノ 5.8%",
+        "[6302] 住友重機械工業株式会社 6.0%",
+        "[7459] 株式会社メディパルホールディングス 11.7%",
+        "[5232] 住友大阪セメント株式会社 14.8%",
+        "[7731] 株式会社ニコン 6.1%",
+        "[5844] 株式会社京都フィナンシャルグループ 4.4%",
+        "[2784] アルフレッサ ホールディングス株式会社 13.2%",
+        "[5714] ＤＯＷＡホールディングス株式会社 5.8%",
+        "[4272] 日本化薬株式会社 4.7%"
+      ],
+      "parent_ts": "1788307541.442629",
+      "posted_at": "2026-09-02T09:05:41.504625+09:00",
+      "ratio": 0.0759,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "7272",
+      "submit_date": "2026-08-31",
+      "tier": 1,
+      "title": "シルチェスター・インターナショナル・インベスターズ・エルエルピーによる大量保有報告"
+    },
+    {
+      "company_name": "ミヨシ油脂株式会社",
+      "disclosed_at": "2026-08-31",
+      "disclosure_id": "holding:株式会社ＤＯＥ５パーセント|4404|2026-08-31",
+      "document_url": "",
+      "filer_name": "株式会社ＤＯＥ５パーセント",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[3512] 日本フエルト株式会社 3.0%",
+        "[5992] 中央発條株式会社 2.5%",
+        "[4027] テイカ株式会社 1.7%",
+        "[4620] 藤倉化成株式会社 3.8%",
+        "[4112] 保土谷化学工業株式会社 3.9%"
+      ],
+      "parent_ts": "1788307541.657319",
+      "posted_at": "2026-09-02T09:05:41.713294+09:00",
+      "ratio": 0.0018,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "4404",
+      "submit_date": "2026-08-31",
+      "tier": 1,
+      "title": "株式会社ＤＯＥ５パーセントによる大量保有報告"
+    },
+    {
+      "company_name": "古林紙工株式会社",
+      "disclosed_at": "2026-08-31",
+      "disclosure_id": "holding:ＡＲＮＥ　ＷＯＬＦ　ＫＬＡＵＳ　ＤＥＵＳＳＥＮ|3944|2026-08-31",
+      "document_url": "",
+      "filer_name": "ＡＲＮＥ　ＷＯＬＦ　ＫＬＡＵＳ　ＤＥＵＳＳＥＮ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[3944] 古林紙工株式会社 3.4%",
+        "[5997] 協立エアテック株式会社 5.0%"
+      ],
+      "parent_ts": "1788307541.854369",
+      "posted_at": "2026-09-02T09:05:41.907468+09:00",
+      "ratio": 0.0342,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "3944",
+      "submit_date": "2026-08-31",
+      "tier": 1,
+      "title": "ＡＲＮＥ　ＷＯＬＦ　ＫＬＡＵＳ　ＤＥＵＳＳＥＮによる大量保有報告"
+    },
+    {
+      "company_name": "日本通信株式会社",
+      "disclosed_at": "2026-08-31",
+      "disclosure_id": "holding:三田　聖二|9424|2026-08-31",
+      "document_url": "",
+      "filer_name": "三田　聖二",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[9424] 日本通信株式会社 9.5%"
+      ],
+      "parent_ts": "1788307542.075899",
+      "posted_at": "2026-09-02T09:05:42.139041+09:00",
+      "ratio": 0.0951,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "9424",
+      "submit_date": "2026-08-31",
+      "tier": 1,
+      "title": "三田　聖二による大量保有報告"
+    },
+    {
+      "company_name": "児玉化学工業株式会社",
+      "disclosed_at": "2026-08-31",
+      "disclosure_id": "holding:エンデバー・ユナイテッド株式会社|4222|2026-08-31",
+      "document_url": "",
+      "filer_name": "エンデバー・ユナイテッド株式会社",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[4222] 児玉化学工業株式会社 36.1%",
+        "[205A] 株式会社ロゴスホールディングス 5.3%",
+        "[407A] 株式会社ＵＮＩＣＯＮホールディングス 40.0%"
+      ],
+      "parent_ts": "1788307542.327279",
+      "posted_at": "2026-09-02T09:05:42.378392+09:00",
+      "ratio": 0.3607,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "4222",
+      "submit_date": "2026-08-31",
+      "tier": 1,
+      "title": "エンデバー・ユナイテッド株式会社による大量保有報告"
+    },
+    {
+      "company_name": "明海グループ株式会社",
+      "disclosed_at": "2026-08-31",
+      "disclosure_id": "holding:ゼナーアセットマネジメントエルエルピー|9115|2026-08-31",
+      "document_url": "",
+      "filer_name": "ゼナーアセットマネジメントエルエルピー",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[4078] 堺化学工業株式会社 5.0%",
+        "[9115] 明海グループ株式会社 6.2%",
+        "[5232] 住友大阪セメント株式会社 5.5%",
+        "[9110] NSユナイテッド海運株式会社 3.4%",
+        "[8914] エリアリンク株式会社 9.8%"
+      ],
+      "parent_ts": "1788307542.557849",
+      "posted_at": "2026-09-02T09:05:42.610881+09:00",
+      "ratio": 0.062,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "9115",
+      "submit_date": "2026-08-31",
+      "tier": 1,
+      "title": "ゼナーアセットマネジメントエルエルピーによる大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-09-01",
-  "last_holdings_check_at": "2026-09-01T18:36:36.236459+09:00",
+  "last_holdings_check_at": "2026-09-02T09:05:37.120736+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-09-01T18:36:36.236459+09:00",
+  "last_successful_tdnet_check": "2026-09-02T09:05:37.120736+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -98527,6 +98771,14 @@
       "security_code": "6199",
       "tier": 9
     },
+    "140120260901529444": {
+      "disclosed_at": "2026-09-02T08:50:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257101+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7287",
+      "tier": 1
+    },
     "140120260901529446": {
       "disclosed_at": "2026-09-01T12:00:00+09:00",
       "first_seen": "2026-09-01T13:41:10.207953+09:00",
@@ -99647,6 +99899,22 @@
       "security_code": "3667",
       "tier": 9
     },
+    "140120260901529864": {
+      "disclosed_at": "2026-09-01T20:45:00+09:00",
+      "first_seen": "2026-09-02T09:05:38.826282+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4420",
+      "tier": 1
+    },
+    "140120260901529867": {
+      "disclosed_at": "2026-09-01T20:45:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257057+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4420",
+      "tier": 1
+    },
     "140120260901529870": {
       "disclosed_at": "2026-09-01T15:00:00+09:00",
       "first_seen": "2026-09-01T18:36:40.244196+09:00",
@@ -99654,6 +99922,14 @@
       "posted": false,
       "security_code": "5122",
       "tier": 9
+    },
+    "140120260901529871": {
+      "disclosed_at": "2026-09-01T20:45:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257064+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4420",
+      "tier": 1
     },
     "140120260901529876": {
       "disclosed_at": "2026-09-01T15:30:00+09:00",
@@ -99669,6 +99945,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "3923",
+      "tier": 1
+    },
+    "140120260901529882": {
+      "disclosed_at": "2026-09-01T20:45:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.044885+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4420",
       "tier": 1
     },
     "140120260901529883": {
@@ -100366,12 +100650,76 @@
       "posted": false,
       "security_code": "9867",
       "tier": 9
+    },
+    "140120260901530276": {
+      "disclosed_at": "2026-09-02T08:50:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257084+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1488",
+      "tier": 9
+    },
+    "140120260901530277": {
+      "disclosed_at": "2026-09-02T08:50:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257090+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "210A",
+      "tier": 9
+    },
+    "140120260901530278": {
+      "disclosed_at": "2026-09-02T08:50:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257095+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "233A",
+      "tier": 9
+    },
+    "140120260901530294": {
+      "disclosed_at": "2026-09-02T08:30:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257106+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7138",
+      "tier": 2
+    },
+    "140120260901530315": {
+      "disclosed_at": "2026-09-01T20:30:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257069+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2612",
+      "tier": 3
+    },
+    "140120260902529238": {
+      "disclosed_at": "2026-09-02T08:30:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257039+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8001",
+      "tier": 1
+    },
+    "140120260902530341": {
+      "disclosed_at": "2026-09-02T09:00:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257073+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260902530342": {
+      "disclosed_at": "2026-09-02T09:00:00+09:00",
+      "first_seen": "2026-09-02T09:05:39.257079+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 16,
-    "date": "2026-09-01"
+    "count": 4,
+    "date": "2026-09-02"
   },
   "schema_version": 1,
   "seen_holdings": [
@@ -100860,6 +101208,13 @@
     "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|195A|2026-08-28",
     "シトラスインベストメント合同会社|6305|2026-08-28",
     "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3306|2026-08-28",
-    "株式会社ニイタカＳＣ|4465|2026-08-28"
+    "株式会社ニイタカＳＣ|4465|2026-08-28",
+    "株式会社デジタルガレージ|2371|2026-08-31",
+    "シルチェスター・インターナショナル・インベスターズ・エルエルピー|7272|2026-08-31",
+    "株式会社ＤＯＥ５パーセント|4404|2026-08-31",
+    "ＡＲＮＥ　ＷＯＬＦ　ＫＬＡＵＳ　ＤＥＵＳＳＥＮ|3944|2026-08-31",
+    "三田　聖二|9424|2026-08-31",
+    "エンデバー・ユナイテッド株式会社|4222|2026-08-31",
+    "ゼナーアセットマネジメントエルエルピー|9115|2026-08-31"
   ]
 }
