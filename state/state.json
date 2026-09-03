@@ -15696,13 +15696,218 @@
       "security_code": "8078",
       "tier": 1,
       "title": "（開示事項の経過）米国Associated Steel Group, LLCの持分取得（連結子会社化）の完了及び連結子会社の増資に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "アクティビズム・ガバナンス",
+      "company_name": "メディパル",
+      "disclosed_at": "2026-09-02 19:00",
+      "disclosure_id": "140120260902530878",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260902530878.pdf",
+      "parent_ts": "1788394199.550309",
+      "posted_at": "2026-09-03T09:09:59.585265+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-03T09:11:46.805830+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "7459",
+      "tier": 1,
+      "title": "株主による臨時株主総会の招集請求に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "ケミプロ化成",
+      "disclosed_at": "2026-09-02 18:00",
+      "disclosure_id": "140120260902530834",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260902530834.pdf",
+      "parent_ts": "1788394199.640339",
+      "posted_at": "2026-09-03T09:09:59.675507+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 85,
+      "security_code": "4960",
+      "tier": 1,
+      "title": "主要株主、主要株主である筆頭株主ならびにその他の関係会社の異動に関するお知らせ"
+    },
+    {
+      "company_name": "データセクション株式会社",
+      "disclosed_at": "2026-09-01",
+      "disclosure_id": "holding:ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．|3905|2026-09-01",
+      "document_url": "",
+      "filer_name": "ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[3905] データセクション株式会社 52.1%"
+      ],
+      "parent_ts": "1788394201.917379",
+      "posted_at": "2026-09-03T09:10:01.946796+09:00",
+      "ratio": 0.5212,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-03T09:13:46.722506+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "3905",
+      "submit_date": "2026-09-01",
+      "tier": 1,
+      "title": "ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．による大量保有報告"
+    },
+    {
+      "company_name": "玉井商船株式会社",
+      "disclosed_at": "2026-09-01",
+      "disclosure_id": "holding:ＧＬＯＢＡＬ　ＭＡＮＡＧＥＭＥＮＴ　ＰＡＲＴＮＥＲＳ　ＬＩＭＩＴＥＤ|9127|2026-09-01",
+      "document_url": "",
+      "filer_name": "ＧＬＯＢＡＬ　ＭＡＮＡＧＥＭＥＮＴ　ＰＡＲＴＮＥＲＳ　ＬＩＭＩＴＥＤ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[9127] 玉井商船株式会社 8.2%",
+        "[2464] 株式会社ＡｏｂａーＢＢＴ 6.0%",
+        "[5900] 株式会社ダイケン 5.0%"
+      ],
+      "parent_ts": "1788394202.017829",
+      "posted_at": "2026-09-03T09:10:02.099023+09:00",
+      "ratio": 0.0821,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-03T09:15:17.164485+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "9127",
+      "submit_date": "2026-09-01",
+      "tier": 1,
+      "title": "ＧＬＯＢＡＬ　ＭＡＮＡＧＥＭＥＮＴ　ＰＡＲＴＮＥＲＳ　ＬＩＭＩＴＥＤによる大量保有報告"
+    },
+    {
+      "company_name": "アールビバン株式会社",
+      "disclosed_at": "2026-09-01",
+      "disclosure_id": "holding:株式会社Ｏｒｓａｙ|7523|2026-09-01",
+      "document_url": "",
+      "filer_name": "株式会社Ｏｒｓａｙ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[7523] アールビバン株式会社 59.7%"
+      ],
+      "parent_ts": "1788394202.158249",
+      "posted_at": "2026-09-03T09:10:02.186131+09:00",
+      "ratio": 0.5973,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-03T09:17:01.318689+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "7523",
+      "submit_date": "2026-09-01",
+      "tier": 1,
+      "title": "株式会社Ｏｒｓａｙによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社デジタルガレージ",
+      "disclosed_at": "2026-09-01",
+      "disclosure_id": "holding:Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．|4819|2026-09-01",
+      "document_url": "",
+      "filer_name": "Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[4819] 株式会社デジタルガレージ 7.3%",
+        "[6018] 阪神内燃機工業株式会社 17.0%",
+        "[4417] グローバルセキュリティエキスパート株式会社 7.2%",
+        "[9722] 藤田観光株式会社 8.2%",
+        "[9307] 株式会社杉村倉庫 10.2%"
+      ],
+      "parent_ts": "1788394202.238759",
+      "posted_at": "2026-09-03T09:10:02.271025+09:00",
+      "ratio": 0.0731,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "4819",
+      "submit_date": "2026-09-01",
+      "tier": 1,
+      "title": "Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "company_name": "株式会社ＵＮＩＣＯＮホールディングス",
+      "disclosed_at": "2026-09-01",
+      "disclosure_id": "holding:エンデバー・ユナイテッド株式会社|407A|2026-09-01",
+      "document_url": "",
+      "filer_name": "エンデバー・ユナイテッド株式会社",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[407A] 株式会社ＵＮＩＣＯＮホールディングス 23.0%",
+        "[4222] 児玉化学工業株式会社 36.1%",
+        "[205A] 株式会社ロゴスホールディングス 5.3%"
+      ],
+      "parent_ts": "1788394202.327279",
+      "posted_at": "2026-09-03T09:10:02.357092+09:00",
+      "ratio": 0.23,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "407A",
+      "submit_date": "2026-09-01",
+      "tier": 1,
+      "title": "エンデバー・ユナイテッド株式会社による大量保有報告"
+    },
+    {
+      "company_name": "BASE株式会社",
+      "disclosed_at": "2026-09-01",
+      "disclosure_id": "holding:牧　寛之|4477|2026-09-01",
+      "document_url": "",
+      "filer_name": "牧　寛之",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[4477] BASE株式会社 20.5%",
+        "[6312] フロイント産業株式会社 3.7%"
+      ],
+      "parent_ts": "1788394202.410509",
+      "posted_at": "2026-09-03T09:10:02.435279+09:00",
+      "ratio": 0.2053,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "4477",
+      "submit_date": "2026-09-01",
+      "tier": 1,
+      "title": "牧　寛之による大量保有報告"
+    },
+    {
+      "company_name": "株式会社ＵＮＩＣＯＮホールディングス",
+      "disclosed_at": "2026-09-01",
+      "disclosure_id": "holding:大豊建設株式会社|407A|2026-09-01",
+      "document_url": "",
+      "filer_name": "大豊建設株式会社",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[407A] 株式会社ＵＮＩＣＯＮホールディングス 17.0%"
+      ],
+      "parent_ts": "1788394202.479489",
+      "posted_at": "2026-09-03T09:10:02.507116+09:00",
+      "ratio": 0.17,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "407A",
+      "submit_date": "2026-09-01",
+      "tier": 1,
+      "title": "大豊建設株式会社による大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-09-02",
-  "last_holdings_check_at": "2026-09-02T17:42:03.932636+09:00",
+  "last_holdings_check_at": "2026-09-03T09:09:58.450323+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-09-02T17:42:03.932636+09:00",
+  "last_successful_tdnet_check": "2026-09-03T09:09:58.450323+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -85568,6 +85773,14 @@
       "security_code": "598A",
       "tier": 3
     },
+    "140120260819523266": {
+      "disclosed_at": "2026-09-02T22:30:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675595+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6996",
+      "tier": 1
+    },
     "140120260819523269": {
       "disclosed_at": "2026-09-02T16:45:00+09:00",
       "first_seen": "2026-09-02T17:42:06.488964+09:00",
@@ -94968,6 +95181,14 @@
       "security_code": "3645",
       "tier": 1
     },
+    "140120260827527459": {
+      "disclosed_at": "2026-09-02T18:00:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675618+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8439",
+      "tier": 1
+    },
     "140120260827527464": {
       "disclosed_at": "2026-08-28T15:00:00+09:00",
       "first_seen": "2026-08-28T15:05:02.983515+09:00",
@@ -101976,6 +102197,14 @@
       "security_code": "9238",
       "tier": 1
     },
+    "140120260902530734": {
+      "disclosed_at": "2026-09-03T08:59:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675635+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4992",
+      "tier": 9
+    },
     "140120260902530736": {
       "disclosed_at": "2026-09-02T16:00:00+09:00",
       "first_seen": "2026-09-02T17:42:04.697943+09:00",
@@ -102047,12 +102276,68 @@
       "posted": false,
       "security_code": "7501",
       "tier": 3
+    },
+    "140120260902530834": {
+      "disclosed_at": "2026-09-02T18:00:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675569+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4960",
+      "tier": 1
+    },
+    "140120260902530843": {
+      "disclosed_at": "2026-09-02T18:30:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675606+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6191",
+      "tier": 9
+    },
+    "140120260902530844": {
+      "disclosed_at": "2026-09-03T09:00:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675626+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "150A",
+      "tier": 3
+    },
+    "140120260902530878": {
+      "disclosed_at": "2026-09-02T19:00:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.585314+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "7459",
+      "tier": 1
+    },
+    "140120260903530922": {
+      "disclosed_at": "2026-09-03T08:30:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675663+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "290A",
+      "tier": 3
+    },
+    "140120260903530925": {
+      "disclosed_at": "2026-09-03T08:30:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675645+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260903530926": {
+      "disclosed_at": "2026-09-03T08:30:00+09:00",
+      "first_seen": "2026-09-03T09:09:59.675654+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 16,
-    "date": "2026-09-02"
+    "count": 4,
+    "date": "2026-09-03"
   },
   "schema_version": 1,
   "seen_holdings": [
@@ -102548,6 +102833,13 @@
     "ＡＲＮＥ　ＷＯＬＦ　ＫＬＡＵＳ　ＤＥＵＳＳＥＮ|3944|2026-08-31",
     "三田　聖二|9424|2026-08-31",
     "エンデバー・ユナイテッド株式会社|4222|2026-08-31",
-    "ゼナーアセットマネジメントエルエルピー|9115|2026-08-31"
+    "ゼナーアセットマネジメントエルエルピー|9115|2026-08-31",
+    "ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．|3905|2026-09-01",
+    "ＧＬＯＢＡＬ　ＭＡＮＡＧＥＭＥＮＴ　ＰＡＲＴＮＥＲＳ　ＬＩＭＩＴＥＤ|9127|2026-09-01",
+    "株式会社Ｏｒｓａｙ|7523|2026-09-01",
+    "Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．|4819|2026-09-01",
+    "エンデバー・ユナイテッド株式会社|407A|2026-09-01",
+    "牧　寛之|4477|2026-09-01",
+    "大豊建設株式会社|407A|2026-09-01"
   ]
 }
