@@ -17910,11 +17910,165 @@
       "security_code": "6495",
       "tier": 1,
       "title": "第三者割当による行使価額修正条項付株式会社宮入バルブ製作所第３回新株予約権（停止要請条項付）の大量行使に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "Ｇ－シェアリングＴ",
+      "disclosed_at": "2026-09-09 20:00",
+      "disclosure_id": "140120260909533309",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260909533309.pdf",
+      "parent_ts": "1788998983.481629",
+      "posted_at": "2026-09-10T09:09:43.513866+09:00",
+      "related_disclosures": [
+        "2026-09-09 20:00 MP-2606株式会社によるシェアリングテクノロジー株式会社（証券コード：3989）に対する公開買付けの開始に関するお知らせ (https://www.release.tdnet.info/inbs/140120260909533311.pdf)",
+        "2026-09-09 20:00 2026年9月期配当予想の修正（無配）に関するお知らせ (https://www.release.tdnet.info/inbs/140120260909533159.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-10T09:11:48.935071+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "3989",
+      "tier": 1,
+      "title": "MP-2606株式会社による当社株券等に対する公開買付けに関する賛同及び応募推奨の意見表明のお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "Ｇ－シェアリングＴ",
+      "disclosed_at": "2026-09-09 20:00",
+      "disclosure_id": "140120260909533311",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260909533311.pdf",
+      "parent_ts": "1788998983.563359",
+      "posted_at": "2026-09-10T09:09:43.594990+09:00",
+      "related_disclosures": [
+        "2026-09-09 20:00 MP-2606株式会社による当社株券等に対する公開買付けに関する賛同及び応募推奨の意見表明のお知らせ (https://www.release.tdnet.info/inbs/140120260909533309.pdf)",
+        "2026-09-09 20:00 2026年9月期配当予想の修正（無配）に関するお知らせ (https://www.release.tdnet.info/inbs/140120260909533159.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-10T09:14:23.628178+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "3989",
+      "tier": 1,
+      "title": "MP-2606株式会社によるシェアリングテクノロジー株式会社（証券コード：3989）に対する公開買付けの開始に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "トーシンＨＤ",
+      "disclosed_at": "2026-09-09 21:00",
+      "disclosure_id": "140120260909533850",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260909533850.pdf",
+      "parent_ts": "1788998983.650339",
+      "posted_at": "2026-09-10T09:09:43.683828+09:00",
+      "related_disclosures": [
+        "2026-09-08 10:45 会社更生手続における管財人が更生計画案を提出すべき期間の伸長のお知らせ (https://www.release.tdnet.info/inbs/140120260908532888.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-10T09:15:44.337969+09:00",
+      "research_status": "completed",
+      "score": 92,
+      "security_code": "9444",
+      "tier": 1,
+      "title": "会社更生手続における更生計画案の提出のお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "Ｇ－シェアリングＴ",
+      "disclosed_at": "2026-09-09 20:00",
+      "disclosure_id": "140120260909533159",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260909533159.pdf",
+      "parent_ts": "1788998983.741189",
+      "posted_at": "2026-09-10T09:09:43.768048+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 87,
+      "security_code": "3989",
+      "tier": 1,
+      "title": "2026年9月期配当予想の修正（無配）に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "スズケン",
+      "disclosed_at": "2026-09-10 08:45",
+      "disclosure_id": "140120260909533751",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260909533751.pdf",
+      "parent_ts": "1788998983.814779",
+      "posted_at": "2026-09-10T09:09:43.842088+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 85,
+      "security_code": "9987",
+      "tier": 1,
+      "title": "主要株主および主要株主である筆頭株主の異動に関するお知らせ"
+    },
+    {
+      "company_name": "株式会社ADワークスグループ",
+      "disclosed_at": "2026-09-08",
+      "disclosure_id": "holding:株式会社ＭＩ２|2982|2026-09-08",
+      "document_url": "",
+      "filer_name": "株式会社ＭＩ２",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[2982] 株式会社ADワークスグループ 3.3%",
+        "[4767] 株式会社テー・オー・ダブリュー 2.6%",
+        "[5644] 株式会社メタルアート 22.2%",
+        "[367A] プリモグローバルホールディングス株式会社 1.7%"
+      ],
+      "parent_ts": "1788998986.104729",
+      "posted_at": "2026-09-10T09:09:46.130774+09:00",
+      "ratio": 0.0331,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-10T09:17:32.431460+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "2982",
+      "submit_date": "2026-09-08",
+      "tier": 1,
+      "title": "株式会社ＭＩ２による大量保有報告"
+    },
+    {
+      "company_name": "オーウイル株式会社",
+      "disclosed_at": "2026-09-08",
+      "disclosure_id": "holding:株式会社サンワ電化阿久比|3143|2026-09-08",
+      "document_url": "",
+      "filer_name": "株式会社サンワ電化阿久比",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[3143] オーウイル株式会社 7.2%"
+      ],
+      "parent_ts": "1788998986.174349",
+      "posted_at": "2026-09-10T09:09:46.200224+09:00",
+      "ratio": 0.072,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "3143",
+      "submit_date": "2026-09-08",
+      "tier": 1,
+      "title": "株式会社サンワ電化阿久比による大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-09-09",
-  "last_holdings_check_at": "2026-09-09T17:59:12.949763+09:00",
+  "last_holdings_check_at": "2026-09-10T09:09:41.808145+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-09-04T17:47:00.699619+09:00",
   "processed_disclosures": {
@@ -103246,6 +103400,14 @@
       "security_code": "9310",
       "tier": 9
     },
+    "140120260901530069": {
+      "disclosed_at": "2026-09-10T09:00:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842194+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8410",
+      "tier": 2
+    },
     "140120260901530076": {
       "disclosed_at": "2026-09-07T14:00:00+09:00",
       "first_seen": "2026-09-07T18:16:02.580747+09:00",
@@ -109198,6 +109360,14 @@
       "security_code": "7804",
       "tier": 3
     },
+    "140120260908533048": {
+      "disclosed_at": "2026-09-09T18:00:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842170+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9348",
+      "tier": 3
+    },
     "140120260908533053": {
       "disclosed_at": "2026-09-08T16:30:00+09:00",
       "first_seen": "2026-09-08T17:53:27.936432+09:00",
@@ -109510,6 +109680,14 @@
       "security_code": "9082",
       "tier": 1
     },
+    "140120260909533159": {
+      "disclosed_at": "2026-09-09T20:00:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.768081+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3989",
+      "tier": 1
+    },
     "140120260909533160": {
       "disclosed_at": "2026-09-09T09:00:00+09:00",
       "first_seen": "2026-09-09T09:09:21.694288+09:00",
@@ -109549,6 +109727,22 @@
       "posted": false,
       "security_code": "585A4",
       "tier": 9
+    },
+    "140120260909533309": {
+      "disclosed_at": "2026-09-09T20:00:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.513911+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3989",
+      "tier": 1
+    },
+    "140120260909533311": {
+      "disclosed_at": "2026-09-09T20:00:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.595023+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3989",
+      "tier": 1
     },
     "140120260909533316": {
       "disclosed_at": "2026-09-09T15:00:00+09:00",
@@ -110070,6 +110264,14 @@
       "security_code": "1433",
       "tier": 9
     },
+    "140120260909533625": {
+      "disclosed_at": "2026-09-10T09:00:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842182+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7181",
+      "tier": 3
+    },
     "140120260909533633": {
       "disclosed_at": "2026-09-09T16:00:00+09:00",
       "first_seen": "2026-09-09T17:59:15.786972+09:00",
@@ -110158,6 +110360,14 @@
       "security_code": "6381",
       "tier": 9
     },
+    "140120260909533690": {
+      "disclosed_at": "2026-09-10T08:50:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842206+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6191",
+      "tier": 1
+    },
     "140120260909533694": {
       "disclosed_at": "2026-09-09T17:00:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544088+09:00",
@@ -110206,6 +110416,14 @@
       "security_code": "194A",
       "tier": 3
     },
+    "140120260909533746": {
+      "disclosed_at": "2026-09-10T08:50:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842217+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6191",
+      "tier": 3
+    },
     "140120260909533747": {
       "disclosed_at": "2026-09-09T17:17:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544023+09:00",
@@ -110213,12 +110431,52 @@
       "posted": false,
       "security_code": "3989",
       "tier": 3
+    },
+    "140120260909533751": {
+      "disclosed_at": "2026-09-10T08:45:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842122+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "9987",
+      "tier": 1
+    },
+    "140120260909533850": {
+      "disclosed_at": "2026-09-09T21:00:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.683862+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "9444",
+      "tier": 1
+    },
+    "140120260909533851": {
+      "disclosed_at": "2026-09-09T21:00:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842148+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9444",
+      "tier": 3
+    },
+    "140120260910533887": {
+      "disclosed_at": "2026-09-10T08:30:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842235+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260910533888": {
+      "disclosed_at": "2026-09-10T08:30:00+09:00",
+      "first_seen": "2026-09-10T09:09:43.842246+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 16,
-    "date": "2026-09-09"
+    "count": 4,
+    "date": "2026-09-10"
   },
   "schema_version": 1,
   "seen_holdings": [
@@ -110745,6 +111003,8 @@
     "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|4849|2026-09-07",
     "株式会社シェアレコ|9557|2026-09-07",
     "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3656|2026-09-07",
-    "株式会社Ｋｏｂａｙａｓｈｉ　Ｆａｍｉｌｙ　Ｃａｐｉｔａｌ|9238|2026-09-07"
+    "株式会社Ｋｏｂａｙａｓｈｉ　Ｆａｍｉｌｙ　Ｃａｐｉｔａｌ|9238|2026-09-07",
+    "株式会社ＭＩ２|2982|2026-09-08",
+    "株式会社サンワ電化阿久比|3143|2026-09-08"
   ]
 }
