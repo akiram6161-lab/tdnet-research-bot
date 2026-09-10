@@ -18109,11 +18109,243 @@
       "security_code": "4204",
       "tier": 1,
       "title": "子会社の増資に伴う子会社等の異動に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "カカクコム",
+      "disclosed_at": "2026-09-10 17:00",
+      "disclosure_id": "140120260910534451",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910534451.pdf",
+      "parent_ts": "1789030699.326699",
+      "posted_at": "2026-09-10T17:58:19.360761+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-10T18:00:01.212095+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "2371",
+      "tier": 1,
+      "title": "Kamgras １株式会社による株式会社カカクコム（証券コード：2371）の株券等に対する公開買付けの買付条件等の変更に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "デジタルガレージ",
+      "disclosed_at": "2026-09-10 17:00",
+      "disclosure_id": "140120260910534385",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910534385.pdf",
+      "parent_ts": "1789030699.421229",
+      "posted_at": "2026-09-10T17:58:19.446688+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-10T18:01:21.372755+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "4819",
+      "tier": 1,
+      "title": "持分法適用会社（株式会社カカクコム）株式に関する公開買付けの条件の変更及び特別利益（個別決算）の計上見込みの修正に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "日本光電",
+      "disclosed_at": "2026-09-10 15:30",
+      "disclosure_id": "140120260910534232",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910534232.pdf",
+      "parent_ts": "1789030699.509529",
+      "posted_at": "2026-09-10T17:58:19.539512+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-10T18:02:44.713814+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "6849",
+      "tier": 1,
+      "title": "公開買付けに準ずる行為として政令で定める買集め行為に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "アバール",
+      "disclosed_at": "2026-09-10 15:30",
+      "disclosure_id": "140120260908533133",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260908533133.pdf",
+      "parent_ts": "1789030699.600409",
+      "posted_at": "2026-09-10T17:58:19.634679+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-10T18:03:55.629833+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "6918",
+      "tier": 1,
+      "title": "当社保有株式の公開買付けへの応募及び特別利益の計上見込みに関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "トーシンＨＤ",
+      "disclosed_at": "2026-09-10 17:00",
+      "disclosure_id": "140120260910534462",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910534462.pdf",
+      "parent_ts": "1789030699.723969",
+      "posted_at": "2026-09-10T17:58:19.751352+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 92,
+      "security_code": "9444",
+      "tier": 1,
+      "title": "（開示事項の経過）会社更生手続における更生計画案の閲覧等制限に係る裁判所決定のお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "アクティビズム・ガバナンス",
+      "company_name": "Ｐ－サポート",
+      "disclosed_at": "2026-09-10 16:00",
+      "disclosure_id": "140120260910534287",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910534287.pdf",
+      "parent_ts": "1789030699.817169",
+      "posted_at": "2026-09-10T17:58:19.848180+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 92,
+      "security_code": "217A",
+      "tier": 1,
+      "title": "臨時株主総会招集のための基準日設定及び臨時株主総会開催並びに付議議案の決定に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "資本政策",
+      "company_name": "Ｇ－ＳＡＡＦＨＤ",
+      "disclosed_at": "2026-09-10 16:00",
+      "disclosure_id": "140120260910534350",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910534350.pdf",
+      "parent_ts": "1789030699.914649",
+      "posted_at": "2026-09-10T17:58:19.941527+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 91,
+      "security_code": "1447",
+      "tier": 1,
+      "title": "日本証券金融株式会社が実施する当社第１回Ａ新株予約権に係る権利入札等への参加を希望される方に対するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "Ｇ－サイバー・バズ",
+      "disclosed_at": "2026-09-10 15:30",
+      "disclosure_id": "140120260909533822",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260909533822.pdf",
+      "parent_ts": "1789030700.001599",
+      "posted_at": "2026-09-10T17:58:20.033747+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 88,
+      "security_code": "7069",
+      "tier": 1,
+      "title": "連結子会社の吸収合併（簡易合併・略式合併）に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "３３ＦＧ",
+      "disclosed_at": "2026-09-10 15:30",
+      "disclosure_id": "140120260909533490",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260909533490.pdf",
+      "parent_ts": "1789030700.092109",
+      "posted_at": "2026-09-10T17:58:20.124458+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 88,
+      "security_code": "7322",
+      "tier": 1,
+      "title": "経営統合に関する基本合意の解消について"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "あいちＦＧ",
+      "disclosed_at": "2026-09-10 15:30",
+      "disclosure_id": "140120260910533890",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910533890.pdf",
+      "parent_ts": "1789030700.229329",
+      "posted_at": "2026-09-10T17:58:20.259829+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 88,
+      "security_code": "7389",
+      "tier": 1,
+      "title": "経営統合に関する基本合意の解消について"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "資本政策",
+      "company_name": "Ｇ－モダリス",
+      "disclosed_at": "2026-09-10 17:00",
+      "disclosure_id": "140120260910534343",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910534343.pdf",
+      "parent_ts": "1789030700.319239",
+      "posted_at": "2026-09-10T17:58:20.347115+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 82,
+      "security_code": "4883",
+      "tier": 1,
+      "title": "第三者割当により発行された第19回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "資本政策",
+      "company_name": "Ｇ－ＦＩＸＥＲ",
+      "disclosed_at": "2026-09-10 14:00",
+      "disclosure_id": "140120260910534202",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260910534202.pdf",
+      "parent_ts": "1789030700.406719",
+      "posted_at": "2026-09-10T17:58:20.437168+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 82,
+      "security_code": "5129",
+      "tier": 1,
+      "title": "第三者割当により発行された第3回乃至第5回新株予約権（行使価額修正条項付）の取得及び消却並びに資金使途の変更に関するお知らせ"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-09-09",
-  "last_holdings_check_at": "2026-09-10T13:12:15.211723+09:00",
+  "last_holdings_check_at": "2026-09-10T17:58:17.198204+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-09-04T17:47:00.699619+09:00",
   "processed_disclosures": {
@@ -88973,6 +89205,14 @@
       "security_code": "1431",
       "tier": 2
     },
+    "140120260820523664": {
+      "disclosed_at": "2026-09-10T14:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439444+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2163",
+      "tier": 3
+    },
     "140120260820523674": {
       "disclosed_at": "2026-08-27T15:30:00+09:00",
       "first_seen": "2026-08-27T17:46:19.948042+09:00",
@@ -91987,6 +92227,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "7048",
+      "tier": 3
+    },
+    "140120260824524929": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438378+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3246",
       "tier": 3
     },
     "140120260824524938": {
@@ -95541,6 +95789,14 @@
       "security_code": "4432",
       "tier": 9
     },
+    "140120260826526490": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439207+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2198",
+      "tier": 3
+    },
     "140120260826526493": {
       "disclosed_at": "2026-08-26T15:30:00+09:00",
       "first_seen": "2026-08-26T16:13:12.849822+09:00",
@@ -96419,6 +96675,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "8616",
+      "tier": 9
+    },
+    "140120260827526922": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439277+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6969",
       "tier": 9
     },
     "140120260827526924": {
@@ -100973,6 +101237,14 @@
       "security_code": "4750",
       "tier": 9
     },
+    "140120260831529117": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438420+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3481",
+      "tier": 3
+    },
     "140120260831529123": {
       "disclosed_at": "2026-09-01T15:30:00+09:00",
       "first_seen": "2026-09-01T18:36:40.243637+09:00",
@@ -104461,6 +104733,14 @@
       "security_code": "4264",
       "tier": 9
     },
+    "140120260902530557": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437718+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1844",
+      "tier": 1
+    },
     "140120260902530567": {
       "disclosed_at": "2026-09-09T15:30:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544605+09:00",
@@ -104996,6 +105276,14 @@
       "posted": false,
       "security_code": "9202",
       "tier": 9
+    },
+    "140120260902530831": {
+      "disclosed_at": "2026-09-10T15:45:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438027+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4334",
+      "tier": 3
     },
     "140120260902530834": {
       "disclosed_at": "2026-09-02T18:00:00+09:00",
@@ -106269,6 +106557,14 @@
       "security_code": "595A",
       "tier": 3
     },
+    "140120260903531422": {
+      "disclosed_at": "2026-09-10T14:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439510+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7490",
+      "tier": 9
+    },
     "140120260903531424": {
       "disclosed_at": "2026-09-04T16:00:00+09:00",
       "first_seen": "2026-09-04T17:47:02.667481+09:00",
@@ -107069,6 +107365,14 @@
       "security_code": "6770",
       "tier": 9
     },
+    "140120260904531787": {
+      "disclosed_at": "2026-09-10T17:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437292+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3070",
+      "tier": 3
+    },
     "140120260904531788": {
       "disclosed_at": "2026-09-04T16:00:00+09:00",
       "first_seen": "2026-09-04T17:47:02.667328+09:00",
@@ -107597,6 +107901,14 @@
       "security_code": "7409",
       "tier": 3
     },
+    "140120260904532167": {
+      "disclosed_at": "2026-09-10T14:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439374+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6577",
+      "tier": 3
+    },
     "140120260905532133": {
       "disclosed_at": "2026-09-08T17:15:00+09:00",
       "first_seen": "2026-09-08T17:53:27.178612+09:00",
@@ -108045,6 +108357,14 @@
       "security_code": "3174",
       "tier": 2
     },
+    "140120260907532354": {
+      "disclosed_at": "2026-09-10T14:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439360+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4026",
+      "tier": 3
+    },
     "140120260907532355": {
       "disclosed_at": "2026-09-08T15:30:00+09:00",
       "first_seen": "2026-09-08T17:53:27.936686+09:00",
@@ -108397,6 +108717,14 @@
       "security_code": "7441",
       "tier": 9
     },
+    "140120260907532528": {
+      "disclosed_at": "2026-09-10T15:40:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438041+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5971",
+      "tier": 3
+    },
     "140120260907532534": {
       "disclosed_at": "2026-09-07T15:30:00+09:00",
       "first_seen": "2026-09-07T18:16:02.580029+09:00",
@@ -108573,6 +108901,14 @@
       "security_code": "4880",
       "tier": 3
     },
+    "140120260907532675": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439235+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "272A",
+      "tier": 3
+    },
     "140120260907532681": {
       "disclosed_at": "2026-09-08T15:30:00+09:00",
       "first_seen": "2026-09-08T17:53:27.936847+09:00",
@@ -108603,6 +108939,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "4880",
+      "tier": 9
+    },
+    "140120260907532713": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437750+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2266",
       "tier": 9
     },
     "140120260907532717": {
@@ -108908,6 +109252,14 @@
       "posted": false,
       "security_code": "378A",
       "tier": 3
+    },
+    "140120260907532795": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439164+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9267",
+      "tier": 9
     },
     "140120260907532797": {
       "disclosed_at": "2026-09-08T08:45:00+09:00",
@@ -109341,6 +109693,14 @@
       "security_code": "9713",
       "tier": 2
     },
+    "140120260908533003": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438997+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7532",
+      "tier": 2
+    },
     "140120260908533009": {
       "disclosed_at": "2026-09-08T15:30:00+09:00",
       "first_seen": "2026-09-08T17:53:27.690666+09:00",
@@ -109388,6 +109748,14 @@
       "posted": false,
       "security_code": "7459",
       "tier": 3
+    },
+    "140120260908533021": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439193+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9890",
+      "tier": 2
     },
     "140120260908533022": {
       "disclosed_at": "2026-09-08T15:30:00+09:00",
@@ -109477,6 +109845,14 @@
       "security_code": "4204",
       "tier": 1
     },
+    "140120260908533070": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439109+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8084",
+      "tier": 9
+    },
     "140120260908533073": {
       "disclosed_at": "2026-09-09T11:00:00+09:00",
       "first_seen": "2026-09-09T13:15:28.187724+09:00",
@@ -109565,6 +109941,14 @@
       "security_code": "2751",
       "tier": 3
     },
+    "140120260908533133": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:19.634727+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "6918",
+      "tier": 1
+    },
     "140120260908533135": {
       "disclosed_at": "2026-09-08T15:36:00+09:00",
       "first_seen": "2026-09-08T17:53:27.936644+09:00",
@@ -109605,12 +109989,36 @@
       "security_code": "7318",
       "tier": 9
     },
+    "140120260908533193": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438952+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7196",
+      "tier": 3
+    },
     "140120260908533195": {
       "disclosed_at": "2026-09-08T17:00:00+09:00",
       "first_seen": "2026-09-08T17:53:27.936322+09:00",
       "language": "ja",
       "posted": false,
       "security_code": "161A",
+      "tier": 3
+    },
+    "140120260908533196": {
+      "disclosed_at": "2026-09-10T16:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437673+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5820",
+      "tier": 1
+    },
+    "140120260908533203": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438939+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7196",
       "tier": 3
     },
     "140120260908533206": {
@@ -109620,6 +110028,30 @@
       "posted": false,
       "security_code": "3662",
       "tier": 3
+    },
+    "140120260908533212": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439221+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2198",
+      "tier": 3
+    },
+    "140120260908533216": {
+      "disclosed_at": "2026-09-10T17:05:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437380+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7196",
+      "tier": 3
+    },
+    "140120260908533219": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437586+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7196",
+      "tier": 9
     },
     "140120260908533226": {
       "disclosed_at": "2026-09-08T18:00:00+09:00",
@@ -109652,6 +110084,14 @@
       "posted": false,
       "security_code": "576A",
       "tier": 3
+    },
+    "140120260908533247": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439305+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7791",
+      "tier": 9
     },
     "140120260908533252": {
       "disclosed_at": "2026-09-09T15:30:00+09:00",
@@ -109917,6 +110357,14 @@
       "security_code": "4599",
       "tier": 3
     },
+    "140120260909533369": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437970+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8237",
+      "tier": 3
+    },
     "140120260909533373": {
       "disclosed_at": "2026-09-09T11:30:00+09:00",
       "first_seen": "2026-09-09T13:15:28.187815+09:00",
@@ -109925,6 +110373,14 @@
       "security_code": "20704",
       "tier": 9
     },
+    "140120260909533377": {
+      "disclosed_at": "2026-09-10T14:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439346+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4026",
+      "tier": 3
+    },
     "140120260909533387": {
       "disclosed_at": "2026-09-09T15:30:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544653+09:00",
@@ -109932,6 +110388,14 @@
       "posted": false,
       "security_code": "492A",
       "tier": 3
+    },
+    "140120260909533389": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438461+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3659",
+      "tier": 1
     },
     "140120260909533390": {
       "disclosed_at": "2026-09-10T10:00:00+09:00",
@@ -110053,6 +110517,14 @@
       "security_code": "4599",
       "tier": 9
     },
+    "140120260909533433": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438392+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3248",
+      "tier": 3
+    },
     "140120260909533435": {
       "disclosed_at": "2026-09-09T16:00:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544223+09:00",
@@ -110173,6 +110645,14 @@
       "security_code": "1783",
       "tier": 3
     },
+    "140120260909533490": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.124507+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "7322",
+      "tier": 1
+    },
     "140120260909533495": {
       "disclosed_at": "2026-09-09T16:00:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544243+09:00",
@@ -110180,6 +110660,14 @@
       "posted": false,
       "security_code": "3817",
       "tier": 9
+    },
+    "140120260909533499": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438207+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2923",
+      "tier": 3
     },
     "140120260909533511": {
       "disclosed_at": "2026-09-09T15:30:00+09:00",
@@ -110253,6 +110741,14 @@
       "security_code": "6027",
       "tier": 3
     },
+    "140120260909533539": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438236+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2983",
+      "tier": 3
+    },
     "140120260909533544": {
       "disclosed_at": "2026-09-09T14:00:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544964+09:00",
@@ -110260,6 +110756,22 @@
       "posted": false,
       "security_code": "5192",
       "tier": 9
+    },
+    "140120260909533552": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438250+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2983",
+      "tier": 9
+    },
+    "140120260909533554": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439053+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7682",
+      "tier": 3
     },
     "140120260909533556": {
       "disclosed_at": "2026-09-09T15:00:00+09:00",
@@ -110277,6 +110789,38 @@
       "security_code": "9982",
       "tier": 9
     },
+    "140120260909533558": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439067+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7682",
+      "tier": 3
+    },
+    "140120260909533562": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438263+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2983",
+      "tier": 1
+    },
+    "140120260909533565": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438278+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2983",
+      "tier": 1
+    },
+    "140120260909533569": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439081+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7682",
+      "tier": 1
+    },
     "140120260909533572": {
       "disclosed_at": "2026-09-09T16:00:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544348+09:00",
@@ -110291,6 +110835,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "9984",
+      "tier": 3
+    },
+    "140120260909533574": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439095+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7682",
       "tier": 3
     },
     "140120260909533582": {
@@ -110316,6 +110868,14 @@
       "posted": false,
       "security_code": "2338",
       "tier": 3
+    },
+    "140120260909533605": {
+      "disclosed_at": "2026-09-10T14:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439332+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3355",
+      "tier": 9
     },
     "140120260909533606": {
       "disclosed_at": "2026-09-09T15:00:00+09:00",
@@ -110373,6 +110933,14 @@
       "security_code": "7181",
       "tier": 3
     },
+    "140120260909533629": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438221+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2923",
+      "tier": 3
+    },
     "140120260909533633": {
       "disclosed_at": "2026-09-09T16:00:00+09:00",
       "first_seen": "2026-09-09T17:59:15.786972+09:00",
@@ -110397,6 +110965,14 @@
       "security_code": "4345",
       "tier": 9
     },
+    "140120260909533651": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437542+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6239",
+      "tier": 1
+    },
     "140120260909533655": {
       "disclosed_at": "2026-09-09T16:00:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544338+09:00",
@@ -110412,6 +110988,14 @@
       "posted": false,
       "security_code": "6521",
       "tier": 1
+    },
+    "140120260909533661": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438983+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7505",
+      "tier": 9
     },
     "140120260909533663": {
       "disclosed_at": "2026-09-09T16:00:00+09:00",
@@ -110461,6 +111045,30 @@
       "security_code": "6381",
       "tier": 9
     },
+    "140120260909533679": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437986+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8921",
+      "tier": 3
+    },
+    "140120260909533681": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438447+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3542",
+      "tier": 2
+    },
+    "140120260909533686": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438306+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3070",
+      "tier": 1
+    },
     "140120260909533690": {
       "disclosed_at": "2026-09-10T08:50:00+09:00",
       "first_seen": "2026-09-10T09:09:43.842206+09:00",
@@ -110484,6 +111092,14 @@
       "posted": false,
       "security_code": "3105",
       "tier": 1
+    },
+    "140120260909533708": {
+      "disclosed_at": "2026-09-10T16:45:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437617+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3070",
+      "tier": 3
     },
     "140120260909533712": {
       "disclosed_at": "2026-09-09T17:30:00+09:00",
@@ -110509,12 +111125,60 @@
       "security_code": "4099",
       "tier": 1
     },
+    "140120260909533715": {
+      "disclosed_at": "2026-09-10T17:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437322+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3070",
+      "tier": 1
+    },
+    "140120260909533728": {
+      "disclosed_at": "2026-09-10T16:45:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437631+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3070",
+      "tier": 1
+    },
+    "140120260909533731": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438911+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7137",
+      "tier": 3
+    },
+    "140120260909533732": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438320+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3070",
+      "tier": 1
+    },
     "140120260909533735": {
       "disclosed_at": "2026-09-09T17:15:00+09:00",
       "first_seen": "2026-09-09T17:59:18.544034+09:00",
       "language": "ja",
       "posted": false,
       "security_code": "194A",
+      "tier": 3
+    },
+    "140120260909533737": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438897+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7137",
+      "tier": 2
+    },
+    "140120260909533738": {
+      "disclosed_at": "2026-09-10T17:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437306+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3070",
       "tier": 3
     },
     "140120260909533746": {
@@ -110541,6 +111205,14 @@
       "security_code": "9987",
       "tier": 1
     },
+    "140120260909533754": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438179+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2375",
+      "tier": 3
+    },
     "140120260909533758": {
       "disclosed_at": "2026-09-10T13:00:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174426+09:00",
@@ -110555,6 +111227,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "1928",
+      "tier": 3
+    },
+    "140120260909533778": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439178+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9692",
       "tier": 3
     },
     "140120260909533780": {
@@ -110572,6 +111252,14 @@
       "posted": false,
       "security_code": "1928",
       "tier": 9
+    },
+    "140120260909533783": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437704+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "172A",
+      "tier": 3
     },
     "140120260909533792": {
       "disclosed_at": "2026-09-10T12:00:00+09:00",
@@ -110597,6 +111285,14 @@
       "security_code": "4441",
       "tier": 9
     },
+    "140120260909533808": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437834+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3817",
+      "tier": 2
+    },
     "140120260909533811": {
       "disclosed_at": "2026-09-10T12:10:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174441+09:00",
@@ -110604,6 +111300,14 @@
       "posted": false,
       "security_code": "6535",
       "tier": 3
+    },
+    "140120260909533822": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.033796+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "7069",
+      "tier": 1
     },
     "140120260909533832": {
       "disclosed_at": "2026-09-10T12:10:00+09:00",
@@ -110645,6 +111349,78 @@
       "security_code": "9444",
       "tier": 3
     },
+    "140120260909533858": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439039+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7640",
+      "tier": 1
+    },
+    "140120260909533860": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439011+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7640",
+      "tier": 3
+    },
+    "140120260909533862": {
+      "disclosed_at": "2026-09-10T17:40:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437276+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7970",
+      "tier": 9
+    },
+    "140120260909533863": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439024+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7640",
+      "tier": 3
+    },
+    "140120260909533864": {
+      "disclosed_at": "2026-09-10T17:01:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437394+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4051",
+      "tier": 1
+    },
+    "140120260909533865": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437439+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3483",
+      "tier": 1
+    },
+    "140120260909533866": {
+      "disclosed_at": "2026-09-10T17:40:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437259+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7970",
+      "tier": 9
+    },
+    "140120260910533883": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439318+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8747",
+      "tier": 3
+    },
+    "140120260910533885": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438193+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2875",
+      "tier": 9
+    },
     "140120260910533887": {
       "disclosed_at": "2026-09-10T08:30:00+09:00",
       "first_seen": "2026-09-10T09:09:43.842235+09:00",
@@ -110661,6 +111437,30 @@
       "security_code": "16724",
       "tier": 9
     },
+    "140120260910533890": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.259924+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "7389",
+      "tier": 1
+    },
+    "140120260910533892": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438124+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2109",
+      "tier": 1
+    },
+    "140120260910533897": {
+      "disclosed_at": "2026-09-10T15:40:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438055+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6103",
+      "tier": 9
+    },
     "140120260910533901": {
       "disclosed_at": "2026-09-10T10:00:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174600+09:00",
@@ -110668,6 +111468,46 @@
       "posted": false,
       "security_code": "585A4",
       "tier": 9
+    },
+    "140120260910533902": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438757+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6619",
+      "tier": 3
+    },
+    "140120260910533904": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438097+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "141A",
+      "tier": 2
+    },
+    "140120260910533906": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438785+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6619",
+      "tier": 3
+    },
+    "140120260910533907": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438111+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1758",
+      "tier": 3
+    },
+    "140120260910533918": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438771+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6619",
+      "tier": 3
     },
     "140120260910533919": {
       "disclosed_at": "2026-09-10T11:30:00+09:00",
@@ -110677,6 +111517,22 @@
       "security_code": "3135",
       "tier": 2
     },
+    "140120260910533923": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439291+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7244",
+      "tier": 9
+    },
+    "140120260910533926": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438364+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3199",
+      "tier": 2
+    },
     "140120260910533927": {
       "disclosed_at": "2026-09-10T12:00:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174503+09:00",
@@ -110684,6 +111540,14 @@
       "posted": false,
       "security_code": "6194",
       "tier": 1
+    },
+    "140120260910533931": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438645+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5831",
+      "tier": 9
     },
     "140120260910533932": {
       "disclosed_at": "2026-09-10T10:00:00+09:00",
@@ -110701,6 +111565,54 @@
       "security_code": "16714",
       "tier": 9
     },
+    "140120260910533935": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438434+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "350A",
+      "tier": 3
+    },
+    "140120260910533940": {
+      "disclosed_at": "2026-09-10T14:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439486+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2903",
+      "tier": 9
+    },
+    "140120260910533946": {
+      "disclosed_at": "2026-09-10T13:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439523+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6033",
+      "tier": 3
+    },
+    "140120260910533967": {
+      "disclosed_at": "2026-09-10T14:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439430+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7821",
+      "tier": 3
+    },
+    "140120260910533971": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438545+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4374",
+      "tier": 2
+    },
+    "140120260910533976": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438813+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6778",
+      "tier": 3
+    },
     "140120260910533988": {
       "disclosed_at": "2026-09-10T11:30:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174544+09:00",
@@ -110709,6 +111621,14 @@
       "security_code": "20704",
       "tier": 9
     },
+    "140120260910533996": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438559+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4422",
+      "tier": 3
+    },
     "140120260910534000": {
       "disclosed_at": "2026-09-10T11:00:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174570+09:00",
@@ -110716,6 +111636,14 @@
       "posted": false,
       "security_code": "4242",
       "tier": 3
+    },
+    "140120260910534003": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438573+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4422",
+      "tier": 9
     },
     "140120260910534004": {
       "disclosed_at": "2026-09-10T12:00:00+09:00",
@@ -110733,6 +111661,14 @@
       "security_code": "9245",
       "tier": 2
     },
+    "140120260910534008": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438799+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6778",
+      "tier": 3
+    },
     "140120260910534016": {
       "disclosed_at": "2026-09-10T12:00:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174515+09:00",
@@ -110740,6 +111676,54 @@
       "posted": false,
       "security_code": "6696",
       "tier": 9
+    },
+    "140120260910534017": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438587+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4422",
+      "tier": 3
+    },
+    "140120260910534019": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438503+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4194",
+      "tier": 3
+    },
+    "140120260910534023": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438517+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4194",
+      "tier": 9
+    },
+    "140120260910534025": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438531+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4194",
+      "tier": 3
+    },
+    "140120260910534026": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438601+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4422",
+      "tier": 3
+    },
+    "140120260910534030": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438845+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7095",
+      "tier": 3
     },
     "140120260910534032": {
       "disclosed_at": "2026-09-10T11:30:00+09:00",
@@ -110757,6 +111741,14 @@
       "security_code": "13494",
       "tier": 9
     },
+    "140120260910534044": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437940+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7777",
+      "tier": 3
+    },
     "140120260910534051": {
       "disclosed_at": "2026-09-10T11:45:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174533+09:00",
@@ -110773,12 +111765,92 @@
       "security_code": "15574",
       "tier": 9
     },
+    "140120260910534057": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438083+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1419",
+      "tier": 3
+    },
+    "140120260910534058": {
+      "disclosed_at": "2026-09-10T15:40:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438069+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7927",
+      "tier": 1
+    },
+    "140120260910534061": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438138+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "215A",
+      "tier": 3
+    },
+    "140120260910534063": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438859+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7095",
+      "tier": 9
+    },
+    "140120260910534065": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438151+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "215A",
+      "tier": 9
+    },
+    "140120260910534073": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438165+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "215A",
+      "tier": 3
+    },
+    "140120260910534074": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438883+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7095",
+      "tier": 1
+    },
+    "140120260910534093": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437912+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6029",
+      "tier": 3
+    },
     "140120260910534100": {
       "disclosed_at": "2026-09-10T12:00:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174472+09:00",
       "language": "ja",
       "posted": false,
       "security_code": "2674",
+      "tier": 3
+    },
+    "140120260910534101": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437955+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7918",
+      "tier": 2
+    },
+    "140120260910534106": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438616+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5031",
       "tier": 3
     },
     "140120260910534109": {
@@ -110796,11 +111868,515 @@
       "posted": true,
       "security_code": "4204",
       "tier": 1
+    },
+    "140120260910534112": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438350+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3178",
+      "tier": 2
+    },
+    "140120260910534115": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438674+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5976",
+      "tier": 9
+    },
+    "140120260910534117": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438631+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5031",
+      "tier": 9
+    },
+    "140120260910534128": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438729+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6537",
+      "tier": 1
+    },
+    "140120260910534130": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437792+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3399",
+      "tier": 3
+    },
+    "140120260910534136": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438702+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6184",
+      "tier": 3
+    },
+    "140120260910534137": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438925+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7183",
+      "tier": 9
+    },
+    "140120260910534145": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438407+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "325A",
+      "tier": 9
+    },
+    "140120260910534161": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438475+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4014",
+      "tier": 3
+    },
+    "140120260910534167": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437572+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7042",
+      "tier": 2
+    },
+    "140120260910534168": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438489+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4014",
+      "tier": 9
+    },
+    "140120260910534172": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437778+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3392",
+      "tier": 3
+    },
+    "140120260910534180": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438716+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6184",
+      "tier": 9
+    },
+    "140120260910534184": {
+      "disclosed_at": "2026-09-10T13:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439538+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "7856",
+      "tier": 9
+    },
+    "140120260910534186": {
+      "disclosed_at": "2026-09-10T15:45:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438013+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3896",
+      "tier": 1
+    },
+    "140120260910534198": {
+      "disclosed_at": "2026-09-10T14:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439458+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2163",
+      "tier": 3
+    },
+    "140120260910534199": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439249+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4825",
+      "tier": 3
+    },
+    "140120260910534202": {
+      "disclosed_at": "2026-09-10T14:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437217+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "5129",
+      "tier": 1
+    },
+    "140120260910534203": {
+      "disclosed_at": "2026-09-10T16:45:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437645+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4498",
+      "tier": 3
+    },
+    "140120260910534207": {
+      "disclosed_at": "2026-09-10T14:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439472+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2163",
+      "tier": 3
+    },
+    "140120260910534208": {
+      "disclosed_at": "2026-09-10T15:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439262+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4825",
+      "tier": 9
+    },
+    "140120260910534217": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438292+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3064",
+      "tier": 2
+    },
+    "140120260910534222": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437557+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6433",
+      "tier": 3
+    },
+    "140120260910534232": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:19.539562+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "6849",
+      "tier": 1
+    },
+    "140120260910534244": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437863+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "509A",
+      "tier": 2
+    },
+    "140120260910534247": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437926+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6464",
+      "tier": 3
+    },
+    "140120260910534248": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438335+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3083",
+      "tier": 1
+    },
+    "140120260910534251": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438688+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6182",
+      "tier": 3
+    },
+    "140120260910534264": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438659+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5871",
+      "tier": 1
+    },
+    "140120260910534272": {
+      "disclosed_at": "2026-09-10T14:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439389+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6577",
+      "tier": 3
+    },
+    "140120260910534279": {
+      "disclosed_at": "2026-09-10T14:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439402+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6577",
+      "tier": 2
+    },
+    "140120260910534280": {
+      "disclosed_at": "2026-09-10T14:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439416+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6577",
+      "tier": 9
+    },
+    "140120260910534287": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:19.848229+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "217A",
+      "tier": 1
+    },
+    "140120260910534294": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439123+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8267",
+      "tier": 3
+    },
+    "140120260910534303": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437999+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9941",
+      "tier": 2
+    },
+    "140120260910534323": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439137+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8783",
+      "tier": 3
+    },
+    "140120260910534324": {
+      "disclosed_at": "2026-09-10T16:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437659+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1449",
+      "tier": 3
+    },
+    "140120260910534327": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.439150+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9010",
+      "tier": 9
+    },
+    "140120260910534330": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437764+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3175",
+      "tier": 2
+    },
+    "140120260910534331": {
+      "disclosed_at": "2026-09-10T15:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.438743+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6594",
+      "tier": 3
+    },
+    "140120260910534343": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.347168+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4883",
+      "tier": 1
+    },
+    "140120260910534347": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437806+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "350A",
+      "tier": 9
+    },
+    "140120260910534350": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:19.941576+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "1447",
+      "tier": 1
+    },
+    "140120260910534354": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437528+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "581A",
+      "tier": 3
+    },
+    "140120260910534361": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437849+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4548",
+      "tier": 3
+    },
+    "140120260910534362": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437732+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "208A",
+      "tier": 3
+    },
+    "140120260910534368": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437898+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5132",
+      "tier": 3
+    },
+    "140120260910534374": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437453+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4220",
+      "tier": 9
+    },
+    "140120260910534376": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437410+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1904",
+      "tier": 9
+    },
+    "140120260910534385": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:19.446743+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4819",
+      "tier": 1
+    },
+    "140120260910534387": {
+      "disclosed_at": "2026-09-10T16:30:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437687+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8951",
+      "tier": 3
+    },
+    "140120260910534400": {
+      "disclosed_at": "2026-09-10T16:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437820+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "350A",
+      "tier": 9
+    },
+    "140120260910534407": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437468+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4568",
+      "tier": 3
+    },
+    "140120260910534425": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437483+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4599",
+      "tier": 9
+    },
+    "140120260910534427": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437514+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5533",
+      "tier": 1
+    },
+    "140120260910534445": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437600+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8876",
+      "tier": 9
+    },
+    "140120260910534449": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437497+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4599",
+      "tier": 9
+    },
+    "140120260910534451": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:19.360816+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "2371",
+      "tier": 1
+    },
+    "140120260910534462": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:19.751403+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "9444",
+      "tier": 1
+    },
+    "140120260910534470": {
+      "disclosed_at": "2026-09-10T17:15:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437336+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2633",
+      "tier": 9
+    },
+    "140120260910534471": {
+      "disclosed_at": "2026-09-10T17:15:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437350+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2634",
+      "tier": 9
+    },
+    "140120260910534472": {
+      "disclosed_at": "2026-09-10T17:15:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437365+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "346A",
+      "tier": 9
+    },
+    "140120260910534485": {
+      "disclosed_at": "2026-09-10T17:00:00+09:00",
+      "first_seen": "2026-09-10T17:58:20.437424+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2338",
+      "tier": 2
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 8,
+    "count": 12,
     "date": "2026-09-10"
   },
   "schema_version": 1,
