@@ -17867,7 +17867,7 @@
       "requesting_user_id": null,
       "research_attempts": 0,
       "research_completed_at": null,
-      "research_status": "queued",
+      "research_status": "expired",
       "score": 82,
       "security_code": "4598",
       "tier": 1,
@@ -17886,7 +17886,7 @@
       "requesting_user_id": null,
       "research_attempts": 0,
       "research_completed_at": null,
-      "research_status": "queued",
+      "research_status": "expired",
       "score": 82,
       "security_code": "190A",
       "tier": 1,
@@ -17905,7 +17905,7 @@
       "requesting_user_id": null,
       "research_attempts": 0,
       "research_completed_at": null,
-      "research_status": "queued",
+      "research_status": "expired",
       "score": 82,
       "security_code": "6495",
       "tier": 1,
@@ -18104,7 +18104,7 @@
       "requesting_user_id": null,
       "research_attempts": 0,
       "research_completed_at": null,
-      "research_status": "queued",
+      "research_status": "expired",
       "score": 80,
       "security_code": "4204",
       "tier": 1,
@@ -18309,7 +18309,7 @@
       "requesting_user_id": null,
       "research_attempts": 0,
       "research_completed_at": null,
-      "research_status": "queued",
+      "research_status": "expired",
       "score": 88,
       "security_code": "7389",
       "tier": 1,
@@ -18328,7 +18328,7 @@
       "requesting_user_id": null,
       "research_attempts": 0,
       "research_completed_at": null,
-      "research_status": "queued",
+      "research_status": "expired",
       "score": 82,
       "security_code": "4883",
       "tier": 1,
@@ -18347,7 +18347,7 @@
       "requesting_user_id": null,
       "research_attempts": 0,
       "research_completed_at": null,
-      "research_status": "queued",
+      "research_status": "expired",
       "score": 82,
       "security_code": "5129",
       "tier": 1,
@@ -19074,11 +19074,358 @@
       "security_code": "6955",
       "tier": 1,
       "title": "第三者割当により発行される第１回無担保転換社債型新株予約権付社債（転換価額修正条項付）の払込完了に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "アクティビズム・ガバナンス",
+      "company_name": "メタプラネット",
+      "disclosed_at": "2026-09-11 20:45",
+      "disclosure_id": "140120260911535286",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260911535286.pdf",
+      "parent_ts": "1789344501.601759",
+      "posted_at": "2026-09-14T09:08:21.681627+09:00",
+      "related_disclosures": [
+        "2026-09-07 ＭＭＸＸベンチャーズ・リミテッドによる大量保有報告"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-14T09:10:35.907390+09:00",
+      "research_status": "completed",
+      "score": 92,
+      "security_code": "3350",
+      "tier": 1,
+      "title": "臨時株主総会の開催並びに資本金、資本準備金の額の減少及び剰余金の処分に関するお知らせ"
+    },
+    {
+      "company_name": "株式会社セイファート",
+      "disclosed_at": "2026-09-11",
+      "disclosure_id": "holding:株式会社アーム|9213|2026-09-11",
+      "document_url": "",
+      "filer_name": "株式会社アーム",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[9213] 株式会社セイファート 19.4%"
+      ],
+      "parent_ts": "1789344503.290149",
+      "posted_at": "2026-09-14T09:08:23.367919+09:00",
+      "ratio": 0.194,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-14T09:12:39.533780+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "9213",
+      "submit_date": "2026-09-11",
+      "tier": 1,
+      "title": "株式会社アームによる大量保有報告"
+    },
+    {
+      "company_name": "メディキット株式会社",
+      "disclosed_at": "2026-09-11",
+      "disclosure_id": "holding:株式会社ヴァレックス・パートナーズ|7749|2026-09-11",
+      "document_url": "",
+      "filer_name": "株式会社ヴァレックス・パートナーズ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[7749] メディキット株式会社 14.5%",
+        "[3179] シュッピン株式会社 14.6%",
+        "[3964] 株式会社オークネット 8.0%",
+        "[6364] 株式会社ＡＩＲＭＡＮ 13.0%",
+        "[4290] 株式会社プレステージ・インターナショナル 4.1%",
+        "[6333] 株式会社ＴＥＩＫＯＫＵ 18.4%"
+      ],
+      "parent_ts": "1789344503.531439",
+      "posted_at": "2026-09-14T09:08:23.606158+09:00",
+      "ratio": 0.1453,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-14T09:14:03.211041+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "7749",
+      "submit_date": "2026-09-11",
+      "tier": 1,
+      "title": "株式会社ヴァレックス・パートナーズによる大量保有報告"
+    },
+    {
+      "company_name": "盟和産業株式会社",
+      "disclosed_at": "2026-09-11",
+      "disclosure_id": "holding:成成株式会社|7284|2026-09-11",
+      "document_url": "",
+      "filer_name": "成成株式会社",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[7284] 盟和産業株式会社 6.9%",
+        "[6772] 東京コスモス電機株式会社 19.5%"
+      ],
+      "parent_ts": "1789344503.767829",
+      "posted_at": "2026-09-14T09:08:23.840549+09:00",
+      "ratio": 0.0685,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-14T09:15:10.966139+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "7284",
+      "submit_date": "2026-09-11",
+      "tier": 1,
+      "title": "成成株式会社による大量保有報告"
+    },
+    {
+      "company_name": "株式会社小森コーポレーション",
+      "disclosed_at": "2026-09-11",
+      "disclosure_id": "holding:ブランデス・インベストメント・パートナーズ・エル・ピー|6349|2026-09-11",
+      "document_url": "",
+      "filer_name": "ブランデス・インベストメント・パートナーズ・エル・ピー",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6349] 株式会社小森コーポレーション 3.2%"
+      ],
+      "parent_ts": "1789344504.058519",
+      "posted_at": "2026-09-14T09:08:24.131465+09:00",
+      "ratio": 0.0321,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "6349",
+      "submit_date": "2026-09-11",
+      "tier": 1,
+      "title": "ブランデス・インベストメント・パートナーズ・エル・ピーによる大量保有報告"
+    },
+    {
+      "company_name": "東亜道路工業株式会社",
+      "disclosed_at": "2026-09-11",
+      "disclosure_id": "holding:株式会社ストラテジックキャピタル|1882|2026-09-11",
+      "document_url": "",
+      "filer_name": "株式会社ストラテジックキャピタル",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[1882] 東亜道路工業株式会社 4.0%",
+        "[7745] 株式会社Ａ＆Ｄホロンホールディングス 16.7%",
+        "[3765] ガンホー・オンライン・エンターテイメント株式会社 13.7%",
+        "[6516] 山洋電気株式会社 12.2%",
+        "[9882] 株式会社イエローハット 12.7%",
+        "[8818] 京阪神ビルディング株式会社 9.2%",
+        "[4189] ＫＨネオケム株式会社 18.2%",
+        "[2001] 株式会社ニップン 7.1%",
+        "[5331] ノリタケ株式会社 4.4%"
+      ],
+      "parent_ts": "1789344504.305839",
+      "posted_at": "2026-09-14T09:08:24.380257+09:00",
+      "ratio": 0.0397,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "1882",
+      "submit_date": "2026-09-11",
+      "tier": 1,
+      "title": "株式会社ストラテジックキャピタルによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社大水",
+      "disclosed_at": "2026-09-11",
+      "disclosure_id": "holding:株式会社ニッスイ|7538|2026-09-11",
+      "document_url": "",
+      "filer_name": "株式会社ニッスイ",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[7538] 株式会社大水 24.0%"
+      ],
+      "parent_ts": "1789344504.612889",
+      "posted_at": "2026-09-14T09:08:24.684600+09:00",
+      "ratio": 0.2398,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "7538",
+      "submit_date": "2026-09-11",
+      "tier": 1,
+      "title": "株式会社ニッスイによる大量保有報告"
+    },
+    {
+      "company_name": "日本製麻株式会社",
+      "disclosed_at": "2026-09-11",
+      "disclosure_id": "holding:ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3306|2026-09-11",
+      "document_url": "",
+      "filer_name": "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[3306] 日本製麻株式会社 21.0%",
+        "[3656] KLab株式会社 12.2%",
+        "[195A] 株式会社MUSCAT GROUP 10.9%"
+      ],
+      "parent_ts": "1789344504.907219",
+      "posted_at": "2026-09-14T09:08:24.981716+09:00",
+      "ratio": 0.2099,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "3306",
+      "submit_date": "2026-09-11",
+      "tier": 1,
+      "title": "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社ロゴスホールディングス",
+      "disclosed_at": "2026-09-11",
+      "disclosure_id": "holding:エンデバー・ユナイテッド株式会社|205A|2026-09-11",
+      "document_url": "",
+      "filer_name": "エンデバー・ユナイテッド株式会社",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[4222] 児玉化学工業株式会社 33.0%",
+        "[407A] 株式会社ＵＮＩＣＯＮホールディングス 23.0%"
+      ],
+      "parent_ts": "1789344505.143279",
+      "posted_at": "2026-09-14T09:08:25.215036+09:00",
+      "ratio": 0.0,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "205A",
+      "submit_date": "2026-09-11",
+      "tier": 1,
+      "title": "エンデバー・ユナイテッド株式会社による大量保有報告"
+    },
+    {
+      "company_name": "株式会社ブランジスタ",
+      "disclosed_at": "2026-09-10",
+      "disclosure_id": "holding:ＳＢＩＮＭ合同会社|6176|2026-09-10",
+      "document_url": "",
+      "filer_name": "ＳＢＩＮＭ合同会社",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6176] 株式会社ブランジスタ 7.9%"
+      ],
+      "parent_ts": "1789344505.395459",
+      "posted_at": "2026-09-14T09:08:25.464632+09:00",
+      "ratio": 0.0789,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "6176",
+      "submit_date": "2026-09-10",
+      "tier": 1,
+      "title": "ＳＢＩＮＭ合同会社による大量保有報告"
+    },
+    {
+      "company_name": "Ｊ. フロント リテイリング株式会社",
+      "disclosed_at": "2026-09-10",
+      "disclosure_id": "holding:３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．|3086|2026-09-10",
+      "document_url": "",
+      "filer_name": "３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[3086] Ｊ. フロント リテイリング株式会社 11.6%",
+        "[6952] カシオ計算機株式会社 4.0%",
+        "[9024] 株式会社西武ホールディングス 13.9%"
+      ],
+      "parent_ts": "1789344505.629909",
+      "posted_at": "2026-09-14T09:08:25.701469+09:00",
+      "ratio": 0.1163,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "3086",
+      "submit_date": "2026-09-10",
+      "tier": 1,
+      "title": "３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "company_name": "株式会社ヤマダホールディングス",
+      "disclosed_at": "2026-09-10",
+      "disclosure_id": "holding:株式会社シティインデックスイレブンス|9831|2026-09-10",
+      "document_url": "",
+      "filer_name": "株式会社シティインデックスイレブンス",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[7278] 株式会社エクセディ 3.9%",
+        "[2432] 株式会社ディー・エヌ・エー 1.0%"
+      ],
+      "parent_ts": "1789344505.857299",
+      "posted_at": "2026-09-14T09:08:25.925660+09:00",
+      "ratio": 0.0,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "9831",
+      "submit_date": "2026-09-10",
+      "tier": 1,
+      "title": "株式会社シティインデックスイレブンスによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社ニチレイ",
+      "disclosed_at": "2026-09-10",
+      "disclosure_id": "holding:Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|2871|2026-09-10",
+      "document_url": "",
+      "filer_name": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[3774] 株式会社インターネットイニシアティブ 9.1%",
+        "[6890] 株式会社フェローテック 6.6%",
+        "[2871] 株式会社ニチレイ 8.4%",
+        "[4967] 小林製薬株式会社 14.4%",
+        "[4849] エン株式会社 13.5%",
+        "[1721] コムシスホールディングス株式会社 7.4%",
+        "[2413] エムスリー株式会社 6.3%",
+        "[4812] 株式会社電通総研 5.0%",
+        "[8570] イオンフィナンシャルサービス株式会社 10.8%",
+        "[9072] ニッコンホールディングス株式会社 17.7%",
+        "[6104] 芝浦機械株式会社 6.8%",
+        "[4088] エア・ウォーター株式会社 6.0%",
+        "[4631] DIC株式会社 11.6%",
+        "[6594] ニデック株式会社 6.8%",
+        "[5423] 東京製鐵株式会社 8.6%"
+      ],
+      "parent_ts": "1789344506.138089",
+      "posted_at": "2026-09-14T09:08:26.205621+09:00",
+      "ratio": 0.0838,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "2871",
+      "submit_date": "2026-09-10",
+      "tier": 1,
+      "title": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "company_name": "KLab株式会社",
+      "disclosed_at": "2026-09-10",
+      "disclosure_id": "holding:ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3656|2026-09-10",
+      "document_url": "",
+      "filer_name": "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[3306] 日本製麻株式会社 21.0%",
+        "[3656] KLab株式会社 12.2%",
+        "[195A] 株式会社MUSCAT GROUP 10.9%"
+      ],
+      "parent_ts": "1789344506.432969",
+      "posted_at": "2026-09-14T09:08:26.500103+09:00",
+      "ratio": 0.122,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "3656",
+      "submit_date": "2026-09-10",
+      "tier": 1,
+      "title": "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣによる大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-09-11",
-  "last_holdings_check_at": "2026-09-11T17:56:32.613579+09:00",
+  "last_holdings_check_at": "2026-09-14T09:08:20.079791+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-09-04T17:47:00.699619+09:00",
   "processed_disclosures": {
@@ -108466,6 +108813,14 @@
       "security_code": "9507",
       "tier": 3
     },
+    "140120260904532005": {
+      "disclosed_at": "2026-09-11T19:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681707+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4891",
+      "tier": 3
+    },
     "140120260904532009": {
       "disclosed_at": "2026-09-07T13:00:00+09:00",
       "first_seen": "2026-09-07T13:06:55.124238+09:00",
@@ -113026,6 +113381,14 @@
       "security_code": "6029",
       "tier": 3
     },
+    "140120260910534098": {
+      "disclosed_at": "2026-09-11T18:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681757+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6224",
+      "tier": 3
+    },
     "140120260910534100": {
       "disclosed_at": "2026-09-10T12:00:00+09:00",
       "first_seen": "2026-09-10T13:12:17.174472+09:00",
@@ -114546,6 +114909,14 @@
       "security_code": "5079",
       "tier": 3
     },
+    "140120260911534703": {
+      "disclosed_at": "2026-09-14T08:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681782+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9502",
+      "tier": 3
+    },
     "140120260911534704": {
       "disclosed_at": "2026-09-11T15:45:00+09:00",
       "first_seen": "2026-09-11T17:56:41.742610+09:00",
@@ -115794,6 +116165,14 @@
       "security_code": "8951",
       "tier": 3
     },
+    "140120260911535177": {
+      "disclosed_at": "2026-09-11T20:45:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681690+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3350",
+      "tier": 3
+    },
     "140120260911535182": {
       "disclosed_at": "2026-09-11T15:40:00+09:00",
       "first_seen": "2026-09-11T17:56:41.742659+09:00",
@@ -115857,6 +116236,14 @@
       "posted": false,
       "security_code": "4813",
       "tier": 9
+    },
+    "140120260911535204": {
+      "disclosed_at": "2026-09-11T20:45:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681702+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3350",
+      "tier": 3
     },
     "140120260911535215": {
       "disclosed_at": "2026-09-11T17:00:00+09:00",
@@ -115937,12 +116324,100 @@
       "posted": false,
       "security_code": "9507",
       "tier": 3
+    },
+    "140120260911535286": {
+      "disclosed_at": "2026-09-11T20:45:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681676+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3350",
+      "tier": 1
+    },
+    "140120260911535287": {
+      "disclosed_at": "2026-09-11T20:45:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681698+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3350",
+      "tier": 9
+    },
+    "140120260911535291": {
+      "disclosed_at": "2026-09-11T18:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681716+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5074",
+      "tier": 9
+    },
+    "140120260911535292": {
+      "disclosed_at": "2026-09-11T18:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681751+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "5074",
+      "tier": 9
+    },
+    "140120260911535293": {
+      "disclosed_at": "2026-09-11T18:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681712+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3445",
+      "tier": 2
+    },
+    "140120260913535388": {
+      "disclosed_at": "2026-09-14T08:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681778+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "153A",
+      "tier": 3
+    },
+    "140120260913535389": {
+      "disclosed_at": "2026-09-14T08:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681785+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9502",
+      "tier": 3
+    },
+    "140120260913535390": {
+      "disclosed_at": "2026-09-14T08:00:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681788+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9502",
+      "tier": 3
+    },
+    "140120260913535402": {
+      "disclosed_at": "2026-09-14T08:15:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681774+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4578",
+      "tier": 3
+    },
+    "140120260914535420": {
+      "disclosed_at": "2026-09-14T08:30:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681762+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260914535421": {
+      "disclosed_at": "2026-09-14T08:30:00+09:00",
+      "first_seen": "2026-09-14T09:08:21.681769+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 16,
-    "date": "2026-09-11"
+    "count": 4,
+    "date": "2026-09-14"
   },
   "schema_version": 1,
   "seen_holdings": [
@@ -116476,6 +116951,19 @@
     "シルチェスター・インターナショナル・インベスターズ・エルエルピー|9987|2026-09-09",
     "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3656|2026-09-09",
     "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|4967|2026-09-09",
-    "エンデバー・ユナイテッド株式会社|4222|2026-09-09"
+    "エンデバー・ユナイテッド株式会社|4222|2026-09-09",
+    "株式会社アーム|9213|2026-09-11",
+    "株式会社ヴァレックス・パートナーズ|7749|2026-09-11",
+    "成成株式会社|7284|2026-09-11",
+    "ブランデス・インベストメント・パートナーズ・エル・ピー|6349|2026-09-11",
+    "株式会社ストラテジックキャピタル|1882|2026-09-11",
+    "株式会社ニッスイ|7538|2026-09-11",
+    "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3306|2026-09-11",
+    "エンデバー・ユナイテッド株式会社|205A|2026-09-11",
+    "ＳＢＩＮＭ合同会社|6176|2026-09-10",
+    "３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．|3086|2026-09-10",
+    "株式会社シティインデックスイレブンス|9831|2026-09-10",
+    "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|2871|2026-09-10",
+    "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3656|2026-09-10"
   ]
 }
