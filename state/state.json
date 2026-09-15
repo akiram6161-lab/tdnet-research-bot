@@ -19874,11 +19874,136 @@
       "security_code": "4343",
       "tier": 1,
       "title": "連結子会社に対する債権の株式化（デット・エクイティ・スワップ）の実施並びに連結子会社における増資に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "レオパレス２１",
+      "disclosed_at": "2026-09-14 20:00",
+      "disclosure_id": "140120260914536142",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260914536142.pdf",
+      "parent_ts": "1789432429.096519",
+      "posted_at": "2026-09-15T09:33:49.167957+09:00",
+      "related_disclosures": [
+        "2026-09-14 20:00 シルバー事業の譲渡（特定子会社の異動を伴う株式譲渡）に関する基本合意書の締結並びに特別損失の計上及び業績予想の修正に関するお知らせ (https://www.release.tdnet.info/inbs/140120260914536068.pdf)",
+        "2026-09-14 20:00 2027年３月期の中間配当及び期末配当予想の修正（無配）に関するお知らせ (https://www.release.tdnet.info/inbs/140120260914536086.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-15T09:35:30.743310+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "8848",
+      "tier": 1,
+      "title": "株式会社K891による当社株券等に対する公開買付けに関する賛同の意見表明及び応募推奨並びに特定子会社の異動を伴う株式譲渡に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "かどや製油",
+      "disclosed_at": "2026-09-14 23:45",
+      "disclosure_id": "140120260914536264",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260914536264.pdf",
+      "parent_ts": "1789432429.334589",
+      "posted_at": "2026-09-15T09:33:49.408256+09:00",
+      "related_disclosures": [
+        "2026-09-14 23:45 株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ (https://www.release.tdnet.info/inbs/140120260914536265.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-15T09:38:56.099571+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "2612",
+      "tier": 1,
+      "title": "株式会社ITG-Gホールディングスによるかどや製油株式会社（証券コード：2612）の普通株式に対する公開買付けの開始に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "かどや製油",
+      "disclosed_at": "2026-09-14 23:45",
+      "disclosure_id": "140120260914536265",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260914536265.pdf",
+      "parent_ts": "1789432429.571409",
+      "posted_at": "2026-09-15T09:33:49.656012+09:00",
+      "related_disclosures": [
+        "2026-09-14 23:45 株式会社ITG-Gホールディングスによるかどや製油株式会社（証券コード：2612）の普通株式に対する公開買付けの開始に関するお知らせ (https://www.release.tdnet.info/inbs/140120260914536264.pdf)"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-15T09:41:21.956342+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "2612",
+      "tier": 1,
+      "title": "株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "光通信",
+      "disclosed_at": "2026-09-14 19:45",
+      "disclosure_id": "140120260914536244",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260914536244.pdf",
+      "parent_ts": "1789432429.831449",
+      "posted_at": "2026-09-15T09:33:49.903433+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-15T09:43:28.876828+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "9435",
+      "tier": 1,
+      "title": "公開買付け開始時点では子会社である株式会社K891における株式会社レオパレス21（証券コード：8848）の株券等に対する公開買付けの開始及び子会社の異動（関連"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績予想修正",
+      "company_name": "レオパレス２１",
+      "disclosed_at": "2026-09-14 20:00",
+      "disclosure_id": "140120260914536068",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260914536068.pdf",
+      "parent_ts": "1789432430.063879",
+      "posted_at": "2026-09-15T09:33:50.148932+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "8848",
+      "tier": 1,
+      "title": "シルバー事業の譲渡（特定子会社の異動を伴う株式譲渡）に関する基本合意書の締結並びに特別損失の計上及び業績予想の修正に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "レオパレス２１",
+      "disclosed_at": "2026-09-14 20:00",
+      "disclosure_id": "140120260914536086",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260914536086.pdf",
+      "parent_ts": "1789432430.321599",
+      "posted_at": "2026-09-15T09:33:50.401663+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 87,
+      "security_code": "8848",
+      "tier": 1,
+      "title": "2027年３月期の中間配当及び期末配当予想の修正（無配）に関するお知らせ"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-09-14",
-  "last_holdings_check_at": "2026-09-14T19:04:31.025805+09:00",
+  "last_holdings_check_at": "2026-09-15T09:33:46.841506+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-09-04T17:47:00.699619+09:00",
   "processed_disclosures": {
@@ -119546,6 +119671,14 @@
       "security_code": "500A",
       "tier": 2
     },
+    "140120260914536068": {
+      "disclosed_at": "2026-09-14T20:00:00+09:00",
+      "first_seen": "2026-09-15T09:33:50.148950+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8848",
+      "tier": 1
+    },
     "140120260914536069": {
       "disclosed_at": "2026-09-14T17:00:00+09:00",
       "first_seen": "2026-09-14T19:04:37.520445+09:00",
@@ -119553,6 +119686,14 @@
       "posted": false,
       "security_code": "7098",
       "tier": 3
+    },
+    "140120260914536070": {
+      "disclosed_at": "2026-09-15T09:30:00+09:00",
+      "first_seen": "2026-09-15T09:33:50.401715+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "1798",
+      "tier": 9
     },
     "140120260914536075": {
       "disclosed_at": "2026-09-14T15:31:00+09:00",
@@ -119569,6 +119710,14 @@
       "posted": false,
       "security_code": "278A",
       "tier": 3
+    },
+    "140120260914536086": {
+      "disclosed_at": "2026-09-14T20:00:00+09:00",
+      "first_seen": "2026-09-15T09:33:50.401682+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8848",
+      "tier": 1
     },
     "140120260914536087": {
       "disclosed_at": "2026-09-14T15:30:00+09:00",
@@ -119609,6 +119758,14 @@
       "posted": false,
       "security_code": "2345",
       "tier": 3
+    },
+    "140120260914536142": {
+      "disclosed_at": "2026-09-14T20:00:00+09:00",
+      "first_seen": "2026-09-15T09:33:49.167981+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "8848",
+      "tier": 1
     },
     "140120260914536149": {
       "disclosed_at": "2026-09-14T18:00:00+09:00",
@@ -119658,6 +119815,14 @@
       "security_code": "3930",
       "tier": 3
     },
+    "140120260914536186": {
+      "disclosed_at": "2026-09-15T08:00:00+09:00",
+      "first_seen": "2026-09-15T09:33:50.401739+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "581A",
+      "tier": 2
+    },
     "140120260914536190": {
       "disclosed_at": "2026-09-14T17:15:00+09:00",
       "first_seen": "2026-09-14T19:04:37.520293+09:00",
@@ -119681,11 +119846,67 @@
       "posted": false,
       "security_code": "246A",
       "tier": 9
+    },
+    "140120260914536230": {
+      "disclosed_at": "2026-09-15T08:30:00+09:00",
+      "first_seen": "2026-09-15T09:33:50.401733+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "290A",
+      "tier": 3
+    },
+    "140120260914536244": {
+      "disclosed_at": "2026-09-14T19:45:00+09:00",
+      "first_seen": "2026-09-15T09:33:49.903451+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "9435",
+      "tier": 1
+    },
+    "140120260914536248": {
+      "disclosed_at": "2026-09-14T23:45:00+09:00",
+      "first_seen": "2026-09-15T09:33:50.401700+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2612",
+      "tier": 1
+    },
+    "140120260914536264": {
+      "disclosed_at": "2026-09-14T23:45:00+09:00",
+      "first_seen": "2026-09-15T09:33:49.408276+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "2612",
+      "tier": 1
+    },
+    "140120260914536265": {
+      "disclosed_at": "2026-09-14T23:45:00+09:00",
+      "first_seen": "2026-09-15T09:33:49.656030+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "2612",
+      "tier": 1
+    },
+    "140120260915536287": {
+      "disclosed_at": "2026-09-15T08:30:00+09:00",
+      "first_seen": "2026-09-15T09:33:50.401721+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120260915536288": {
+      "disclosed_at": "2026-09-15T08:30:00+09:00",
+      "first_seen": "2026-09-15T09:33:50.401727+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 4,
+    "count": 8,
     "date": "2026-09-15"
   },
   "schema_version": 1,
