@@ -21057,11 +21057,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120260916537205.pdf",
       "parent_ts": "1789550867.371589",
       "posted_at": "2026-09-16T18:27:47.434427+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-09-17T09:30:50.666114+09:00",
+      "research_status": "completed",
       "score": 88,
       "security_code": "3479",
       "tier": 1,
@@ -21180,13 +21181,179 @@
       "security_code": "9227",
       "tier": 1,
       "title": "第三者割当による第８回新株予約権（行使価額修正条項付）の発行に係る払込完了に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "ＬＩＮＥヤフー",
+      "disclosed_at": "2026-09-16 19:00",
+      "disclosure_id": "140120260915536688",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260915536688.pdf",
+      "parent_ts": "1789604733.771189",
+      "posted_at": "2026-09-17T09:25:33.846163+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-17T09:27:15.190327+09:00",
+      "research_status": "completed",
+      "score": 95,
+      "security_code": "4689",
+      "tier": 1,
+      "title": "（経過開示）BCPE Blitz Cayman, L.P.による株式会社カカクコム（証券コード：2371）に対する公開買付けの開始予定に係る一部変更に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "Ｇ－Ｓｋｙｆａｌｌ",
+      "disclosed_at": "2026-09-17 08:00",
+      "disclosure_id": "140120260916537343",
+      "document_url": "https://www.release.tdnet.info/inbs/140120260916537343.pdf",
+      "parent_ts": "1789604734.003819",
+      "posted_at": "2026-09-17T09:25:34.075818+09:00",
+      "related_disclosures": [],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-17T09:29:57.727907+09:00",
+      "research_status": "completed",
+      "score": 85,
+      "security_code": "625A",
+      "tier": 1,
+      "title": "親会社以外の支配株主及び主要株主の異動に関するお知らせ"
+    },
+    {
+      "company_name": "電気興業",
+      "disclosed_at": "2026-09-15",
+      "disclosure_id": "holding:ｆｕｎｄｎｏｔｅ株式会社|6706|2026-09-15",
+      "document_url": "",
+      "filer_name": "ｆｕｎｄｎｏｔｅ株式会社",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[6706] 電気興業 14.1%",
+        "[6958] 日本シイエムケイ 12.1%",
+        "[6928] エノモト 4.2%",
+        "[6470] 大豊工業 12.8%",
+        "[6798] SMK 10.9%",
+        "[5013] ユシロ 7.5%",
+        "[9726] ＫＮＴ－ＣＴホールディングス 7.4%",
+        "[1967] ヤマト 7.8%",
+        "[8065] 佐藤商事 5.2%"
+      ],
+      "parent_ts": "1789604736.054349",
+      "posted_at": "2026-09-17T09:25:36.128955+09:00",
+      "ratio": 0.1414,
+      "research_attempts": 0,
+      "research_completed_at": "2026-09-17T09:29:08.594302+09:00",
+      "research_status": "completed",
+      "score": 90,
+      "security_code": "6706",
+      "submit_date": "2026-09-15",
+      "tier": 1,
+      "title": "ｆｕｎｄｎｏｔｅ株式会社による大量保有報告"
+    },
+    {
+      "company_name": "エムスリー株式会社",
+      "disclosed_at": "2026-09-15",
+      "disclosure_id": "holding:Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|2413|2026-09-15",
+      "document_url": "",
+      "filer_name": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[3774] 株式会社インターネットイニシアティブ 9.1%",
+        "[6890] 株式会社フェローテック 6.6%",
+        "[2413] エムスリー株式会社 7.4%",
+        "[1721] コムシスホールディングス株式会社 7.4%",
+        "[2871] 株式会社ニチレイ 8.4%",
+        "[4967] 小林製薬株式会社 14.4%",
+        "[4849] エン株式会社 13.5%",
+        "[4812] 株式会社電通総研 5.0%",
+        "[8570] イオンフィナンシャルサービス株式会社 10.8%",
+        "[9072] ニッコンホールディングス株式会社 17.7%",
+        "[6104] 芝浦機械株式会社 6.8%",
+        "[4088] エア・ウォーター株式会社 6.0%",
+        "[4631] DIC株式会社 11.6%",
+        "[6594] ニデック株式会社 6.8%",
+        "[5423] 東京製鐵株式会社 8.6%"
+      ],
+      "parent_ts": "1789604736.284999",
+      "posted_at": "2026-09-17T09:25:36.355841+09:00",
+      "ratio": 0.074,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "2413",
+      "submit_date": "2026-09-15",
+      "tier": 1,
+      "title": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "company_name": "コムシスホールディングス株式会社",
+      "disclosed_at": "2026-09-15",
+      "disclosure_id": "holding:Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|1721|2026-09-15",
+      "document_url": "",
+      "filer_name": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[3774] 株式会社インターネットイニシアティブ 9.1%",
+        "[6890] 株式会社フェローテック 6.6%",
+        "[2413] エムスリー株式会社 7.4%",
+        "[1721] コムシスホールディングス株式会社 7.4%",
+        "[2871] 株式会社ニチレイ 8.4%",
+        "[4967] 小林製薬株式会社 14.4%",
+        "[4849] エン株式会社 13.5%",
+        "[4812] 株式会社電通総研 5.0%",
+        "[8570] イオンフィナンシャルサービス株式会社 10.8%",
+        "[9072] ニッコンホールディングス株式会社 17.7%",
+        "[6104] 芝浦機械株式会社 6.8%",
+        "[4088] エア・ウォーター株式会社 6.0%",
+        "[4631] DIC株式会社 11.6%",
+        "[6594] ニデック株式会社 6.8%",
+        "[5423] 東京製鐵株式会社 8.6%"
+      ],
+      "parent_ts": "1789604736.524289",
+      "posted_at": "2026-09-17T09:25:36.601123+09:00",
+      "ratio": 0.0736,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "1721",
+      "submit_date": "2026-09-15",
+      "tier": 1,
+      "title": "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "company_name": "日本光電工業株式会社",
+      "disclosed_at": "2026-09-15",
+      "disclosure_id": "holding:ジャパン・アクティベーション・キャピタル株式会社|6849|2026-09-15",
+      "document_url": "",
+      "filer_name": "ジャパン・アクティベーション・キャピタル株式会社",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[6849] 日本光電工業株式会社 6.2%",
+        "[6395] 株式会社タダノ 10.8%"
+      ],
+      "parent_ts": "1789604736.766069",
+      "posted_at": "2026-09-17T09:25:36.837931+09:00",
+      "ratio": 0.062,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "6849",
+      "submit_date": "2026-09-15",
+      "tier": 1,
+      "title": "ジャパン・アクティベーション・キャピタル株式会社による大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-09-16",
-  "last_holdings_check_at": "2026-09-16T18:27:43.177339+09:00",
+  "last_holdings_check_at": "2026-09-17T09:25:31.932019+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-09-04T17:47:00.699619+09:00",
+  "last_successful_tdnet_check": "2026-09-17T09:25:31.932019+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -122348,6 +122515,14 @@
       "security_code": "7091",
       "tier": 2
     },
+    "140120260915536688": {
+      "disclosed_at": "2026-09-16T19:00:00+09:00",
+      "first_seen": "2026-09-17T09:25:33.846213+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "4689",
+      "tier": 1
+    },
     "140120260915536691": {
       "disclosed_at": "2026-09-15T15:30:00+09:00",
       "first_seen": "2026-09-15T18:33:29.329200+09:00",
@@ -122602,6 +122777,14 @@
       "language": "ja",
       "posted": false,
       "security_code": "489A",
+      "tier": 9
+    },
+    "140120260915536841": {
+      "disclosed_at": "2026-09-17T08:00:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075997+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6574",
       "tier": 9
     },
     "140120260915536845": {
@@ -123356,6 +123539,14 @@
       "security_code": "8798",
       "tier": 3
     },
+    "140120260916537319": {
+      "disclosed_at": "2026-09-17T08:00:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075983+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "625A",
+      "tier": 3
+    },
     "140120260916537323": {
       "disclosed_at": "2026-09-16T15:00:00+09:00",
       "first_seen": "2026-09-16T18:27:48.981081+09:00",
@@ -123387,6 +123578,30 @@
       "posted": false,
       "security_code": "8107",
       "tier": 3
+    },
+    "140120260916537342": {
+      "disclosed_at": "2026-09-17T08:00:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075989+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "625A",
+      "tier": 3
+    },
+    "140120260916537343": {
+      "disclosed_at": "2026-09-17T08:00:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075867+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "625A",
+      "tier": 1
+    },
+    "140120260916537351": {
+      "disclosed_at": "2026-09-17T08:45:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075977+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8105",
+      "tier": 2
     },
     "140120260916537363": {
       "disclosed_at": "2026-09-16T15:50:00+09:00",
@@ -123467,12 +123682,116 @@
       "posted": true,
       "security_code": "3260",
       "tier": 1
+    },
+    "140120260916537460": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075888+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "133A",
+      "tier": 9
+    },
+    "140120260916537481": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075896+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "178A",
+      "tier": 9
+    },
+    "140120260916537482": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075904+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2019",
+      "tier": 9
+    },
+    "140120260916537483": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075911+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2095",
+      "tier": 9
+    },
+    "140120260916537484": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075917+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2236",
+      "tier": 9
+    },
+    "140120260916537485": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075924+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2243",
+      "tier": 9
+    },
+    "140120260916537486": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075931+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2244",
+      "tier": 9
+    },
+    "140120260916537487": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075937+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2252",
+      "tier": 9
+    },
+    "140120260916537488": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075943+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2253",
+      "tier": 9
+    },
+    "140120260916537489": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075950+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2254",
+      "tier": 9
+    },
+    "140120260916537490": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075956+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2636",
+      "tier": 9
+    },
+    "140120260916537491": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075963+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2637",
+      "tier": 9
+    },
+    "140120260916537492": {
+      "disclosed_at": "2026-09-17T08:50:00+09:00",
+      "first_seen": "2026-09-17T09:25:34.075969+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2867",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 16,
-    "date": "2026-09-16"
+    "count": 4,
+    "date": "2026-09-17"
   },
   "schema_version": 1,
   "seen_holdings": [
@@ -124031,6 +124350,10 @@
     "三菱商事株式会社|7475|2026-09-14",
     "エンデバー・ユナイテッド株式会社|4222|2026-09-14",
     "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|195A|2026-09-14",
-    "株式会社シェアレコ|9557|2026-09-14"
+    "株式会社シェアレコ|9557|2026-09-14",
+    "ｆｕｎｄｎｏｔｅ株式会社|6706|2026-09-15",
+    "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|2413|2026-09-15",
+    "Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．|1721|2026-09-15",
+    "ジャパン・アクティベーション・キャピタル株式会社|6849|2026-09-15"
   ]
 }
