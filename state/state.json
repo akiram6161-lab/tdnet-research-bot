@@ -33063,7 +33063,7 @@
       "requesting_user_id": null,
       "research_attempts": 0,
       "research_completed_at": null,
-      "research_status": "queued",
+      "research_status": "expired",
       "score": 82,
       "security_code": "634A",
       "tier": 1,
@@ -34259,11 +34259,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120261021554181.pdf",
       "parent_ts": "1792574598.661609",
       "posted_at": "2026-10-21T18:23:18.684530+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-10-22T09:40:02.328299+09:00",
+      "research_status": "completed",
       "score": 85,
       "security_code": "5029",
       "tier": 1,
@@ -34278,11 +34279,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120261021553984.pdf",
       "parent_ts": "1792574598.738179",
       "posted_at": "2026-10-21T18:23:18.761175+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-10-22T09:40:40.302437+09:00",
+      "research_status": "completed",
       "score": 85,
       "security_code": "166A",
       "tier": 1,
@@ -34297,11 +34299,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120261021553964.pdf",
       "parent_ts": "1792574598.815119",
       "posted_at": "2026-10-21T18:23:18.845044+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-10-22T09:41:04.694256+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "5133",
       "tier": 1,
@@ -34316,11 +34319,12 @@
       "document_url": "https://www.release.tdnet.info/inbs/140120261021554017.pdf",
       "parent_ts": "1792574598.896509",
       "posted_at": "2026-10-21T18:23:18.925910+09:00",
+      "related_disclosures": [],
       "request_reply_ts": null,
       "requesting_user_id": null,
       "research_attempts": 0,
-      "research_completed_at": null,
-      "research_status": "queued",
+      "research_completed_at": "2026-10-22T09:41:31.143708+09:00",
+      "research_status": "completed",
       "score": 82,
       "security_code": "2326",
       "tier": 1,
@@ -34505,9 +34509,9 @@
   ],
   "failed_items": [],
   "last_highlight_date": "2026-10-21",
-  "last_holdings_check_at": "2026-10-21T18:23:16.151627+09:00",
+  "last_holdings_check_at": "2026-10-22T09:39:23.615626+09:00",
   "last_slack_poll_at": null,
-  "last_successful_tdnet_check": "2026-10-16T18:03:30.380106+09:00",
+  "last_successful_tdnet_check": "2026-10-22T09:39:23.615626+09:00",
   "processed_disclosures": {
     "140120260514532840": {
       "disclosed_at": "2026-08-04T14:00:00+09:00",
@@ -176733,6 +176737,14 @@
       "security_code": "3803",
       "tier": 1
     },
+    "140120261020553245": {
+      "disclosed_at": "2026-10-22T08:00:00+09:00",
+      "first_seen": "2026-10-22T09:39:25.183424+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4888",
+      "tier": 3
+    },
     "140120261020553246": {
       "disclosed_at": "2026-10-20T16:00:00+09:00",
       "first_seen": "2026-10-20T18:34:53.392568+09:00",
@@ -178356,12 +178368,44 @@
       "posted": false,
       "security_code": "4829",
       "tier": 1
+    },
+    "140120261021554199": {
+      "disclosed_at": "2026-10-21T18:30:00+09:00",
+      "first_seen": "2026-10-22T09:39:25.183398+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2646",
+      "tier": 9
+    },
+    "140120261021554206": {
+      "disclosed_at": "2026-10-22T08:30:00+09:00",
+      "first_seen": "2026-10-22T09:39:25.183420+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4547",
+      "tier": 3
+    },
+    "140120261022554305": {
+      "disclosed_at": "2026-10-22T08:30:00+09:00",
+      "first_seen": "2026-10-22T09:39:25.183409+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
+    },
+    "140120261022554306": {
+      "disclosed_at": "2026-10-22T08:30:00+09:00",
+      "first_seen": "2026-10-22T09:39:25.183415+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16724",
+      "tier": 9
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 16,
-    "date": "2026-10-21"
+    "count": 4,
+    "date": "2026-10-22"
   },
   "schema_version": 1,
   "seen_holdings": [
