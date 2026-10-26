@@ -35781,7 +35781,8 @@
       "posted_at": "2026-10-26T09:15:50.613512+09:00",
       "ratio": 0.0709,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-10-26T13:19:33.406633+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "6005",
       "submit_date": "2026-10-22",
@@ -35804,7 +35805,8 @@
       "posted_at": "2026-10-26T09:15:50.679965+09:00",
       "ratio": 0.0,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-10-26T13:20:14.398418+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "9409",
       "submit_date": "2026-10-22",
@@ -35827,7 +35829,8 @@
       "posted_at": "2026-10-26T09:15:50.745362+09:00",
       "ratio": 0.0,
       "research_attempts": 0,
-      "research_status": "queued",
+      "research_completed_at": "2026-10-26T13:20:46.041204+09:00",
+      "research_status": "completed",
       "score": 90,
       "security_code": "3863",
       "submit_date": "2026-10-22",
@@ -36015,11 +36018,131 @@
       "submit_date": "2026-10-22",
       "tier": 1,
       "title": "Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．による大量保有報告"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "M&A・所有構造",
+      "company_name": "Ｇ－データセクション",
+      "disclosed_at": "2026-10-26 09:30",
+      "disclosure_id": "140120261026555703",
+      "document_url": "https://www.release.tdnet.info/inbs/140120261026555703.pdf",
+      "parent_ts": "1792988304.544119",
+      "posted_at": "2026-10-26T13:18:24.607741+09:00",
+      "related_disclosures": [
+        "2026-10-19 16:30 主要株主及び主要株主である筆頭株主の異動に関するお知らせ (https://www.release.tdnet.info/inbs/140120261019553078.pdf)",
+        "2026-10-19 18:40 第23回新株予約権の行使期間満了に関するお知らせ (https://www.release.tdnet.info/inbs/140120261019553166.pdf)",
+        "2026-10-21 12:50 主要株主及び主要株主である筆頭株主の異動に関するお知らせ (https://www.release.tdnet.info/inbs/140120261021554020.pdf)",
+        "2026-10-19 ＦＩＲＳＴ　ＰＬＵＳ　ＦＩＮＡＮＣＩＡＬ　ＨＯＬＤＩＮＧＳ　ＰＴＥ．　ＬＴＤ．による大量保有報告"
+      ],
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": "2026-10-26T13:19:06.240729+09:00",
+      "research_status": "completed",
+      "score": 100,
+      "security_code": "3905",
+      "tier": 1,
+      "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "ナガワ",
+      "disclosed_at": "2026-10-26 13:00",
+      "disclosure_id": "140120261026555743",
+      "document_url": "https://www.release.tdnet.info/inbs/140120261026555743.pdf",
+      "parent_ts": "1792988304.730939",
+      "posted_at": "2026-10-26T13:18:24.793254+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 87,
+      "security_code": "9663",
+      "tier": 1,
+      "title": "2027年３月期配当予想の修正に関するお知らせ"
+    },
+    {
+      "acknowledgement_ts": null,
+      "category": "業績・財務",
+      "company_name": "Ｇ－イメージ情",
+      "disclosed_at": "2026-10-26 13:00",
+      "disclosure_id": "140120261026555825",
+      "document_url": "https://www.release.tdnet.info/inbs/140120261026555825.pdf",
+      "parent_ts": "1792988304.912399",
+      "posted_at": "2026-10-26T13:18:24.970894+09:00",
+      "request_reply_ts": null,
+      "requesting_user_id": null,
+      "research_attempts": 0,
+      "research_completed_at": null,
+      "research_status": "queued",
+      "score": 83,
+      "security_code": "3803",
+      "tier": 1,
+      "title": "特別利益(投資有価証券売却益)の計上に関するお知らせ"
+    },
+    {
+      "company_name": "株式会社ワキタ",
+      "disclosed_at": "2026-10-22",
+      "disclosure_id": "holding:株式会社ストラテジックキャピタル|8125|2026-10-22",
+      "document_url": "",
+      "filer_name": "株式会社ストラテジックキャピタル",
+      "holding_category": "activist",
+      "kind": "holding",
+      "other_positions": [
+        "[8125] 株式会社ワキタ 4.7%",
+        "[7745] 株式会社Ａ＆Ｄホロンホールディングス 17.8%",
+        "[3765] ガンホー・オンライン・エンターテイメント株式会社 13.7%",
+        "[5331] ノリタケ株式会社 4.4%",
+        "[5451] 株式会社ヨドコウ 4.6%",
+        "[9882] 株式会社イエローハット 11.7%",
+        "[8818] 京阪神ビルディング株式会社 8.0%",
+        "[4189] ＫＨネオケム株式会社 18.2%",
+        "[2001] 株式会社ニップン 7.1%",
+        "[1882] 東亜道路工業株式会社 4.0%",
+        "[6516] 山洋電気株式会社 12.2%"
+      ],
+      "parent_ts": "1792988306.274919",
+      "posted_at": "2026-10-26T13:18:26.334291+09:00",
+      "ratio": 0.047,
+      "research_attempts": 0,
+      "research_status": "queued",
+      "score": 90,
+      "security_code": "8125",
+      "submit_date": "2026-10-22",
+      "tier": 1,
+      "title": "株式会社ストラテジックキャピタルによる大量保有報告"
+    },
+    {
+      "company_name": "株式会社メディア工房",
+      "disclosed_at": "2026-10-22",
+      "disclosure_id": "holding:ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3815|2026-10-22",
+      "document_url": "",
+      "filer_name": "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ",
+      "holding_category": "activist_implied",
+      "kind": "holding",
+      "other_positions": [
+        "[3815] 株式会社メディア工房 20.0%",
+        "[3656] KLab株式会社 12.1%",
+        "[3306] 日本製麻株式会社 15.7%",
+        "[195A] 株式会社MUSCAT GROUP 10.9%"
+      ],
+      "parent_ts": "1792988306.451359",
+      "posted_at": "2026-10-26T13:18:26.512403+09:00",
+      "ratio": 0.2002,
+      "research_attempts": 0,
+      "research_status": "not_requested",
+      "score": 70,
+      "security_code": "3815",
+      "submit_date": "2026-10-22",
+      "tier": 1,
+      "title": "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣによる大量保有報告"
     }
   ],
   "failed_items": [],
   "last_highlight_date": "2026-10-23",
-  "last_holdings_check_at": "2026-10-26T09:15:45.687197+09:00",
+  "last_holdings_check_at": "2026-10-26T13:18:22.911912+09:00",
   "last_slack_poll_at": null,
   "last_successful_tdnet_check": "2026-10-23T18:24:58.177017+09:00",
   "processed_disclosures": {
@@ -177119,6 +177242,14 @@
       "security_code": "5990",
       "tier": 1
     },
+    "140120261018552583": {
+      "disclosed_at": "2026-10-26T12:30:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971007+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "4344",
+      "tier": 1
+    },
     "140120261019552580": {
       "disclosed_at": "2026-10-19T08:30:00+09:00",
       "first_seen": "2026-10-19T09:10:53.277901+09:00",
@@ -178647,6 +178778,14 @@
       "security_code": "6432",
       "tier": 9
     },
+    "140120261020553351": {
+      "disclosed_at": "2026-10-26T12:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971031+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6230",
+      "tier": 3
+    },
     "140120261020553354": {
       "disclosed_at": "2026-10-20T13:30:00+09:00",
       "first_seen": "2026-10-20T18:34:53.393134+09:00",
@@ -178806,6 +178945,14 @@
       "posted": false,
       "security_code": "7372",
       "tier": 2
+    },
+    "140120261020553436": {
+      "disclosed_at": "2026-10-26T12:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971037+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6230",
+      "tier": 1
     },
     "140120261020553439": {
       "disclosed_at": "2026-10-20T15:30:00+09:00",
@@ -180975,6 +181122,14 @@
       "security_code": "7177",
       "tier": 1
     },
+    "140120261022554595": {
+      "disclosed_at": "2026-10-26T12:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971044+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6999",
+      "tier": 9
+    },
     "140120261022554611": {
       "disclosed_at": "2026-10-23T15:30:00+09:00",
       "first_seen": "2026-10-23T18:25:00.663227+09:00",
@@ -182335,6 +182490,14 @@
       "security_code": "4015",
       "tier": 3
     },
+    "140120261023555296": {
+      "disclosed_at": "2026-10-26T12:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971025+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3930",
+      "tier": 3
+    },
     "140120261023555298": {
       "disclosed_at": "2026-10-23T15:30:00+09:00",
       "first_seen": "2026-10-23T18:25:03.447901+09:00",
@@ -182519,6 +182682,14 @@
       "security_code": "3249",
       "tier": 3
     },
+    "140120261023555472": {
+      "disclosed_at": "2026-10-26T13:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.970974+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9663",
+      "tier": 3
+    },
     "140120261023555479": {
       "disclosed_at": "2026-10-26T09:00:00+09:00",
       "first_seen": "2026-10-26T09:15:48.498794+09:00",
@@ -182599,6 +182770,14 @@
       "security_code": "8714",
       "tier": 3
     },
+    "140120261023555535": {
+      "disclosed_at": "2026-10-26T12:30:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971013+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "6538",
+      "tier": 9
+    },
     "140120261023555541": {
       "disclosed_at": "2026-10-23T17:50:00+09:00",
       "first_seen": "2026-10-23T18:25:02.240769+09:00",
@@ -182655,6 +182834,14 @@
       "security_code": "9449",
       "tier": 1
     },
+    "140120261024555621": {
+      "disclosed_at": "2026-10-26T13:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.970966+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "8190",
+      "tier": 3
+    },
     "140120261024555624": {
       "disclosed_at": "2026-10-24T13:15:00+09:00",
       "first_seen": "2026-10-26T09:15:48.429942+09:00",
@@ -182662,6 +182849,22 @@
       "posted": true,
       "security_code": "4784",
       "tier": 1
+    },
+    "140120261026555648": {
+      "disclosed_at": "2026-10-26T10:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971114+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "585A4",
+      "tier": 9
+    },
+    "140120261026555656": {
+      "disclosed_at": "2026-10-26T11:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971073+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "267A",
+      "tier": 3
     },
     "140120261026555663": {
       "disclosed_at": "2026-10-26T08:30:00+09:00",
@@ -182678,11 +182881,155 @@
       "posted": false,
       "security_code": "16724",
       "tier": 9
+    },
+    "140120261026555696": {
+      "disclosed_at": "2026-10-26T10:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971103+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13294",
+      "tier": 9
+    },
+    "140120261026555700": {
+      "disclosed_at": "2026-10-26T10:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971109+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "16714",
+      "tier": 9
+    },
+    "140120261026555703": {
+      "disclosed_at": "2026-10-26T09:30:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.607792+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3905",
+      "tier": 1
+    },
+    "140120261026555705": {
+      "disclosed_at": "2026-10-26T12:30:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.970993+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2134",
+      "tier": 3
+    },
+    "140120261026555739": {
+      "disclosed_at": "2026-10-26T11:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971096+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "425A",
+      "tier": 3
+    },
+    "140120261026555743": {
+      "disclosed_at": "2026-10-26T13:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.793306+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "9663",
+      "tier": 1
+    },
+    "140120261026555748": {
+      "disclosed_at": "2026-10-26T11:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971090+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "424A",
+      "tier": 3
+    },
+    "140120261026555750": {
+      "disclosed_at": "2026-10-26T11:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971085+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2866",
+      "tier": 3
+    },
+    "140120261026555760": {
+      "disclosed_at": "2026-10-26T11:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971079+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "2865",
+      "tier": 3
+    },
+    "140120261026555764": {
+      "disclosed_at": "2026-10-26T13:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.970981+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9904",
+      "tier": 3
+    },
+    "140120261026555767": {
+      "disclosed_at": "2026-10-26T11:30:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971067+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "20704",
+      "tier": 9
+    },
+    "140120261026555805": {
+      "disclosed_at": "2026-10-26T13:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.970988+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "9904",
+      "tier": 3
+    },
+    "140120261026555825": {
+      "disclosed_at": "2026-10-26T13:00:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.970942+09:00",
+      "language": "ja",
+      "posted": true,
+      "security_code": "3803",
+      "tier": 1
+    },
+    "140120261026555832": {
+      "disclosed_at": "2026-10-26T11:30:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971062+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13494",
+      "tier": 9
+    },
+    "140120261026555839": {
+      "disclosed_at": "2026-10-26T11:35:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971055+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "13264",
+      "tier": 3
+    },
+    "140120261026555844": {
+      "disclosed_at": "2026-10-26T11:40:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971050+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "15574",
+      "tier": 9
+    },
+    "140120261026555894": {
+      "disclosed_at": "2026-10-26T12:30:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.970999+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "3440",
+      "tier": 3
+    },
+    "140120261026555901": {
+      "disclosed_at": "2026-10-26T12:10:00+09:00",
+      "first_seen": "2026-10-26T13:18:24.971020+09:00",
+      "language": "ja",
+      "posted": false,
+      "security_code": "587A4",
+      "tier": 3
     }
   },
   "processed_research_reply_ts": [],
   "research_daily": {
-    "count": 4,
+    "count": 8,
     "date": "2026-10-26"
   },
   "schema_version": 1,
@@ -183368,6 +183715,8 @@
     "シンフォニー・フィナンシャル・パートナーズ（シンガポール）ピーティーイー・リミテッド|8511|2026-10-22",
     "ＵＧＳアセットマネジメント株式会社|8285|2026-10-22",
     "シンフォニー・フィナンシャル・パートナーズ（シンガポール）ピーティーイー・リミテッド|3580|2026-10-22",
-    "Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．|4417|2026-10-22"
+    "Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．|4417|2026-10-22",
+    "株式会社ストラテジックキャピタル|8125|2026-10-22",
+    "ＵＬＴＩＭＡＴＥ　ＣＬＡＳＳＩＣ　ＩＮＶＥＳＴＭＥＮＴ　ＬＬＣ|3815|2026-10-22"
   ]
 }
